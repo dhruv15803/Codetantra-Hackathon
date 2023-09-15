@@ -4,8 +4,10 @@ import data from '../data/scholarships.js'
 
 export default function CountryScholarships(props) {
 
+    const appliedScholarships = JSON.parse(localStorage.getItem('appliedScholarships'));
+    const [applied,setApplied] = useState(appliedScholarships);
 
-
+    console.log(applied);
 
     const [scholarships,setScholarships] = useState([]);
     useEffect(()=>{
@@ -17,8 +19,18 @@ export default function CountryScholarships(props) {
     },[props.country]);
 
     const applyForScholarship = (index)=>{
-        console.log(`Applied for ${scholarships[index].title} `)
+        let confirmation = prompt("Type 'APPLY' to confirm")
+        if(confirmation==='APPLY'){
+            setApplied(prevApplied=>[...prevApplied,scholarships[index]]);
+        }
+        else{
+            console.log('not applied')
+        }
     }
+
+    useEffect(()=>{
+        localStorage.setItem('appliedScholarships',JSON.stringify(applied));
+    },[applied]);
 
   return (
     <>
@@ -26,23 +38,23 @@ export default function CountryScholarships(props) {
         {scholarships.map((item,index)=>{
             return <div className="country-scholarships-Container">
             <div className="scholarship-div">
-                <i class="fa-solid fa-building-columns" id='scholarshipId'></i>
+                <i className="fa-solid fa-building-columns" id='scholarshipId'></i>
                 <h2>{item.title}</h2>
             </div>
             <div className="scholarship-div">
-                <i class="fa-solid fa-scroll"></i>
+                <i className="fa-solid fa-scroll"></i>
                 <p>{`Degrees offered: ${item.degrees}`}</p>
             </div>
             <div className="scholarship-div">
-                <i class="fa-solid fa-sack-dollar"></i>
+                <i className="fa-solid fa-sack-dollar"></i>
                 <p>{item.funds}</p>
             </div>
             <div className='scholarship-div'>
-                <i class="fa-solid fa-calendar-days"></i>
+                <i className="fa-solid fa-calendar-days"></i>
                 <p>{`Available till: ${item.date}`}</p>
             </div>
             <div className='scholarship-div'>
-                <i class="fa-solid fa-location-dot"></i>
+                <i className="fa-solid fa-location-dot"></i>
                 <p>{`Country:- ${item.location}`}</p>
             </div>
             <button className="country-scholarships-button" onClick={()=>applyForScholarship(index)}>Apply</button>
