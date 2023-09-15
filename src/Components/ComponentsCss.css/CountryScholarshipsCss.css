@@ -7,13 +7,48 @@
 }
 
 .country-scholarships-Container{
-    border:2px solid red;
+    border:1px solid black;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     width:60%;
     margin:15px auto;
+    padding:25px;
 }
 
+.country-scholarships-Container h2{
+    font-family: 'Questrial', sans-serif;
+    margin-bottom:10px;
+}
 
+.country-scholarships-Container p{
+    margin-top:8px;
+    font-family: 'Ruwudu', serif;
+    font-size:1.2rem;
+}
 
+.country-scholarships-button{
+    margin:25px auto;
+    width:200px;
+    height:30px;
+    border-radius: 10px;
+    border:none;
+    background-color: #42bfbf;
+    color:white;
+    transition: 0.3s;
+}
 
+.country-scholarships-button:hover{
+    background-color:#328888 ;
+}
+
+.scholarship-div{
+    display: flex;
+}
+
+.scholarship-div i{
+    position: relative;
+    top:10px;
+    right:8px;
+    margin-right:10px;
+}
