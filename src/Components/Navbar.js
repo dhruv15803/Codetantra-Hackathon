@@ -8,7 +8,7 @@ export default function Navbar(props) {
     <label className="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
             <i className="fa fa-bars"></i>
         </label>
-    <a href="/" className="logo">logo</a>
+    <a href="/" className="logo">{props.companyName}</a>
     <input type="checkbox" id="chkToggle"></input>
     <ul className="main-nav" id="js-menu">
       <li>

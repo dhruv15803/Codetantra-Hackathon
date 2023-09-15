@@ -118,7 +118,6 @@
  }
 
  .countryItem{
-
     display: flex;
     flex-direction: column;
     width:30%;
@@ -153,4 +152,154 @@
 
 .country-btn:hover{
     background-color:#328888 ;
+}
+
+.parentContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+.parentContainer img{
+    width:40%;
+    height:60%;
+    margin-left: 10px;
+}
+ .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .container h1{
+    font-size:2.5rem;
+    font-family: 'Questrial', sans-serif;
+ }
+ .container p{
+    margin-top:10px;
+    font-size:1.3rem;
+    font-family: 'Questrial', sans-serif;
+ }
+ .bodyBtn{
+    width:400px;
+    height:40px;
+    background-color: #42bfbf;
+    margin-top: 25px;
+    color:white;
+    border:none;
+    border-radius: 15px;
+    font-family: 'Questrial', sans-serif;
+    font-size:1.2rem;
+    transition:0.3s;
+ }
+ .bodyBtn:hover{
+    background-color: #328888 ;
+ }
+
+ .img-div{
+    width: 100%;
+    height: 60%;
+}
+
+.img-div img{
+    width:100%;
+    height:100%;
+}
+
+@media (max-width:1000px){
+    .parentContainer{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .parentContainer img{
+        height: 50%;
+        width: 60%;
+        margin-left: 0%;
+    }
+}
+@media (max-width:650px) and (min-width:470px){
+    .container h1{
+        font-size: 2rem;
+    }
+    .container p{
+        font-size: 1.2rem;
+    }
+    .parentContainer img{
+        height: 40%;
+        width: 65%;
+    }
+}
+@media (max-width:470px) and (min-width:360px){
+    .container h1{
+        font-size: 1.5rem;
+    }
+    .container p{
+        font-size: 1rem;
+    }
+    .bodyBtn{
+        width: 75%;
+    }
+    .parentContainer img{
+        width: 75%;
+        height: 40%;
+    }
+}
+@media (max-width:360px) and (min-width:310px){
+    .container h1{
+        font-size: 1.3rem;
+    }
+    .container p{
+        font-size: 1rem;
+    }
+    .bodyBtn{
+        width: 72%;
+    }
+    .parentContainer img{
+        height: 40%;
+        width: 80%;
+    } 
+}
+@media (max-width:310px){
+    .container h1{
+        font-size: 1.1rem;
+    }
+    .container p{
+        font-size: 0.9rem;
+    }
+    .bodyBtn{
+        width: 90%;
+    }
+    .parentContainer img{
+        height: 35%;
+        width: 95%;
+    } 
+}
+
+@media (max-width:790px){
+    .outerContainer{
+        flex-direction: column;
+        align-items: center;
+    } 
+    .countryItem{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:440px) and (min-width:320px){
+    .popularCountries h2{
+        font-size: 1.5rem;
+        margin: 17px;
+    }
+}
+
+@media (max-width:320px){
+    .countryItem p{
+        
+        font-size: 1.2rem;
+    }
+    .popularCountries h2{
+        font-size: 1.2rem;
+        margin: 15px;
+    }
 }
