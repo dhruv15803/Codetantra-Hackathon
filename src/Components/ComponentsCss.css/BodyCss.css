@@ -134,9 +134,10 @@
  .countryItem{
     display: flex;
     flex-direction: column;
-    width:30%;
+    width:40%;
     align-items: center;
-    height:300px;
+    height:400px;
+    margin:0px 15px;
     border:1px solid black;
     border-radius: 0px 0px 15px 15px;
 }
