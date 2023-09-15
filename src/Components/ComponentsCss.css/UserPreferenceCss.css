@@ -1,0 +1,54 @@
+.user-preference-container{
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+    align-items: center;
+}
+
+.user-preference-text{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    align-items: center;
+}
+
+.user-preference-text h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size:2.5rem;
+}
+
+.user-preference-text p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size:1.4rem;
+    margin:0px;
+}
+
+#user-preference-form{
+    display: flex;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop-down{
+    width:200px;
+    height:40px;
+    margin:0px 15px;
+}
+
+.user-preference-btn{
+    width:200px;
+    height:35px;
+    background-color: #42bfbf;
+    transition:0.3s;
+    border:none;
+    color:white;
+    transition:0.3s;
+    border-radius: 10px;
+    margin-left:15px;
+}
+
+.user-preference-btn:hover{
+    background-color:#328888 ;
+}
+

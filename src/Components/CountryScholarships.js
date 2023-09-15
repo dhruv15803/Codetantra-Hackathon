@@ -4,6 +4,9 @@ import data from '../data/scholarships.js'
 
 export default function CountryScholarships(props) {
 
+
+
+
     const [scholarships,setScholarships] = useState([]);
     useEffect(()=>{
         for(let i=0;i<data.length;i++){

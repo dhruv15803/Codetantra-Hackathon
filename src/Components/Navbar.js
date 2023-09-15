@@ -5,7 +5,7 @@ export default function Navbar(props) {
   return (
     <>
     <nav className="navbar">
-    <label className="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
+    <label className="navbar-toggle" id="js-navbar-toggle" htmlFor="chkToggle">
             <i className="fa fa-bars"></i>
         </label>
     <a href="/" className="logo">{props.companyName}</a>
