@@ -1,0 +1,19 @@
+.country-scholarships-parentContainer{
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding:10px;
+}
+
+.country-scholarships-Container{
+    border:2px solid red;
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    margin:15px auto;
+}
+
+
+
+

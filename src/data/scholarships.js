@@ -1,6 +1,6 @@
-[
+const data = [
     {
-        "": "0",
+        "id": "0",
         "title": "Schaefer Halleenâ€™s Social Equity Scholarship",
         "degrees": "Master, Bachelor, Phd",
         "funds": "$1,000 ",
@@ -8,7 +8,7 @@
         "location": "united-states"
     },
     {
-        "": "1",
+        "id": "1",
         "title": "Presidentâ€™s Scholarship for Ukraine",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$2,500 ",
@@ -16,7 +16,7 @@
         "location": "united-states"
     },
     {
-        "": "2",
+        "id": "2",
         "title": "International Students Diversity Contest 2022-2023",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "Up to $2,000",
@@ -24,7 +24,7 @@
         "location": "united-states"
     },
     {
-        "": "3",
+        "id": "3",
         "title": "Master in Business Administration 80% OFF your Tuition fee",
         "degrees": "Master",
         "funds": "80% Tuition Fees",
@@ -32,7 +32,7 @@
         "location": "united-states"
     },
     {
-        "": "4",
+        "id": "4",
         "title": "Improve Menâ€™s Health Scholarship",
         "degrees": "Master, Bachelor, Phd",
         "funds": "$2,000 ",
@@ -40,7 +40,7 @@
         "location": "united-states"
     },
     {
-        "": "5",
+        "id": "5",
         "title": "3 Month F1 Visa Study English in USA Scholarship with Windsor University",
         "degrees": "Course",
         "funds": "$1,455 ",
@@ -48,7 +48,7 @@
         "location": "united-states"
     },
     {
-        "": "6",
+        "id": "6",
         "title": "ArtUniverse",
         "degrees": "Master, Course",
         "funds": "Full or partial scholarship",
@@ -56,7 +56,7 @@
         "location": "united-states"
     },
     {
-        "": "7",
+        "id": "7",
         "title": "American Indian Scholarships at Augsburg University",
         "degrees": "Bachelor",
         "funds": "Partial tuition fees",
@@ -64,7 +64,7 @@
         "location": "united-states"
     },
     {
-        "": "8",
+        "id": "8",
         "title": "International Contest for Students Support 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -72,7 +72,7 @@
         "location": "united-states"
     },
     {
-        "": "9",
+        "id": "9",
         "title": "Scholarships for Africa",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$100 to $3000",
@@ -80,7 +80,7 @@
         "location": "united-states"
     },
     {
-        "": "10",
+        "id": "10",
         "title": "LAPTOP Scholarships - study Supply Chains",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "up to $3000",
@@ -88,7 +88,7 @@
         "location": "united-states"
     },
     {
-        "": "11",
+        "id": "11",
         "title": "Medicine: Fully Funded Swansea & HMRI PhD Scholarship: Ovarian Cancer Chemoresistance",
         "degrees": "Phd",
         "funds": "Full cost of tuition fees and an annual stipend",
@@ -96,7 +96,7 @@
         "location": "united-states"
     },
     {
-        "": "12",
+        "id": "12",
         "title": "New York University - September 11 Scholarships",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "Pay any remaining balance.",
@@ -104,7 +104,7 @@
         "location": "united-states"
     },
     {
-        "": "13",
+        "id": "13",
         "title": "TKS Full-Ride Scholarship",
         "degrees": "Course",
         "funds": "100% Tuition Fee [value of $6,000+]",
@@ -112,7 +112,7 @@
         "location": "united-states"
     },
     {
-        "": "14",
+        "id": "14",
         "title": "Five scholarships of up to US$3000 for supply chain courses",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$3,000 ",
@@ -120,7 +120,7 @@
         "location": "united-states"
     },
     {
-        "": "15",
+        "id": "15",
         "title": "GREAT Scholarship for Bangladesh Students in UK",
         "degrees": "Master",
         "funds": "Â£10,000",
@@ -128,7 +128,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "16",
+        "id": "16",
         "title": "Diversity Scholarships for Africa and Latin American Students in UK",
         "degrees": "Master",
         "funds": "50% scholarship",
@@ -136,7 +136,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "17",
+        "id": "17",
         "title": "Beth Mead Scholarships for International Students at Teesside University",
         "degrees": "Bachelor, Master",
         "funds": "Â£1,200",
@@ -144,7 +144,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "18",
+        "id": "18",
         "title": "Malaysia Scholarships at Nottingham Trent University",
         "degrees": "Master",
         "funds": "Â£4,000",
@@ -152,7 +152,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "19",
+        "id": "19",
         "title": "PhD Studentships in Predictive Uncertainty in Computer Vision for International Students in UK",
         "degrees": "Master",
         "funds": "Â£16,062 p.a., tuition fees + Â£2,000 research grant",
@@ -160,7 +160,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "20",
+        "id": "20",
         "title": "Strathclyde Business School MRes Scholarships in UK",
         "degrees": "Master",
         "funds": "Tuition fees",
@@ -168,7 +168,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "21",
+        "id": "21",
         "title": "International Students Diversity Contest 2022-2023",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "Up to $2,000",
@@ -176,7 +176,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "22",
+        "id": "22",
         "title": "Master in Business Administration 80% OFF your Tuition fee",
         "degrees": "Master",
         "funds": "80% Tuition Fees",
@@ -184,7 +184,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "23",
+        "id": "23",
         "title": "3 Month F1 Visa Study English in USA Scholarship with Windsor University",
         "degrees": "Course",
         "funds": "$1,455 ",
@@ -192,7 +192,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "24",
+        "id": "24",
         "title": "ArtUniverse",
         "degrees": "Master, Course",
         "funds": "Full or partial scholarship",
@@ -200,7 +200,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "25",
+        "id": "25",
         "title": "Engineering: Fully Funded MSc by Research at Swansea: Functional Construction Materials",
         "degrees": "Master",
         "funds": "Full cost of UK tuition fees and an annual stipend",
@@ -208,7 +208,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "26",
+        "id": "26",
         "title": "UEA Law School Country Specific Academic Excellence Scholarships in UK",
         "degrees": "Master",
         "funds": "Â£8,000 tuition fee reduction",
@@ -216,7 +216,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "27",
+        "id": "27",
         "title": "Saraswati Dalmia Scholarship at SOAS University of London",
         "degrees": "Phd, Master",
         "funds": "Up to Â£5,353",
@@ -224,7 +224,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "28",
+        "id": "28",
         "title": "The Professor Mike Walker OBE Scholarships for International Students in the UK",
         "degrees": "Master",
         "funds": "Up to Â£12,000 tuition fee reduction",
@@ -232,7 +232,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "29",
+        "id": "29",
         "title": "PhD Studentships in Electronic",
         "degrees": "Phd",
         "funds": "",
@@ -240,7 +240,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "30",
+        "id": "30",
         "title": "International Students Diversity Contest 2022-2023",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "Up to $2,000",
@@ -248,7 +248,7 @@
         "location": "canada"
     },
     {
-        "": "31",
+        "id": "31",
         "title": "Master in Business Administration 80% OFF your Tuition fee",
         "degrees": "Master",
         "funds": "80% Tuition Fees",
@@ -256,7 +256,7 @@
         "location": "canada"
     },
     {
-        "": "32",
+        "id": "32",
         "title": "Improve Menâ€™s Health Scholarship",
         "degrees": "Master, Bachelor, Phd",
         "funds": "$2,000 ",
@@ -264,7 +264,7 @@
         "location": "canada"
     },
     {
-        "": "33",
+        "id": "33",
         "title": "3 Month F1 Visa Study English in USA Scholarship with Windsor University",
         "degrees": "Course",
         "funds": "$1,455 ",
@@ -272,7 +272,7 @@
         "location": "canada"
     },
     {
-        "": "34",
+        "id": "34",
         "title": "ArtUniverse",
         "degrees": "Master, Course",
         "funds": "Full or partial scholarship",
@@ -280,7 +280,7 @@
         "location": "canada"
     },
     {
-        "": "35",
+        "id": "35",
         "title": "International Contest for Students Support 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -288,7 +288,7 @@
         "location": "canada"
     },
     {
-        "": "36",
+        "id": "36",
         "title": "Scholarships for Africa",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$100 to $3000",
@@ -296,7 +296,7 @@
         "location": "canada"
     },
     {
-        "": "37",
+        "id": "37",
         "title": "LAPTOP Scholarships - study Supply Chains",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "up to $3000",
@@ -304,7 +304,7 @@
         "location": "canada"
     },
     {
-        "": "38",
+        "id": "38",
         "title": "TKS Full-Ride Scholarship",
         "degrees": "Course",
         "funds": "100% Tuition Fee [value of $6,000+]",
@@ -312,7 +312,7 @@
         "location": "canada"
     },
     {
-        "": "39",
+        "id": "39",
         "title": "Five scholarships of up to US$3000 for supply chain courses",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$3,000 ",
@@ -320,7 +320,7 @@
         "location": "canada"
     },
     {
-        "": "40",
+        "id": "40",
         "title": "International No-Essay Support Competition Scholarships 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000",
@@ -328,7 +328,7 @@
         "location": "canada"
     },
     {
-        "": "41",
+        "id": "41",
         "title": "THGM MUSE Scholarship",
         "degrees": "Bachelor",
         "funds": "US$500 or C$630",
@@ -336,7 +336,7 @@
         "location": "canada"
     },
     {
-        "": "42",
+        "id": "42",
         "title": "Master in Business Administration 80% OFF your Tuition fee - Scholarship",
         "degrees": "Master",
         "funds": "80% off tuition fee",
@@ -344,7 +344,7 @@
         "location": "canada"
     },
     {
-        "": "43",
+        "id": "43",
         "title": "International Students Support Contest 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -352,7 +352,7 @@
         "location": "canada"
     },
     {
-        "": "44",
+        "id": "44",
         "title": "Human Resource (HR) - Free Course From Windsor University's MBA",
         "degrees": "Master, Course",
         "funds": "100% free",
@@ -360,7 +360,7 @@
         "location": "canada"
     },
     {
-        "": "45",
+        "id": "45",
         "title": "International Students Diversity Contest 2022-2023",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "Up to $2,000",
@@ -368,7 +368,7 @@
         "location": "europe"
     },
     {
-        "": "46",
+        "id": "46",
         "title": "Master in Business Administration 80% OFF your Tuition fee",
         "degrees": "Master",
         "funds": "80% Tuition Fees",
@@ -376,7 +376,7 @@
         "location": "europe"
     },
     {
-        "": "47",
+        "id": "47",
         "title": "3 Month F1 Visa Study English in USA Scholarship with Windsor University",
         "degrees": "Course",
         "funds": "$1,455 ",
@@ -384,7 +384,7 @@
         "location": "europe"
     },
     {
-        "": "48",
+        "id": "48",
         "title": "ArtUniverse",
         "degrees": "Master, Course",
         "funds": "Full or partial scholarship",
@@ -392,7 +392,7 @@
         "location": "europe"
     },
     {
-        "": "49",
+        "id": "49",
         "title": "International Contest for Students Support 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -400,7 +400,7 @@
         "location": "europe"
     },
     {
-        "": "50",
+        "id": "50",
         "title": "Scholarships for Africa",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$100 to $3000",
@@ -408,7 +408,7 @@
         "location": "europe"
     },
     {
-        "": "51",
+        "id": "51",
         "title": "LAPTOP Scholarships - study Supply Chains",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "up to $3000",
@@ -416,7 +416,7 @@
         "location": "europe"
     },
     {
-        "": "52",
+        "id": "52",
         "title": "TKS Full-Ride Scholarship",
         "degrees": "Course",
         "funds": "100% Tuition Fee [value of $6,000+]",
@@ -424,7 +424,7 @@
         "location": "europe"
     },
     {
-        "": "53",
+        "id": "53",
         "title": "Five scholarships of up to US$3000 for supply chain courses",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$3,000 ",
@@ -432,7 +432,7 @@
         "location": "europe"
     },
     {
-        "": "54",
+        "id": "54",
         "title": "International No-Essay Support Competition Scholarships 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000",
@@ -440,7 +440,7 @@
         "location": "europe"
     },
     {
-        "": "55",
+        "id": "55",
         "title": "THGM MUSE Scholarship",
         "degrees": "Bachelor",
         "funds": "US$500 or C$630",
@@ -448,7 +448,7 @@
         "location": "europe"
     },
     {
-        "": "56",
+        "id": "56",
         "title": "Master in Business Administration 80% OFF your Tuition fee - Scholarship",
         "degrees": "Master",
         "funds": "80% off tuition fee",
@@ -456,7 +456,7 @@
         "location": "europe"
     },
     {
-        "": "57",
+        "id": "57",
         "title": "International Students Support Contest 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -464,7 +464,7 @@
         "location": "europe"
     },
     {
-        "": "58",
+        "id": "58",
         "title": "Becas Grisart 2022",
         "degrees": "Course",
         "funds": "Take the courses free of charge.",
@@ -472,7 +472,7 @@
         "location": "europe"
     },
     {
-        "": "59",
+        "id": "59",
         "title": "Human Resource (HR) - Free Course From Windsor University's MBA",
         "degrees": "Master, Course",
         "funds": "100% free",
@@ -480,7 +480,7 @@
         "location": "europe"
     },
     {
-        "": "60",
+        "id": "60",
         "title": "International Students Diversity Contest 2022-2023",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "Up to $2,000",
@@ -488,7 +488,7 @@
         "location": "south-africa"
     },
     {
-        "": "61",
+        "id": "61",
         "title": "Master in Business Administration 80% OFF your Tuition fee",
         "degrees": "Master",
         "funds": "80% Tuition Fees",
@@ -496,7 +496,7 @@
         "location": "south-africa"
     },
     {
-        "": "62",
+        "id": "62",
         "title": "3 Month F1 Visa Study English in USA Scholarship with Windsor University",
         "degrees": "Course",
         "funds": "$1,455 ",
@@ -504,7 +504,7 @@
         "location": "south-africa"
     },
     {
-        "": "63",
+        "id": "63",
         "title": "ArtUniverse",
         "degrees": "Master, Course",
         "funds": "Full or partial scholarship",
@@ -512,7 +512,7 @@
         "location": "south-africa"
     },
     {
-        "": "64",
+        "id": "64",
         "title": "International Contest for Students Support 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -520,7 +520,7 @@
         "location": "south-africa"
     },
     {
-        "": "65",
+        "id": "65",
         "title": "Scholarships for Africa",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$100 to $3000",
@@ -528,7 +528,7 @@
         "location": "south-africa"
     },
     {
-        "": "66",
+        "id": "66",
         "title": "LAPTOP Scholarships - study Supply Chains",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "up to $3000",
@@ -536,7 +536,7 @@
         "location": "south-africa"
     },
     {
-        "": "67",
+        "id": "67",
         "title": "TKS Full-Ride Scholarship",
         "degrees": "Course",
         "funds": "100% Tuition Fee [value of $6,000+]",
@@ -544,7 +544,7 @@
         "location": "south-africa"
     },
     {
-        "": "68",
+        "id": "68",
         "title": "Five scholarships of up to US$3000 for supply chain courses",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$3,000 ",
@@ -552,7 +552,7 @@
         "location": "south-africa"
     },
     {
-        "": "69",
+        "id": "69",
         "title": "International No-Essay Support Competition Scholarships 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000",
@@ -560,7 +560,7 @@
         "location": "south-africa"
     },
     {
-        "": "70",
+        "id": "70",
         "title": "THGM MUSE Scholarship",
         "degrees": "Bachelor",
         "funds": "US$500 or C$630",
@@ -568,7 +568,7 @@
         "location": "south-africa"
     },
     {
-        "": "71",
+        "id": "71",
         "title": "Master in Business Administration 80% OFF your Tuition fee - Scholarship",
         "degrees": "Master",
         "funds": "80% off tuition fee",
@@ -576,7 +576,7 @@
         "location": "south-africa"
     },
     {
-        "": "72",
+        "id": "72",
         "title": "International Students Support Contest 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -584,7 +584,7 @@
         "location": "south-africa"
     },
     {
-        "": "73",
+        "id": "73",
         "title": "Human Resource (HR) - Free Course From Windsor University's MBA",
         "degrees": "Master, Course",
         "funds": "100% free",
@@ -592,7 +592,7 @@
         "location": "south-africa"
     },
     {
-        "": "74",
+        "id": "74",
         "title": "Project Management - Free Course From Windsor University's MBA",
         "degrees": "Course",
         "funds": "100% free",
@@ -600,7 +600,7 @@
         "location": "south-africa"
     },
     {
-        "": "75",
+        "id": "75",
         "title": "International Students Diversity Contest 2022-2023",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "Up to $2,000",
@@ -608,7 +608,7 @@
         "location": "nigeria"
     },
     {
-        "": "76",
+        "id": "76",
         "title": "Master in Business Administration 80% OFF your Tuition fee",
         "degrees": "Master",
         "funds": "80% Tuition Fees",
@@ -616,7 +616,7 @@
         "location": "nigeria"
     },
     {
-        "": "77",
+        "id": "77",
         "title": "3 Month F1 Visa Study English in USA Scholarship with Windsor University",
         "degrees": "Course",
         "funds": "$1,455 ",
@@ -624,7 +624,7 @@
         "location": "nigeria"
     },
     {
-        "": "78",
+        "id": "78",
         "title": "ArtUniverse",
         "degrees": "Master, Course",
         "funds": "Full or partial scholarship",
@@ -632,7 +632,7 @@
         "location": "nigeria"
     },
     {
-        "": "79",
+        "id": "79",
         "title": "International Contest for Students Support 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -640,7 +640,7 @@
         "location": "nigeria"
     },
     {
-        "": "80",
+        "id": "80",
         "title": "Scholarships for Africa",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$100 to $3000",
@@ -648,7 +648,7 @@
         "location": "nigeria"
     },
     {
-        "": "81",
+        "id": "81",
         "title": "LAPTOP Scholarships - study Supply Chains",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "up to $3000",
@@ -656,7 +656,7 @@
         "location": "nigeria"
     },
     {
-        "": "82",
+        "id": "82",
         "title": "TKS Full-Ride Scholarship",
         "degrees": "Course",
         "funds": "100% Tuition Fee [value of $6,000+]",
@@ -664,7 +664,7 @@
         "location": "nigeria"
     },
     {
-        "": "83",
+        "id": "83",
         "title": "Five scholarships of up to US$3000 for supply chain courses",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$3,000 ",
@@ -672,7 +672,7 @@
         "location": "nigeria"
     },
     {
-        "": "84",
+        "id": "84",
         "title": "International No-Essay Support Competition Scholarships 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000",
@@ -680,7 +680,7 @@
         "location": "nigeria"
     },
     {
-        "": "85",
+        "id": "85",
         "title": "THGM MUSE Scholarship",
         "degrees": "Bachelor",
         "funds": "US$500 or C$630",
@@ -688,7 +688,7 @@
         "location": "nigeria"
     },
     {
-        "": "86",
+        "id": "86",
         "title": "Master in Business Administration 80% OFF your Tuition fee - Scholarship",
         "degrees": "Master",
         "funds": "80% off tuition fee",
@@ -696,7 +696,7 @@
         "location": "nigeria"
     },
     {
-        "": "87",
+        "id": "87",
         "title": "International Students Support Contest 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -704,7 +704,7 @@
         "location": "nigeria"
     },
     {
-        "": "88",
+        "id": "88",
         "title": "Human Resource (HR) - Free Course From Windsor University's MBA",
         "degrees": "Master, Course",
         "funds": "100% free",
@@ -712,7 +712,7 @@
         "location": "nigeria"
     },
     {
-        "": "89",
+        "id": "89",
         "title": "Project Management - Free Course From Windsor University's MBA",
         "degrees": "Course",
         "funds": "100% free",
@@ -720,7 +720,7 @@
         "location": "nigeria"
     },
     {
-        "": "90",
+        "id": "90",
         "title": "International Students Diversity Contest 2022-2023",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "Up to $2,000",
@@ -728,7 +728,7 @@
         "location": "pakistan"
     },
     {
-        "": "91",
+        "id": "91",
         "title": "Master in Business Administration 80% OFF your Tuition fee",
         "degrees": "Master",
         "funds": "80% Tuition Fees",
@@ -736,7 +736,7 @@
         "location": "pakistan"
     },
     {
-        "": "92",
+        "id": "92",
         "title": "3 Month F1 Visa Study English in USA Scholarship with Windsor University",
         "degrees": "Course",
         "funds": "$1,455 ",
@@ -744,7 +744,7 @@
         "location": "pakistan"
     },
     {
-        "": "93",
+        "id": "93",
         "title": "ArtUniverse",
         "degrees": "Master, Course",
         "funds": "Full or partial scholarship",
@@ -752,7 +752,7 @@
         "location": "pakistan"
     },
     {
-        "": "94",
+        "id": "94",
         "title": "International Contest for Students Support 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -760,7 +760,7 @@
         "location": "pakistan"
     },
     {
-        "": "95",
+        "id": "95",
         "title": "Scholarships for Africa",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$100 to $3000",
@@ -768,7 +768,7 @@
         "location": "pakistan"
     },
     {
-        "": "96",
+        "id": "96",
         "title": "LAPTOP Scholarships - study Supply Chains",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "up to $3000",
@@ -776,7 +776,7 @@
         "location": "pakistan"
     },
     {
-        "": "97",
+        "id": "97",
         "title": "TKS Full-Ride Scholarship",
         "degrees": "Course",
         "funds": "100% Tuition Fee [value of $6,000+]",
@@ -784,7 +784,7 @@
         "location": "pakistan"
     },
     {
-        "": "98",
+        "id": "98",
         "title": "Five scholarships of up to US$3000 for supply chain courses",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$3,000 ",
@@ -792,7 +792,7 @@
         "location": "pakistan"
     },
     {
-        "": "99",
+        "id": "99",
         "title": "International No-Essay Support Competition Scholarships 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000",
@@ -800,7 +800,7 @@
         "location": "pakistan"
     },
     {
-        "": "100",
+        "id": "100",
         "title": "THGM MUSE Scholarship",
         "degrees": "Bachelor",
         "funds": "US$500 or C$630",
@@ -808,7 +808,7 @@
         "location": "pakistan"
     },
     {
-        "": "101",
+        "id": "101",
         "title": "Master in Business Administration 80% OFF your Tuition fee - Scholarship",
         "degrees": "Master",
         "funds": "80% off tuition fee",
@@ -816,7 +816,7 @@
         "location": "pakistan"
     },
     {
-        "": "102",
+        "id": "102",
         "title": "International Students Support Contest 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -824,7 +824,7 @@
         "location": "pakistan"
     },
     {
-        "": "103",
+        "id": "103",
         "title": "Human Resource (HR) - Free Course From Windsor University's MBA",
         "degrees": "Master, Course",
         "funds": "100% free",
@@ -832,7 +832,7 @@
         "location": "pakistan"
     },
     {
-        "": "104",
+        "id": "104",
         "title": "Project Management - Free Course From Windsor University's MBA",
         "degrees": "Course",
         "funds": "100% free",
@@ -840,7 +840,7 @@
         "location": "pakistan"
     },
     {
-        "": "105",
+        "id": "105",
         "title": "International Students Diversity Contest 2022-2023",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "Up to $2,000",
@@ -848,7 +848,7 @@
         "location": "india"
     },
     {
-        "": "106",
+        "id": "106",
         "title": "Master in Business Administration 80% OFF your Tuition fee",
         "degrees": "Master",
         "funds": "80% Tuition Fees",
@@ -856,7 +856,7 @@
         "location": "india"
     },
     {
-        "": "107",
+        "id": "107",
         "title": "3 Month F1 Visa Study English in USA Scholarship with Windsor University",
         "degrees": "Course",
         "funds": "$1,455 ",
@@ -864,7 +864,7 @@
         "location": "india"
     },
     {
-        "": "108",
+        "id": "108",
         "title": "ArtUniverse",
         "degrees": "Master, Course",
         "funds": "Full or partial scholarship",
@@ -872,7 +872,7 @@
         "location": "india"
     },
     {
-        "": "109",
+        "id": "109",
         "title": "International Contest for Students Support 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -880,7 +880,7 @@
         "location": "india"
     },
     {
-        "": "110",
+        "id": "110",
         "title": "Scholarships for Africa",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$100 to $3000",
@@ -888,7 +888,7 @@
         "location": "india"
     },
     {
-        "": "111",
+        "id": "111",
         "title": "LAPTOP Scholarships - study Supply Chains",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "up to $3000",
@@ -896,7 +896,7 @@
         "location": "india"
     },
     {
-        "": "112",
+        "id": "112",
         "title": "TKS Full-Ride Scholarship",
         "degrees": "Course",
         "funds": "100% Tuition Fee [value of $6,000+]",
@@ -904,7 +904,7 @@
         "location": "india"
     },
     {
-        "": "113",
+        "id": "113",
         "title": "Five scholarships of up to US$3000 for supply chain courses",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$3,000 ",
@@ -912,7 +912,7 @@
         "location": "india"
     },
     {
-        "": "114",
+        "id": "114",
         "title": "International No-Essay Support Competition Scholarships 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000",
@@ -920,7 +920,7 @@
         "location": "india"
     },
     {
-        "": "115",
+        "id": "115",
         "title": "THGM MUSE Scholarship",
         "degrees": "Bachelor",
         "funds": "US$500 or C$630",
@@ -928,7 +928,7 @@
         "location": "india"
     },
     {
-        "": "116",
+        "id": "116",
         "title": "Master in Business Administration 80% OFF your Tuition fee - Scholarship",
         "degrees": "Master",
         "funds": "80% off tuition fee",
@@ -936,7 +936,7 @@
         "location": "india"
     },
     {
-        "": "117",
+        "id": "117",
         "title": "International Students Support Contest 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -944,7 +944,7 @@
         "location": "india"
     },
     {
-        "": "118",
+        "id": "118",
         "title": "Human Resource (HR) - Free Course From Windsor University's MBA",
         "degrees": "Master, Course",
         "funds": "100% free",
@@ -952,7 +952,7 @@
         "location": "india"
     },
     {
-        "": "119",
+        "id": "119",
         "title": "Project Management - Free Course From Windsor University's MBA",
         "degrees": "Course",
         "funds": "100% free",
@@ -960,7 +960,7 @@
         "location": "india"
     },
     {
-        "": "120",
+        "id": "120",
         "title": "LSA International Student Scholarships at Regents of the University of Michigan in USA",
         "degrees": "Bachelor",
         "funds": "Up to $10,000",
@@ -968,7 +968,7 @@
         "location": "united-states"
     },
     {
-        "": "121",
+        "id": "121",
         "title": "International No-Essay Support Competition Scholarships 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000",
@@ -976,7 +976,7 @@
         "location": "united-states"
     },
     {
-        "": "122",
+        "id": "122",
         "title": "THGM MUSE Scholarship",
         "degrees": "Bachelor",
         "funds": "US$500 or C$630",
@@ -984,7 +984,7 @@
         "location": "united-states"
     },
     {
-        "": "123",
+        "id": "123",
         "title": "NLU Direct to Success Transfer Student Scholarship",
         "degrees": "Bachelor",
         "funds": "25% Tuition Rate",
@@ -992,7 +992,7 @@
         "location": "united-states"
     },
     {
-        "": "124",
+        "id": "124",
         "title": "Kendell College at NLU International Opportunity Scholarship",
         "degrees": "Bachelor",
         "funds": "25% of the full-time tuition rate",
@@ -1000,7 +1000,7 @@
         "location": "united-states"
     },
     {
-        "": "125",
+        "id": "125",
         "title": "NLU International Fresh Start Scholarship",
         "degrees": "Bachelor",
         "funds": "44% tuition fee",
@@ -1008,7 +1008,7 @@
         "location": "united-states"
     },
     {
-        "": "126",
+        "id": "126",
         "title": "National Louis University #YouAreWelcomeHere Scholarship",
         "degrees": "Bachelor",
         "funds": "50% of full-time tuition",
@@ -1016,7 +1016,7 @@
         "location": "united-states"
     },
     {
-        "": "127",
+        "id": "127",
         "title": "NLU Alumni Scholarship",
         "degrees": "Master, Bachelor, Phd",
         "funds": "15% Tuition Fee",
@@ -1024,7 +1024,7 @@
         "location": "united-states"
     },
     {
-        "": "128",
+        "id": "128",
         "title": "Master in Business Administration 80% OFF your Tuition fee - Scholarship",
         "degrees": "Master",
         "funds": "80% off tuition fee",
@@ -1032,7 +1032,7 @@
         "location": "united-states"
     },
     {
-        "": "129",
+        "id": "129",
         "title": "International Students Support Contest 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -1040,7 +1040,7 @@
         "location": "united-states"
     },
     {
-        "": "130",
+        "id": "130",
         "title": "Tiffin University International Trustee Scholarships in USA",
         "degrees": "Bachelor",
         "funds": "$16,000 ",
@@ -1048,7 +1048,7 @@
         "location": "united-states"
     },
     {
-        "": "131",
+        "id": "131",
         "title": "Tiffin University International President Scholarships in USA",
         "degrees": "Bachelor",
         "funds": "$14,000 ",
@@ -1056,7 +1056,7 @@
         "location": "united-states"
     },
     {
-        "": "132",
+        "id": "132",
         "title": "Graduate International Scholarships at University of Central Oklahoma",
         "degrees": "Master",
         "funds": "Up to $2,000 ($1,000 per year)",
@@ -1064,7 +1064,7 @@
         "location": "united-states"
     },
     {
-        "": "133",
+        "id": "133",
         "title": "International Opportunity Awards at Texas A&M University",
         "degrees": "Bachelor",
         "funds": "$100 to $15,000 p/a",
@@ -1072,7 +1072,7 @@
         "location": "united-states"
     },
     {
-        "": "134",
+        "id": "134",
         "title": "Human Resource (HR) - Free Course From Windsor University's MBA",
         "degrees": "Master, Course",
         "funds": "100% free",
@@ -1080,7 +1080,7 @@
         "location": "united-states"
     },
     {
-        "": "135",
+        "id": "135",
         "title": "Global Voices Scholarships at University of East Anglia",
         "degrees": "Master",
         "funds": "Â£20,000",
@@ -1088,7 +1088,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "136",
+        "id": "136",
         "title": "Postgraduate International Development Scholarships for Sub Saharan African Students in UK",
         "degrees": "Master",
         "funds": "Â£8,000",
@@ -1096,7 +1096,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "137",
+        "id": "137",
         "title": "Goodenough Scholarships",
         "degrees": "Master",
         "funds": "Up to Â£12,000",
@@ -1104,7 +1104,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "138",
+        "id": "138",
         "title": "International Contest for Students Support 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -1112,7 +1112,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "139",
+        "id": "139",
         "title": "Scholarships for Africa",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$100 to $3000",
@@ -1120,7 +1120,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "140",
+        "id": "140",
         "title": "LAPTOP Scholarships - study Supply Chains",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "up to $3000",
@@ -1128,7 +1128,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "141",
+        "id": "141",
         "title": "Sports Science: Fully Funded Swansea / DSTL PhD: Human response to prolonged heat exposure",
         "degrees": "Phd",
         "funds": "Full cost of UK tuition fees and an annual stipend",
@@ -1136,7 +1136,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "142",
+        "id": "142",
         "title": "Medicine: Fully Funded Swansea & HMRI PhD Scholarship: Ovarian Cancer Chemoresistance",
         "degrees": "Phd",
         "funds": "Full cost of tuition fees and an annual stipend",
@@ -1144,7 +1144,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "143",
+        "id": "143",
         "title": "Nanotechnology: Fully Funded Swansea University and European Commission PhD",
         "degrees": "Phd",
         "funds": "Full cost of UK tuition fees and an annual stipend",
@@ -1152,7 +1152,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "144",
+        "id": "144",
         "title": "Materials Engineering: Fully Funded Swansea University and CISM PhD: Advanced Dielectrics",
         "degrees": "Phd",
         "funds": "Full cost of UK tuition fees and an annual stipend",
@@ -1160,7 +1160,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "145",
+        "id": "145",
         "title": "Sanctuary Scholarship",
         "degrees": "Master, Bachelor, Phd",
         "funds": "Full-fee and Â£10,000 a year towards study costs",
@@ -1168,7 +1168,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "146",
+        "id": "146",
         "title": "Dean's International Excellence Scholarship",
         "degrees": "Master",
         "funds": "Full-fee",
@@ -1176,7 +1176,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "147",
+        "id": "147",
         "title": "Dean's UK Excellence Scholarship",
         "degrees": "Master",
         "funds": "100% of fees",
@@ -1184,7 +1184,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "148",
+        "id": "148",
         "title": "Masters Excellence Scholarship",
         "degrees": "Master",
         "funds": "50% of fees",
@@ -1192,7 +1192,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "149",
+        "id": "149",
         "title": "TKS Full-Ride Scholarship",
         "degrees": "Course",
         "funds": "100% Tuition Fee [value of $6,000+]",
@@ -1200,7 +1200,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "150",
+        "id": "150",
         "title": "Project Management - Free Course From Windsor University's MBA",
         "degrees": "Course",
         "funds": "100% free",
@@ -1208,7 +1208,7 @@
         "location": "canada"
     },
     {
-        "": "151",
+        "id": "151",
         "title": "Global No-Essay Contest Scholarships for International Students 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -1216,7 +1216,7 @@
         "location": "canada"
     },
     {
-        "": "152",
+        "id": "152",
         "title": "Eon Essay Contest on The Precipice",
         "degrees": "Master, Bachelor, Phd",
         "funds": "15,000 USD top prize; 42,000 USD total prizes",
@@ -1224,7 +1224,7 @@
         "location": "canada"
     },
     {
-        "": "153",
+        "id": "153",
         "title": "John and Lena Graham Commonwealth Bursary at Dalhousie University",
         "degrees": "Phd, Master",
         "funds": "At least $2,000",
@@ -1232,7 +1232,7 @@
         "location": "canada"
     },
     {
-        "": "154",
+        "id": "154",
         "title": "International Student Support Contest 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Multiple awards",
@@ -1240,7 +1240,7 @@
         "location": "canada"
     },
     {
-        "": "155",
+        "id": "155",
         "title": "Excellence Scholarships for African Students Studying in English",
         "degrees": "Bachelor",
         "funds": "$17,500 - $25,000 tuition fee reduction",
@@ -1248,7 +1248,7 @@
         "location": "canada"
     },
     {
-        "": "156",
+        "id": "156",
         "title": "Online Islamic classes for kids",
         "degrees": "Course",
         "funds": "40% off over all of our Islamic courses",
@@ -1256,7 +1256,7 @@
         "location": "canada"
     },
     {
-        "": "157",
+        "id": "157",
         "title": "The Annual IELTS from 6 to 9 Scholarship",
         "degrees": "Master, Bachelor, Phd",
         "funds": "$1,000 ",
@@ -1264,7 +1264,7 @@
         "location": "canada"
     },
     {
-        "": "158",
+        "id": "158",
         "title": "Scholarship for families want to learn Quran online",
         "degrees": "Course",
         "funds": "50% off over all of our Quran courses",
@@ -1272,7 +1272,7 @@
         "location": "canada"
     },
     {
-        "": "159",
+        "id": "159",
         "title": "Brock University Emerging Market Entrance International Awards",
         "degrees": "Bachelor",
         "funds": "$2,500 ",
@@ -1280,7 +1280,7 @@
         "location": "canada"
     },
     {
-        "": "160",
+        "id": "160",
         "title": "UBC International Talent Scholarships in Canada",
         "degrees": "Master",
         "funds": "$10,000 - $30,000",
@@ -1288,7 +1288,7 @@
         "location": "canada"
     },
     {
-        "": "161",
+        "id": "161",
         "title": "P.E.O. International Scholar Awards",
         "degrees": "Phd",
         "funds": "$20,000 ",
@@ -1296,7 +1296,7 @@
         "location": "canada"
     },
     {
-        "": "162",
+        "id": "162",
         "title": "Ted Rogers School Graduate Entrance Scholarships for International Students at Ryerson University",
         "degrees": "Master",
         "funds": "$20,000 ",
@@ -1304,7 +1304,7 @@
         "location": "canada"
     },
     {
-        "": "163",
+        "id": "163",
         "title": "Contest Scholarship Programme for International Students 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -1312,7 +1312,7 @@
         "location": "canada"
     },
     {
-        "": "164",
+        "id": "164",
         "title": "Entrance international awards at LaSalle College Vancouver",
         "degrees": "Master, Bachelor",
         "funds": "Up to $10,000",
@@ -1320,7 +1320,7 @@
         "location": "canada"
     },
     {
-        "": "165",
+        "id": "165",
         "title": "Project Management - Free Course From Windsor University's MBA",
         "degrees": "Course",
         "funds": "100% free",
@@ -1328,7 +1328,7 @@
         "location": "europe"
     },
     {
-        "": "166",
+        "id": "166",
         "title": "Global No-Essay Contest Scholarships for International Students 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -1336,7 +1336,7 @@
         "location": "europe"
     },
     {
-        "": "167",
+        "id": "167",
         "title": "Eon Essay Contest on The Precipice",
         "degrees": "Master, Bachelor, Phd",
         "funds": "15,000 USD top prize; 42,000 USD total prizes",
@@ -1344,7 +1344,7 @@
         "location": "europe"
     },
     {
-        "": "168",
+        "id": "168",
         "title": "Anonymous Hope Fund",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$3,000 ",
@@ -1352,7 +1352,7 @@
         "location": "europe"
     },
     {
-        "": "169",
+        "id": "169",
         "title": "International Student Support Contest 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Multiple awards",
@@ -1360,7 +1360,7 @@
         "location": "europe"
     },
     {
-        "": "170",
+        "id": "170",
         "title": "Online Islamic classes for kids",
         "degrees": "Course",
         "funds": "40% off over all of our Islamic courses",
@@ -1368,7 +1368,7 @@
         "location": "europe"
     },
     {
-        "": "171",
+        "id": "171",
         "title": "The Annual IELTS from 6 to 9 Scholarship",
         "degrees": "Master, Bachelor, Phd",
         "funds": "$1,000 ",
@@ -1376,7 +1376,7 @@
         "location": "europe"
     },
     {
-        "": "172",
+        "id": "172",
         "title": "Scholarship for families want to learn Quran online",
         "degrees": "Course",
         "funds": "50% off over all of our Quran courses",
@@ -1384,7 +1384,7 @@
         "location": "europe"
     },
     {
-        "": "173",
+        "id": "173",
         "title": "Contest Scholarship Programme for International Students 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -1392,7 +1392,7 @@
         "location": "europe"
     },
     {
-        "": "174",
+        "id": "174",
         "title": "International Scholarship Student Competition 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000",
@@ -1400,7 +1400,7 @@
         "location": "europe"
     },
     {
-        "": "175",
+        "id": "175",
         "title": "Global Contest Scholarships for International Students 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2000 awards",
@@ -1408,7 +1408,7 @@
         "location": "europe"
     },
     {
-        "": "176",
+        "id": "176",
         "title": "KDS International Scholarship Competition 2021-22",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -1416,7 +1416,7 @@
         "location": "europe"
     },
     {
-        "": "177",
+        "id": "177",
         "title": "Professional Development Grants for International Students at University of Twente",
         "degrees": "Course, Master",
         "funds": "Up to $6,500",
@@ -1424,7 +1424,7 @@
         "location": "europe"
     },
     {
-        "": "178",
+        "id": "178",
         "title": "International Students Contest Scholarships 2021-2022",
         "degrees": "Master, Bachelor",
         "funds": "Up to $1500",
@@ -1432,7 +1432,7 @@
         "location": "europe"
     },
     {
-        "": "179",
+        "id": "179",
         "title": "KDS Competition Scholarship 2021",
         "degrees": "Master, Bachelor",
         "funds": "Up to $1,500",
@@ -1440,7 +1440,7 @@
         "location": "europe"
     },
     {
-        "": "180",
+        "id": "180",
         "title": "Global No-Essay Contest Scholarships for International Students 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -1448,7 +1448,7 @@
         "location": "south-africa"
     },
     {
-        "": "181",
+        "id": "181",
         "title": "Eon Essay Contest on The Precipice",
         "degrees": "Master, Bachelor, Phd",
         "funds": "15,000 USD top prize; 42,000 USD total prizes",
@@ -1456,7 +1456,7 @@
         "location": "south-africa"
     },
     {
-        "": "182",
+        "id": "182",
         "title": "Anonymous Hope Fund",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$3,000 ",
@@ -1464,7 +1464,7 @@
         "location": "south-africa"
     },
     {
-        "": "183",
+        "id": "183",
         "title": "International Student Support Contest 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Multiple awards",
@@ -1472,7 +1472,7 @@
         "location": "south-africa"
     },
     {
-        "": "184",
+        "id": "184",
         "title": "Online Islamic classes for kids",
         "degrees": "Course",
         "funds": "40% off over all of our Islamic courses",
@@ -1480,7 +1480,7 @@
         "location": "south-africa"
     },
     {
-        "": "185",
+        "id": "185",
         "title": "The Annual IELTS from 6 to 9 Scholarship",
         "degrees": "Master, Bachelor, Phd",
         "funds": "$1,000 ",
@@ -1488,7 +1488,7 @@
         "location": "south-africa"
     },
     {
-        "": "186",
+        "id": "186",
         "title": "Scholarship for families want to learn Quran online",
         "degrees": "Course",
         "funds": "50% off over all of our Quran courses",
@@ -1496,7 +1496,7 @@
         "location": "south-africa"
     },
     {
-        "": "187",
+        "id": "187",
         "title": "Contest Scholarship Programme for International Students 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -1504,7 +1504,7 @@
         "location": "south-africa"
     },
     {
-        "": "188",
+        "id": "188",
         "title": "UFIC Diane Fisher Awards for International Students in USA",
         "degrees": "Bachelor",
         "funds": "",
@@ -1512,7 +1512,7 @@
         "location": "south-africa"
     },
     {
-        "": "189",
+        "id": "189",
         "title": "International Scholarship Student Competition 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000",
@@ -1520,7 +1520,7 @@
         "location": "south-africa"
     },
     {
-        "": "190",
+        "id": "190",
         "title": "Global Contest Scholarships for International Students 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2000 awards",
@@ -1528,7 +1528,7 @@
         "location": "south-africa"
     },
     {
-        "": "191",
+        "id": "191",
         "title": "KDS International Scholarship Competition 2021-22",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -1536,7 +1536,7 @@
         "location": "south-africa"
     },
     {
-        "": "192",
+        "id": "192",
         "title": "Professional Development Grants for International Students at University of Twente",
         "degrees": "Course, Master",
         "funds": "Up to $6,500",
@@ -1544,7 +1544,7 @@
         "location": "south-africa"
     },
     {
-        "": "193",
+        "id": "193",
         "title": "International Students Contest Scholarships 2021-2022",
         "degrees": "Master, Bachelor",
         "funds": "Up to $1500",
@@ -1552,7 +1552,7 @@
         "location": "south-africa"
     },
     {
-        "": "194",
+        "id": "194",
         "title": "Thomas A Plein Endowed funding for International Students at University of Queensland",
         "degrees": "Bachelor",
         "funds": "",
@@ -1560,7 +1560,7 @@
         "location": "south-africa"
     },
     {
-        "": "195",
+        "id": "195",
         "title": "Global No-Essay Contest Scholarships for International Students 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -1568,7 +1568,7 @@
         "location": "nigeria"
     },
     {
-        "": "196",
+        "id": "196",
         "title": "Eon Essay Contest on The Precipice",
         "degrees": "Master, Bachelor, Phd",
         "funds": "15,000 USD top prize; 42,000 USD total prizes",
@@ -1576,7 +1576,7 @@
         "location": "nigeria"
     },
     {
-        "": "197",
+        "id": "197",
         "title": "Anonymous Hope Fund",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$3,000 ",
@@ -1584,7 +1584,7 @@
         "location": "nigeria"
     },
     {
-        "": "198",
+        "id": "198",
         "title": "International Student Support Contest 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Multiple awards",
@@ -1592,7 +1592,7 @@
         "location": "nigeria"
     },
     {
-        "": "199",
+        "id": "199",
         "title": "Online Islamic classes for kids",
         "degrees": "Course",
         "funds": "40% off over all of our Islamic courses",
@@ -1600,7 +1600,7 @@
         "location": "nigeria"
     },
     {
-        "": "200",
+        "id": "200",
         "title": "The Annual IELTS from 6 to 9 Scholarship",
         "degrees": "Master, Bachelor, Phd",
         "funds": "$1,000 ",
@@ -1608,7 +1608,7 @@
         "location": "nigeria"
     },
     {
-        "": "201",
+        "id": "201",
         "title": "Scholarship for families want to learn Quran online",
         "degrees": "Course",
         "funds": "50% off over all of our Quran courses",
@@ -1616,7 +1616,7 @@
         "location": "nigeria"
     },
     {
-        "": "202",
+        "id": "202",
         "title": "Contest Scholarship Programme for International Students 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -1624,7 +1624,7 @@
         "location": "nigeria"
     },
     {
-        "": "203",
+        "id": "203",
         "title": "UFIC Diane Fisher Awards for International Students in USA",
         "degrees": "Bachelor",
         "funds": "",
@@ -1632,7 +1632,7 @@
         "location": "nigeria"
     },
     {
-        "": "204",
+        "id": "204",
         "title": "International Scholarship Student Competition 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000",
@@ -1640,7 +1640,7 @@
         "location": "nigeria"
     },
     {
-        "": "205",
+        "id": "205",
         "title": "Global Contest Scholarships for International Students 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2000 awards",
@@ -1648,7 +1648,7 @@
         "location": "nigeria"
     },
     {
-        "": "206",
+        "id": "206",
         "title": "KDS International Scholarship Competition 2021-22",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -1656,7 +1656,7 @@
         "location": "nigeria"
     },
     {
-        "": "207",
+        "id": "207",
         "title": "Professional Development Grants for International Students at University of Twente",
         "degrees": "Course, Master",
         "funds": "Up to $6,500",
@@ -1664,7 +1664,7 @@
         "location": "nigeria"
     },
     {
-        "": "208",
+        "id": "208",
         "title": "International Students Contest Scholarships 2021-2022",
         "degrees": "Master, Bachelor",
         "funds": "Up to $1500",
@@ -1672,7 +1672,7 @@
         "location": "nigeria"
     },
     {
-        "": "209",
+        "id": "209",
         "title": "Thomas A Plein Endowed funding for International Students at University of Queensland",
         "degrees": "Bachelor",
         "funds": "",
@@ -1680,7 +1680,7 @@
         "location": "nigeria"
     },
     {
-        "": "210",
+        "id": "210",
         "title": "PEEF Scholarships",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "Tuition fees and basic expenses",
@@ -1688,7 +1688,7 @@
         "location": "pakistan"
     },
     {
-        "": "211",
+        "id": "211",
         "title": "Global No-Essay Contest Scholarships for International Students 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -1696,7 +1696,7 @@
         "location": "pakistan"
     },
     {
-        "": "212",
+        "id": "212",
         "title": "Eon Essay Contest on The Precipice",
         "degrees": "Master, Bachelor, Phd",
         "funds": "15,000 USD top prize; 42,000 USD total prizes",
@@ -1704,7 +1704,7 @@
         "location": "pakistan"
     },
     {
-        "": "213",
+        "id": "213",
         "title": "Anonymous Hope Fund",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$3,000 ",
@@ -1712,7 +1712,7 @@
         "location": "pakistan"
     },
     {
-        "": "214",
+        "id": "214",
         "title": "International Student Support Contest 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Multiple awards",
@@ -1720,7 +1720,7 @@
         "location": "pakistan"
     },
     {
-        "": "215",
+        "id": "215",
         "title": "Online Islamic classes for kids",
         "degrees": "Course",
         "funds": "40% off over all of our Islamic courses",
@@ -1728,7 +1728,7 @@
         "location": "pakistan"
     },
     {
-        "": "216",
+        "id": "216",
         "title": "The Annual IELTS from 6 to 9 Scholarship",
         "degrees": "Master, Bachelor, Phd",
         "funds": "$1,000 ",
@@ -1736,7 +1736,7 @@
         "location": "pakistan"
     },
     {
-        "": "217",
+        "id": "217",
         "title": "Scholarship for families want to learn Quran online",
         "degrees": "Course",
         "funds": "50% off over all of our Quran courses",
@@ -1744,7 +1744,7 @@
         "location": "pakistan"
     },
     {
-        "": "218",
+        "id": "218",
         "title": "Contest Scholarship Programme for International Students 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -1752,7 +1752,7 @@
         "location": "pakistan"
     },
     {
-        "": "219",
+        "id": "219",
         "title": "International Scholarship Student Competition 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000",
@@ -1760,7 +1760,7 @@
         "location": "pakistan"
     },
     {
-        "": "220",
+        "id": "220",
         "title": "Global Contest Scholarships for International Students 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2000 awards",
@@ -1768,7 +1768,7 @@
         "location": "pakistan"
     },
     {
-        "": "221",
+        "id": "221",
         "title": "KDS International Scholarship Competition 2021-22",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -1776,7 +1776,7 @@
         "location": "pakistan"
     },
     {
-        "": "222",
+        "id": "222",
         "title": "Professional Development Grants for International Students at University of Twente",
         "degrees": "Course, Master",
         "funds": "Up to $6,500",
@@ -1784,7 +1784,7 @@
         "location": "pakistan"
     },
     {
-        "": "223",
+        "id": "223",
         "title": "International Students Contest Scholarships 2021-2022",
         "degrees": "Master, Bachelor",
         "funds": "Up to $1500",
@@ -1792,7 +1792,7 @@
         "location": "pakistan"
     },
     {
-        "": "224",
+        "id": "224",
         "title": "2021 Contest Scholarships for International Students",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -1800,7 +1800,7 @@
         "location": "pakistan"
     },
     {
-        "": "225",
+        "id": "225",
         "title": "Global No-Essay Contest Scholarships for International Students 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -1808,7 +1808,7 @@
         "location": "india"
     },
     {
-        "": "226",
+        "id": "226",
         "title": "Eon Essay Contest on The Precipice",
         "degrees": "Master, Bachelor, Phd",
         "funds": "15,000 USD top prize; 42,000 USD total prizes",
@@ -1816,7 +1816,7 @@
         "location": "india"
     },
     {
-        "": "227",
+        "id": "227",
         "title": "Anonymous Hope Fund",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$3,000 ",
@@ -1824,7 +1824,7 @@
         "location": "india"
     },
     {
-        "": "228",
+        "id": "228",
         "title": "International Student Support Contest 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Multiple awards",
@@ -1832,7 +1832,7 @@
         "location": "india"
     },
     {
-        "": "229",
+        "id": "229",
         "title": "Online Islamic classes for kids",
         "degrees": "Course",
         "funds": "40% off over all of our Islamic courses",
@@ -1840,7 +1840,7 @@
         "location": "india"
     },
     {
-        "": "230",
+        "id": "230",
         "title": "The Annual IELTS from 6 to 9 Scholarship",
         "degrees": "Master, Bachelor, Phd",
         "funds": "$1,000 ",
@@ -1848,7 +1848,7 @@
         "location": "india"
     },
     {
-        "": "231",
+        "id": "231",
         "title": "Scholarship for families want to learn Quran online",
         "degrees": "Course",
         "funds": "50% off over all of our Quran courses",
@@ -1856,7 +1856,7 @@
         "location": "india"
     },
     {
-        "": "232",
+        "id": "232",
         "title": "Contest Scholarship Programme for International Students 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -1864,7 +1864,7 @@
         "location": "india"
     },
     {
-        "": "233",
+        "id": "233",
         "title": "International Scholarship Student Competition 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000",
@@ -1872,7 +1872,7 @@
         "location": "india"
     },
     {
-        "": "234",
+        "id": "234",
         "title": "Global Contest Scholarships for International Students 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2000 awards",
@@ -1880,7 +1880,7 @@
         "location": "india"
     },
     {
-        "": "235",
+        "id": "235",
         "title": "50% scholarship for students based in India - University of Essex Online",
         "degrees": "Master, Bachelor, Course",
         "funds": "50% scholarship for all courses",
@@ -1888,7 +1888,7 @@
         "location": "india"
     },
     {
-        "": "236",
+        "id": "236",
         "title": "KDS International Scholarship Competition 2021-22",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -1896,7 +1896,7 @@
         "location": "india"
     },
     {
-        "": "237",
+        "id": "237",
         "title": "Professional Development Grants for International Students at University of Twente",
         "degrees": "Course, Master",
         "funds": "Up to $6,500",
@@ -1904,7 +1904,7 @@
         "location": "india"
     },
     {
-        "": "238",
+        "id": "238",
         "title": "International Students Contest Scholarships 2021-2022",
         "degrees": "Master, Bachelor",
         "funds": "Up to $1500",
@@ -1912,7 +1912,7 @@
         "location": "india"
     },
     {
-        "": "239",
+        "id": "239",
         "title": "2021 Contest Scholarships for International Students",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -1920,7 +1920,7 @@
         "location": "india"
     },
     {
-        "": "240",
+        "id": "240",
         "title": "CalArts Merit Scholarships for International Students in USA",
         "degrees": "Bachelor, Master",
         "funds": "$10,000 p.a.",
@@ -1928,7 +1928,7 @@
         "location": "united-states"
     },
     {
-        "": "241",
+        "id": "241",
         "title": "International Merit-Based Scholarships at Valparaiso University",
         "degrees": "Bachelor",
         "funds": "Financial aid",
@@ -1936,7 +1936,7 @@
         "location": "united-states"
     },
     {
-        "": "242",
+        "id": "242",
         "title": "Project Management - Free Course From Windsor University's MBA",
         "degrees": "Course",
         "funds": "100% free",
@@ -1944,7 +1944,7 @@
         "location": "united-states"
     },
     {
-        "": "243",
+        "id": "243",
         "title": "Global No-Essay Contest Scholarships for International Students 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -1952,7 +1952,7 @@
         "location": "united-states"
     },
     {
-        "": "244",
+        "id": "244",
         "title": "E-waste Scholarship",
         "degrees": "Master, Bachelor, Phd",
         "funds": "$1,000 ",
@@ -1960,7 +1960,7 @@
         "location": "united-states"
     },
     {
-        "": "245",
+        "id": "245",
         "title": "Eon Essay Contest on The Precipice",
         "degrees": "Master, Bachelor, Phd",
         "funds": "15,000 USD top prize; 42,000 USD total prizes",
@@ -1968,7 +1968,7 @@
         "location": "united-states"
     },
     {
-        "": "246",
+        "id": "246",
         "title": "Orangesoft Women in Technology Scholarship Program",
         "degrees": "Master, Bachelor",
         "funds": "$1,000 ",
@@ -1976,7 +1976,7 @@
         "location": "united-states"
     },
     {
-        "": "247",
+        "id": "247",
         "title": "International Graduate Scholarships in USA",
         "degrees": "Master",
         "funds": "Up to $2,000",
@@ -1984,7 +1984,7 @@
         "location": "united-states"
     },
     {
-        "": "248",
+        "id": "248",
         "title": "LCBAS and Applied Sciences International Merit Awards in USA",
         "degrees": "Bachelor, Master",
         "funds": "$1,500 ",
@@ -1992,7 +1992,7 @@
         "location": "united-states"
     },
     {
-        "": "249",
+        "id": "249",
         "title": "International Student Scholarships at Castleton University",
         "degrees": "Bachelor",
         "funds": "Up to $2,500 p.a.",
@@ -2000,7 +2000,7 @@
         "location": "united-states"
     },
     {
-        "": "250",
+        "id": "250",
         "title": "International Student Support Contest 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Multiple awards",
@@ -2008,7 +2008,7 @@
         "location": "united-states"
     },
     {
-        "": "251",
+        "id": "251",
         "title": "Assisi Academic Scholarships for International Students at Marian University",
         "degrees": "Bachelor",
         "funds": "$8,000 ",
@@ -2016,7 +2016,7 @@
         "location": "united-states"
     },
     {
-        "": "252",
+        "id": "252",
         "title": "International Scholarships at Lake Region State College",
         "degrees": "Bachelor, Master",
         "funds": "50% off tuition fees",
@@ -2024,7 +2024,7 @@
         "location": "united-states"
     },
     {
-        "": "253",
+        "id": "253",
         "title": "Merit-Based Scholarships for International Students at Hartwick College",
         "degrees": "Bachelor, Master",
         "funds": "$15,000 - $28,000 p.a.",
@@ -2032,7 +2032,7 @@
         "location": "united-states"
     },
     {
-        "": "254",
+        "id": "254",
         "title": "Online Islamic classes for kids",
         "degrees": "Course",
         "funds": "40% off over all of our Islamic courses",
@@ -2040,7 +2040,7 @@
         "location": "united-states"
     },
     {
-        "": "255",
+        "id": "255",
         "title": "Five scholarships of up to US$3000 for supply chain courses",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$3,000 ",
@@ -2048,7 +2048,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "256",
+        "id": "256",
         "title": "University of Sussex International PhD Studentships in Mind and Material Culture",
         "degrees": "Phd",
         "funds": "Tuition fee, Â£15,609 p.a. + Â£2,000 research grant",
@@ -2056,7 +2056,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "257",
+        "id": "257",
         "title": "University of East Anglia Nigeria Awards in UK",
         "degrees": "Master",
         "funds": "Up to Â£5,000",
@@ -2064,7 +2064,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "258",
+        "id": "258",
         "title": "International Women in Business Scholarships at Queen Mary University of London",
         "degrees": "Bachelor",
         "funds": "Â£4,000",
@@ -2072,7 +2072,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "259",
+        "id": "259",
         "title": "Deanâ€™s International Bursary in Faculty of Arts",
         "degrees": "Bachelor",
         "funds": "Â£1,000 p.a. for two years",
@@ -2080,7 +2080,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "260",
+        "id": "260",
         "title": "Lancashire School of Business and Enterprise PhD Studentships in UK",
         "degrees": "Phd",
         "funds": "Tuition fees + Â£15,609 p.a.",
@@ -2088,7 +2088,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "261",
+        "id": "261",
         "title": "Kolade Scholarships for International Students at University of Exeter Business School",
         "degrees": "Master",
         "funds": "Â£12,500",
@@ -2096,7 +2096,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "262",
+        "id": "262",
         "title": "Global Excellence Scholarships at Queen Mary University of London",
         "degrees": "Master",
         "funds": "Â£2,000",
@@ -2104,7 +2104,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "263",
+        "id": "263",
         "title": "Niloufar Ebrahim Scholarships for International Students at Kingston University London",
         "degrees": "Master",
         "funds": "Up to Â£11,100.",
@@ -2112,7 +2112,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "264",
+        "id": "264",
         "title": "University of Manchester Merit-based Masterâ€™s International Scholarships in UK",
         "degrees": "Master",
         "funds": "Â£6,000",
@@ -2120,7 +2120,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "265",
+        "id": "265",
         "title": "Medical Engineering: Fully Funded EPSRC PhD Scholarship: AI approaches to cell imaging data",
         "degrees": "Phd",
         "funds": "Full cost of UK tuition fees and an annual stipend",
@@ -2128,7 +2128,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "266",
+        "id": "266",
         "title": "Biosciences: Fully Funded PhD Scholarship at Swansea: Seagrass Restoration",
         "degrees": "Phd",
         "funds": "Full cost of UK tuition fees and an annual stipend",
@@ -2136,7 +2136,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "267",
+        "id": "267",
         "title": "International No-Essay Support Competition Scholarships 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000",
@@ -2144,7 +2144,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "268",
+        "id": "268",
         "title": "THGM MUSE Scholarship",
         "degrees": "Bachelor",
         "funds": "US$500 or C$630",
@@ -2152,7 +2152,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "269",
+        "id": "269",
         "title": "Master in Business Administration 80% OFF your Tuition fee - Scholarship",
         "degrees": "Master",
         "funds": "80% off tuition fee",
@@ -2160,7 +2160,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "270",
+        "id": "270",
         "title": "Silver Anniversary Recruitment Graduate International Fellowships in Canada",
         "degrees": "Phd",
         "funds": "$20,000 ",
@@ -2168,7 +2168,7 @@
         "location": "canada"
     },
     {
-        "": "271",
+        "id": "271",
         "title": "International Scholarship Student Competition 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000",
@@ -2176,7 +2176,7 @@
         "location": "canada"
     },
     {
-        "": "272",
+        "id": "272",
         "title": "Global Contest Scholarships for International Students 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2000 awards",
@@ -2184,7 +2184,7 @@
         "location": "canada"
     },
     {
-        "": "273",
+        "id": "273",
         "title": "Mehran Bibi Sheikh Memorial Entrance Scholarships for International Students at Queenâ€™s University",
         "degrees": "Bachelor",
         "funds": "$1,500 ",
@@ -2192,7 +2192,7 @@
         "location": "canada"
     },
     {
-        "": "274",
+        "id": "274",
         "title": "Engineering International Student Entrance Scholarships at University of Waterloo",
         "degrees": "Bachelor",
         "funds": "$10,000 ",
@@ -2200,7 +2200,7 @@
         "location": "canada"
     },
     {
-        "": "275",
+        "id": "275",
         "title": "Caribbean Scholarships at Niagara College",
         "degrees": "Bachelor",
         "funds": "$2,000 ",
@@ -2208,7 +2208,7 @@
         "location": "canada"
     },
     {
-        "": "276",
+        "id": "276",
         "title": "KDS International Scholarship Competition 2021-22",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -2216,7 +2216,7 @@
         "location": "canada"
     },
     {
-        "": "277",
+        "id": "277",
         "title": "University of Waterloo Graduate international awards in Canada",
         "degrees": "Master, Phd",
         "funds": "Up to $3,000",
@@ -2224,7 +2224,7 @@
         "location": "canada"
     },
     {
-        "": "278",
+        "id": "278",
         "title": "Regional Graduate Program Entrance Scholarships for International Students at Conestoga College",
         "degrees": "Master",
         "funds": "$1,500 ",
@@ -2232,7 +2232,7 @@
         "location": "canada"
     },
     {
-        "": "279",
+        "id": "279",
         "title": "HEC MontrÃ©al MSc Entrance international awards in Canada",
         "degrees": "Master",
         "funds": "$5,000 ",
@@ -2240,7 +2240,7 @@
         "location": "canada"
     },
     {
-        "": "280",
+        "id": "280",
         "title": "Professional Development Grants for International Students at University of Twente",
         "degrees": "Course, Master",
         "funds": "Up to $6,500",
@@ -2248,7 +2248,7 @@
         "location": "canada"
     },
     {
-        "": "281",
+        "id": "281",
         "title": "English Proficiency Entrance Scholarships for International Students at Durham College",
         "degrees": "Bachelor",
         "funds": "Up to $1,500",
@@ -2256,7 +2256,7 @@
         "location": "canada"
     },
     {
-        "": "282",
+        "id": "282",
         "title": "B.C. Access Grants in Canada",
         "degrees": "Bachelor",
         "funds": "Up to $4,000 p.a.",
@@ -2264,7 +2264,7 @@
         "location": "canada"
     },
     {
-        "": "283",
+        "id": "283",
         "title": "International Students Contest Scholarships 2021-2022",
         "degrees": "Master, Bachelor",
         "funds": "Up to $1500",
@@ -2272,7 +2272,7 @@
         "location": "canada"
     },
     {
-        "": "284",
+        "id": "284",
         "title": "Differential Tuition Fee Exemption international awards at University of Ottawa",
         "degrees": "Master, Bachelor",
         "funds": "Variable",
@@ -2280,7 +2280,7 @@
         "location": "canada"
     },
     {
-        "": "285",
+        "id": "285",
         "title": "2021 Contest Scholarships for International Students",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -2288,7 +2288,7 @@
         "location": "europe"
     },
     {
-        "": "286",
+        "id": "286",
         "title": "FindDataLab Research Grant Programme in USA and EU",
         "degrees": "Bachelor, Master, Phd, Course",
         "funds": "Up to $1,000 towards web scraping serivces",
@@ -2296,7 +2296,7 @@
         "location": "europe"
     },
     {
-        "": "287",
+        "id": "287",
         "title": "Google Anita Borg Memorial Scholarships for International Students at Arizona State University",
         "degrees": "Bachelor",
         "funds": "$10,000 ",
@@ -2304,7 +2304,7 @@
         "location": "europe"
     },
     {
-        "": "288",
+        "id": "288",
         "title": "IU International University of Applied Sciences Online Scholarships for International Students in Germany",
         "degrees": "Master, Bachelor",
         "funds": "Up to 85% of tuition fee",
@@ -2312,7 +2312,7 @@
         "location": "europe"
     },
     {
-        "": "289",
+        "id": "289",
         "title": "Scholarship for Online Learner at IU International University of Applied Sciences â€“ Online",
         "degrees": "Master, Bachelor",
         "funds": "Up to â‚¬ 13.000",
@@ -2320,7 +2320,7 @@
         "location": "europe"
     },
     {
-        "": "290",
+        "id": "290",
         "title": "Scholarship for Academics at IU International University of Applied Sciences â€“ Online",
         "degrees": "Master, Bachelor",
         "funds": "up to â‚¬13.000",
@@ -2328,7 +2328,7 @@
         "location": "europe"
     },
     {
-        "": "291",
+        "id": "291",
         "title": "Scholarship for Future Entrepreneur at IU International University of Applied Sciences - Online",
         "degrees": "Master, Bachelor",
         "funds": "not specified",
@@ -2336,7 +2336,7 @@
         "location": "europe"
     },
     {
-        "": "292",
+        "id": "292",
         "title": "Scholarship for STEM/MINT Professionals at IU International University of Applied Sciences - Online",
         "degrees": "Master, Bachelor",
         "funds": "Up to â‚¬13.000",
@@ -2344,7 +2344,7 @@
         "location": "europe"
     },
     {
-        "": "293",
+        "id": "293",
         "title": "Scholarship for Women in Leadership and Management at IU International University of Applied Sciences - Online",
         "degrees": "Master, Bachelor",
         "funds": "Up to â‚¬13.000",
@@ -2352,7 +2352,7 @@
         "location": "europe"
     },
     {
-        "": "294",
+        "id": "294",
         "title": "Fully-Funded PhD Studentship in Nanochemistry at University of Exeter",
         "degrees": "Phd",
         "funds": "Â£15,009",
@@ -2360,7 +2360,7 @@
         "location": "europe"
     },
     {
-        "": "295",
+        "id": "295",
         "title": "Marine Stewardship Council scholarship research program ",
         "degrees": "Bachelor, Master, Phd, Course",
         "funds": "Up to Â£4000",
@@ -2368,7 +2368,7 @@
         "location": "europe"
     },
     {
-        "": "296",
+        "id": "296",
         "title": "WCC scholarships programme (World Council of Churches)",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fully Funded",
@@ -2376,7 +2376,7 @@
         "location": "europe"
     },
     {
-        "": "297",
+        "id": "297",
         "title": "IPRA Foundation Peace Research Grants Program",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2384,7 +2384,7 @@
         "location": "europe"
     },
     {
-        "": "298",
+        "id": "298",
         "title": "Mawista Scholarship for Students Studying Abroad with a Child",
         "degrees": "Bachelor, Master",
         "funds": "Fully Funded",
@@ -2392,7 +2392,7 @@
         "location": "europe"
     },
     {
-        "": "299",
+        "id": "299",
         "title": "ROTARY GLOBAL GRANTS",
         "degrees": "Master, Phd",
         "funds": "Fully Funded",
@@ -2400,7 +2400,7 @@
         "location": "europe"
     },
     {
-        "": "300",
+        "id": "300",
         "title": "2021 Contest Scholarships for International Students",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -2408,7 +2408,7 @@
         "location": "south-africa"
     },
     {
-        "": "301",
+        "id": "301",
         "title": "Google Anita Borg Memorial Scholarships for International Students at Arizona State University",
         "degrees": "Bachelor",
         "funds": "$10,000 ",
@@ -2416,7 +2416,7 @@
         "location": "south-africa"
     },
     {
-        "": "302",
+        "id": "302",
         "title": "IU International University of Applied Sciences Online Scholarships for International Students in Germany",
         "degrees": "Master, Bachelor",
         "funds": "Up to 85% of tuition fee",
@@ -2424,7 +2424,7 @@
         "location": "south-africa"
     },
     {
-        "": "303",
+        "id": "303",
         "title": "Fully-Funded PhD Studentship in Nanochemistry at University of Exeter",
         "degrees": "Phd",
         "funds": "Â£15,009",
@@ -2432,7 +2432,7 @@
         "location": "south-africa"
     },
     {
-        "": "304",
+        "id": "304",
         "title": "Marine Stewardship Council scholarship research program ",
         "degrees": "Bachelor, Master, Phd, Course",
         "funds": "Up to Â£4000",
@@ -2440,7 +2440,7 @@
         "location": "south-africa"
     },
     {
-        "": "305",
+        "id": "305",
         "title": "WCC scholarships programme (World Council of Churches)",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fully Funded",
@@ -2448,7 +2448,7 @@
         "location": "south-africa"
     },
     {
-        "": "306",
+        "id": "306",
         "title": "IPRA Foundation Peace Research Grants Program",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2456,7 +2456,7 @@
         "location": "south-africa"
     },
     {
-        "": "307",
+        "id": "307",
         "title": "Mawista Scholarship for Students Studying Abroad with a Child",
         "degrees": "Bachelor, Master",
         "funds": "Fully Funded",
@@ -2464,7 +2464,7 @@
         "location": "south-africa"
     },
     {
-        "": "308",
+        "id": "308",
         "title": "ROTARY GLOBAL GRANTS",
         "degrees": "Master, Phd",
         "funds": "Fully Funded",
@@ -2472,7 +2472,7 @@
         "location": "south-africa"
     },
     {
-        "": "309",
+        "id": "309",
         "title": "European Molecular Biology Short-Term Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2480,7 +2480,7 @@
         "location": "south-africa"
     },
     {
-        "": "310",
+        "id": "310",
         "title": "John Dillon Fellowship - Australian Centre for International Agricultural Research (ACIAR)",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2488,7 +2488,7 @@
         "location": "south-africa"
     },
     {
-        "": "311",
+        "id": "311",
         "title": "Institute for Current World Affairs - FELLOWSHIPS",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2496,7 +2496,7 @@
         "location": "south-africa"
     },
     {
-        "": "312",
+        "id": "312",
         "title": "Adobe Research Women-in-Technology Scholarship",
         "degrees": "Bachelor",
         "funds": "Fully Funded",
@@ -2504,7 +2504,7 @@
         "location": "south-africa"
     },
     {
-        "": "313",
+        "id": "313",
         "title": "International Council of Ophthalmology (ICO) - Three-Month Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2512,7 +2512,7 @@
         "location": "south-africa"
     },
     {
-        "": "314",
+        "id": "314",
         "title": "The Boehringer Ingelheim Fonds awards PhD fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2520,7 +2520,7 @@
         "location": "south-africa"
     },
     {
-        "": "315",
+        "id": "315",
         "title": "2021 Contest Scholarships for International Students",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -2528,7 +2528,7 @@
         "location": "nigeria"
     },
     {
-        "": "316",
+        "id": "316",
         "title": "Google Anita Borg Memorial Scholarships for International Students at Arizona State University",
         "degrees": "Bachelor",
         "funds": "$10,000 ",
@@ -2536,7 +2536,7 @@
         "location": "nigeria"
     },
     {
-        "": "317",
+        "id": "317",
         "title": "IU International University of Applied Sciences Online Scholarships for International Students in Germany",
         "degrees": "Master, Bachelor",
         "funds": "Up to 85% of tuition fee",
@@ -2544,7 +2544,7 @@
         "location": "nigeria"
     },
     {
-        "": "318",
+        "id": "318",
         "title": "Fully-Funded PhD Studentship in Nanochemistry at University of Exeter",
         "degrees": "Phd",
         "funds": "Â£15,009",
@@ -2552,7 +2552,7 @@
         "location": "nigeria"
     },
     {
-        "": "319",
+        "id": "319",
         "title": "Marine Stewardship Council scholarship research program ",
         "degrees": "Bachelor, Master, Phd, Course",
         "funds": "Up to Â£4000",
@@ -2560,7 +2560,7 @@
         "location": "nigeria"
     },
     {
-        "": "320",
+        "id": "320",
         "title": "WCC scholarships programme (World Council of Churches)",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fully Funded",
@@ -2568,7 +2568,7 @@
         "location": "nigeria"
     },
     {
-        "": "321",
+        "id": "321",
         "title": "IPRA Foundation Peace Research Grants Program",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2576,7 +2576,7 @@
         "location": "nigeria"
     },
     {
-        "": "322",
+        "id": "322",
         "title": "Mawista Scholarship for Students Studying Abroad with a Child",
         "degrees": "Bachelor, Master",
         "funds": "Fully Funded",
@@ -2584,7 +2584,7 @@
         "location": "nigeria"
     },
     {
-        "": "323",
+        "id": "323",
         "title": "ROTARY GLOBAL GRANTS",
         "degrees": "Master, Phd",
         "funds": "Fully Funded",
@@ -2592,7 +2592,7 @@
         "location": "nigeria"
     },
     {
-        "": "324",
+        "id": "324",
         "title": "European Molecular Biology Short-Term Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2600,7 +2600,7 @@
         "location": "nigeria"
     },
     {
-        "": "325",
+        "id": "325",
         "title": "John Dillon Fellowship - Australian Centre for International Agricultural Research (ACIAR)",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2608,7 +2608,7 @@
         "location": "nigeria"
     },
     {
-        "": "326",
+        "id": "326",
         "title": "Institute for Current World Affairs - FELLOWSHIPS",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2616,7 +2616,7 @@
         "location": "nigeria"
     },
     {
-        "": "327",
+        "id": "327",
         "title": "Adobe Research Women-in-Technology Scholarship",
         "degrees": "Bachelor",
         "funds": "Fully Funded",
@@ -2624,7 +2624,7 @@
         "location": "nigeria"
     },
     {
-        "": "328",
+        "id": "328",
         "title": "International Council of Ophthalmology (ICO) - Three-Month Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2632,7 +2632,7 @@
         "location": "nigeria"
     },
     {
-        "": "329",
+        "id": "329",
         "title": "The Boehringer Ingelheim Fonds awards PhD fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2640,7 +2640,7 @@
         "location": "nigeria"
     },
     {
-        "": "330",
+        "id": "330",
         "title": "Google Anita Borg Memorial Scholarships for International Students at Arizona State University",
         "degrees": "Bachelor",
         "funds": "$10,000 ",
@@ -2648,7 +2648,7 @@
         "location": "pakistan"
     },
     {
-        "": "331",
+        "id": "331",
         "title": "IU International University of Applied Sciences Online Scholarships for International Students in Germany",
         "degrees": "Master, Bachelor",
         "funds": "Up to 85% of tuition fee",
@@ -2656,7 +2656,7 @@
         "location": "pakistan"
     },
     {
-        "": "332",
+        "id": "332",
         "title": "Fully-Funded PhD Studentship in Nanochemistry at University of Exeter",
         "degrees": "Phd",
         "funds": "Â£15,009",
@@ -2664,7 +2664,7 @@
         "location": "pakistan"
     },
     {
-        "": "333",
+        "id": "333",
         "title": "Scholarships at the Superior College in Pakistan",
         "degrees": "Bachelor, Master",
         "funds": "The sponsorship will provide the educational fund for your studies.",
@@ -2672,7 +2672,7 @@
         "location": "pakistan"
     },
     {
-        "": "334",
+        "id": "334",
         "title": "April 2019 -Scholarship Application Open! Faculty of Global Studies",
         "degrees": "Bachelor",
         "funds": "30-100% tuition fee",
@@ -2680,7 +2680,7 @@
         "location": "pakistan"
     },
     {
-        "": "335",
+        "id": "335",
         "title": "Marine Stewardship Council scholarship research program ",
         "degrees": "Bachelor, Master, Phd, Course",
         "funds": "Up to Â£4000",
@@ -2688,7 +2688,7 @@
         "location": "pakistan"
     },
     {
-        "": "336",
+        "id": "336",
         "title": "WCC scholarships programme (World Council of Churches)",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fully Funded",
@@ -2696,7 +2696,7 @@
         "location": "pakistan"
     },
     {
-        "": "337",
+        "id": "337",
         "title": "IPRA Foundation Peace Research Grants Program",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2704,7 +2704,7 @@
         "location": "pakistan"
     },
     {
-        "": "338",
+        "id": "338",
         "title": "Mawista Scholarship for Students Studying Abroad with a Child",
         "degrees": "Bachelor, Master",
         "funds": "Fully Funded",
@@ -2712,7 +2712,7 @@
         "location": "pakistan"
     },
     {
-        "": "339",
+        "id": "339",
         "title": "ROTARY GLOBAL GRANTS",
         "degrees": "Master, Phd",
         "funds": "Fully Funded",
@@ -2720,7 +2720,7 @@
         "location": "pakistan"
     },
     {
-        "": "340",
+        "id": "340",
         "title": "European Molecular Biology Short-Term Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2728,7 +2728,7 @@
         "location": "pakistan"
     },
     {
-        "": "341",
+        "id": "341",
         "title": "John Dillon Fellowship - Australian Centre for International Agricultural Research (ACIAR)",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2736,7 +2736,7 @@
         "location": "pakistan"
     },
     {
-        "": "342",
+        "id": "342",
         "title": "Institute for Current World Affairs - FELLOWSHIPS",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2744,7 +2744,7 @@
         "location": "pakistan"
     },
     {
-        "": "343",
+        "id": "343",
         "title": "Adobe Research Women-in-Technology Scholarship",
         "degrees": "Bachelor",
         "funds": "Fully Funded",
@@ -2752,7 +2752,7 @@
         "location": "pakistan"
     },
     {
-        "": "344",
+        "id": "344",
         "title": "International Council of Ophthalmology (ICO) - Three-Month Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2760,7 +2760,7 @@
         "location": "pakistan"
     },
     {
-        "": "345",
+        "id": "345",
         "title": "Google Anita Borg Memorial Scholarships for International Students at Arizona State University",
         "degrees": "Bachelor",
         "funds": "$10,000 ",
@@ -2768,7 +2768,7 @@
         "location": "india"
     },
     {
-        "": "346",
+        "id": "346",
         "title": "IU International University of Applied Sciences Online Scholarships for International Students in Germany",
         "degrees": "Master, Bachelor",
         "funds": "Up to 85% of tuition fee",
@@ -2776,7 +2776,7 @@
         "location": "india"
     },
     {
-        "": "347",
+        "id": "347",
         "title": "Fully-Funded PhD Studentship in Nanochemistry at University of Exeter",
         "degrees": "Phd",
         "funds": "Â£15,009",
@@ -2784,7 +2784,7 @@
         "location": "india"
     },
     {
-        "": "348",
+        "id": "348",
         "title": "April 2019 -Scholarship Application Open! Faculty of Global Studies",
         "degrees": "Bachelor",
         "funds": "30-100% tuition fee",
@@ -2792,7 +2792,7 @@
         "location": "india"
     },
     {
-        "": "349",
+        "id": "349",
         "title": "Marine Stewardship Council scholarship research program ",
         "degrees": "Bachelor, Master, Phd, Course",
         "funds": "Up to Â£4000",
@@ -2800,7 +2800,7 @@
         "location": "india"
     },
     {
-        "": "350",
+        "id": "350",
         "title": "WCC scholarships programme (World Council of Churches)",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fully Funded",
@@ -2808,7 +2808,7 @@
         "location": "india"
     },
     {
-        "": "351",
+        "id": "351",
         "title": "IPRA Foundation Peace Research Grants Program",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2816,7 +2816,7 @@
         "location": "india"
     },
     {
-        "": "352",
+        "id": "352",
         "title": "Mawista Scholarship for Students Studying Abroad with a Child",
         "degrees": "Bachelor, Master",
         "funds": "Fully Funded",
@@ -2824,7 +2824,7 @@
         "location": "india"
     },
     {
-        "": "353",
+        "id": "353",
         "title": "ROTARY GLOBAL GRANTS",
         "degrees": "Master, Phd",
         "funds": "Fully Funded",
@@ -2832,7 +2832,7 @@
         "location": "india"
     },
     {
-        "": "354",
+        "id": "354",
         "title": "European Molecular Biology Short-Term Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2840,7 +2840,7 @@
         "location": "india"
     },
     {
-        "": "355",
+        "id": "355",
         "title": "John Dillon Fellowship - Australian Centre for International Agricultural Research (ACIAR)",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2848,7 +2848,7 @@
         "location": "india"
     },
     {
-        "": "356",
+        "id": "356",
         "title": "Institute for Current World Affairs - FELLOWSHIPS",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2856,7 +2856,7 @@
         "location": "india"
     },
     {
-        "": "357",
+        "id": "357",
         "title": "Adobe Research Women-in-Technology Scholarship",
         "degrees": "Bachelor",
         "funds": "Fully Funded",
@@ -2864,7 +2864,7 @@
         "location": "india"
     },
     {
-        "": "358",
+        "id": "358",
         "title": "Visiting Student Program (VSP) - Raman Research Institute",
         "degrees": "Phd",
         "funds": "Partially Funded",
@@ -2872,7 +2872,7 @@
         "location": "india"
     },
     {
-        "": "359",
+        "id": "359",
         "title": "International Council of Ophthalmology (ICO) - Three-Month Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -2880,7 +2880,7 @@
         "location": "india"
     },
     {
-        "": "360",
+        "id": "360",
         "title": "The Annual IELTS from 6 to 9 Scholarship",
         "degrees": "Master, Bachelor, Phd",
         "funds": "$1,000 ",
@@ -2888,7 +2888,7 @@
         "location": "united-states"
     },
     {
-        "": "361",
+        "id": "361",
         "title": "Scholarship for families want to learn Quran online",
         "degrees": "Course",
         "funds": "50% off over all of our Quran courses",
@@ -2896,7 +2896,7 @@
         "location": "united-states"
     },
     {
-        "": "362",
+        "id": "362",
         "title": "Academic Scholar- Distinction International Awards in USA",
         "degrees": "Bachelor",
         "funds": "$500 + tuition fee reduction",
@@ -2904,7 +2904,7 @@
         "location": "united-states"
     },
     {
-        "": "363",
+        "id": "363",
         "title": "CS/IS International Graduate Achievement Scholarships in USA",
         "degrees": "Master",
         "funds": "$500 ",
@@ -2912,7 +2912,7 @@
         "location": "united-states"
     },
     {
-        "": "364",
+        "id": "364",
         "title": "Leaders of Tomorrow international awards in USA",
         "degrees": "Bachelor",
         "funds": "$33,000 ($8,250 p.a.)",
@@ -2920,7 +2920,7 @@
         "location": "united-states"
     },
     {
-        "": "365",
+        "id": "365",
         "title": "P.E.O. International Scholar Awards",
         "degrees": "Phd",
         "funds": "$20,000 ",
@@ -2928,7 +2928,7 @@
         "location": "united-states"
     },
     {
-        "": "366",
+        "id": "366",
         "title": "VCU Out-of-State Scholarships in the USA",
         "degrees": "Bachelor",
         "funds": "$7,500 ",
@@ -2936,7 +2936,7 @@
         "location": "united-states"
     },
     {
-        "": "367",
+        "id": "367",
         "title": "Future Leaders in Tech Scholarship",
         "degrees": "Bachelor",
         "funds": "$20,000 ",
@@ -2944,7 +2944,7 @@
         "location": "united-states"
     },
     {
-        "": "368",
+        "id": "368",
         "title": "Contest Scholarship Programme for International Students 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -2952,7 +2952,7 @@
         "location": "united-states"
     },
     {
-        "": "369",
+        "id": "369",
         "title": "INTO SLU Undergraduate Regional Scholarships at Saint Louis University",
         "degrees": "Bachelor",
         "funds": "$500 - $15,000",
@@ -2960,7 +2960,7 @@
         "location": "united-states"
     },
     {
-        "": "370",
+        "id": "370",
         "title": "North Central College International Honors Scholarship in USA",
         "degrees": "Bachelor",
         "funds": "$27,000 p.a.",
@@ -2968,7 +2968,7 @@
         "location": "united-states"
     },
     {
-        "": "371",
+        "id": "371",
         "title": "Global Citizen Scholarships at Saint Leo University",
         "degrees": "Bachelor",
         "funds": "$3,000 ",
@@ -2976,7 +2976,7 @@
         "location": "united-states"
     },
     {
-        "": "372",
+        "id": "372",
         "title": "International Presidential Scholarships at North Central College",
         "degrees": "Bachelor",
         "funds": "$29,000 p.a.",
@@ -2984,7 +2984,7 @@
         "location": "united-states"
     },
     {
-        "": "373",
+        "id": "373",
         "title": "OAS Scholarships for International Students at Marconi International University",
         "degrees": "Master, Bachelor",
         "funds": "55% of tuition fees",
@@ -2992,7 +2992,7 @@
         "location": "united-states"
     },
     {
-        "": "374",
+        "id": "374",
         "title": "International Scholarship Student Competition 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000",
@@ -3000,7 +3000,7 @@
         "location": "united-states"
     },
     {
-        "": "375",
+        "id": "375",
         "title": "Engineering: Fully Funded EPSRC PhD Scholarship at Swansea University: solid-state batteries",
         "degrees": "Phd",
         "funds": "Full cost of UK tuition fees and an annual stipend",
@@ -3008,7 +3008,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "376",
+        "id": "376",
         "title": "International Students Support Contest 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -3016,7 +3016,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "377",
+        "id": "377",
         "title": "Becas Grisart 2022",
         "degrees": "Course",
         "funds": "Take the courses free of charge.",
@@ -3024,7 +3024,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "378",
+        "id": "378",
         "title": "BLACA Awards for International Students in UK",
         "degrees": "Master",
         "funds": "Up to Â£9,000 towards tuition fees",
@@ -3032,7 +3032,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "379",
+        "id": "379",
         "title": "GREAT Scholarships for International Students at University of York",
         "degrees": "Master",
         "funds": "Â£10,000",
@@ -3040,7 +3040,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "380",
+        "id": "380",
         "title": "University of Exeter Business School Online International Scholarships in UK",
         "degrees": "Master",
         "funds": "Â£5,000 or Â£750",
@@ -3048,7 +3048,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "381",
+        "id": "381",
         "title": "Postgraduate Taught International Scholarships at Hull York Medical School",
         "degrees": "Master",
         "funds": " 5% fee reduction",
@@ -3056,7 +3056,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "382",
+        "id": "382",
         "title": "Human Resource (HR) - Free Course From Windsor University's MBA",
         "degrees": "Master, Course",
         "funds": "100% free",
@@ -3064,7 +3064,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "383",
+        "id": "383",
         "title": "Maths and Physics Undergraduate International Scholarships in UK",
         "degrees": "Bachelor",
         "funds": "Â£5,000",
@@ -3072,7 +3072,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "384",
+        "id": "384",
         "title": "Postgraduate International Development Scholarships for South Korea Students",
         "degrees": "Master",
         "funds": "Â£6,000",
@@ -3080,7 +3080,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "385",
+        "id": "385",
         "title": "Computer Science Scholarships for International Students in UK",
         "degrees": "Master",
         "funds": "Â£2,000 or Â£4,000 tuition fee discount.",
@@ -3088,7 +3088,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "386",
+        "id": "386",
         "title": "African & Caribbean Excellence Awards at University of Glasgow",
         "degrees": "Master",
         "funds": "Full tuition fee waiver",
@@ -3096,7 +3096,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "387",
+        "id": "387",
         "title": "Project Management - Free Course From Windsor University's MBA",
         "degrees": "Course",
         "funds": "100% free",
@@ -3104,7 +3104,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "388",
+        "id": "388",
         "title": "Global No-Essay Contest Scholarships for International Students 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000 awards",
@@ -3112,7 +3112,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "389",
+        "id": "389",
         "title": "Engineering: Fully Funded PhD at Swansea: Capture and reduction of carbon emissions",
         "degrees": "Phd",
         "funds": "Full cost of tuition fees and an annual stipend",
@@ -3120,7 +3120,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "390",
+        "id": "390",
         "title": "Entrance international awards at Sault College",
         "degrees": "Master, Bachelor",
         "funds": "Up to $4,000",
@@ -3128,7 +3128,7 @@
         "location": "canada"
     },
     {
-        "": "391",
+        "id": "391",
         "title": "International Entrance Scholarships at Memorial University of Newfoundland",
         "degrees": "Bachelor",
         "funds": "$4,400 ",
@@ -3136,7 +3136,7 @@
         "location": "canada"
     },
     {
-        "": "392",
+        "id": "392",
         "title": "International Postdoctoral Positions in Clinical Neurosciences",
         "degrees": "Phd",
         "funds": "$55,000 p.a. + benefits",
@@ -3144,7 +3144,7 @@
         "location": "canada"
     },
     {
-        "": "393",
+        "id": "393",
         "title": "McMaster University Award of Excellence in Canada",
         "degrees": "Bachelor",
         "funds": "$3,000 ",
@@ -3152,7 +3152,7 @@
         "location": "canada"
     },
     {
-        "": "394",
+        "id": "394",
         "title": "KDS Competition Scholarship 2021",
         "degrees": "Master, Bachelor",
         "funds": "Up to $1,500",
@@ -3160,7 +3160,7 @@
         "location": "canada"
     },
     {
-        "": "395",
+        "id": "395",
         "title": "University Canada West Americas Tuition Awards in Canada",
         "degrees": "Master, Bachelor",
         "funds": "Discounted courses",
@@ -3168,7 +3168,7 @@
         "location": "canada"
     },
     {
-        "": "396",
+        "id": "396",
         "title": "University Canada West Second Language Excellence international awards",
         "degrees": "Bachelor, Master",
         "funds": "Up to $8,000",
@@ -3176,7 +3176,7 @@
         "location": "canada"
     },
     {
-        "": "397",
+        "id": "397",
         "title": "2021 Contest Scholarships for International Students",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -3184,7 +3184,7 @@
         "location": "canada"
     },
     {
-        "": "398",
+        "id": "398",
         "title": "Deanâ€™s Circle ESB International Student Awards in Canada",
         "degrees": "Bachelor",
         "funds": "$5,000 ",
@@ -3192,7 +3192,7 @@
         "location": "canada"
     },
     {
-        "": "399",
+        "id": "399",
         "title": "University of Waterloo Arthur F. Church Mechanical Engineering international awards",
         "degrees": "Bachelor",
         "funds": "Up to $5,000",
@@ -3200,7 +3200,7 @@
         "location": "canada"
     },
     {
-        "": "400",
+        "id": "400",
         "title": "University of Ottawa International Admission Doctorate Scholarships in Canada",
         "degrees": "Phd",
         "funds": "$9,000 p.a.",
@@ -3208,7 +3208,7 @@
         "location": "canada"
     },
     {
-        "": "401",
+        "id": "401",
         "title": "Emerging Market Entrance Awards for International Students at Brock University",
         "degrees": "Bachelor",
         "funds": "$1,000-$4,000",
@@ -3216,7 +3216,7 @@
         "location": "canada"
     },
     {
-        "": "402",
+        "id": "402",
         "title": "Google Anita Borg Memorial Scholarships for International Students at Arizona State University",
         "degrees": "Bachelor",
         "funds": "$10,000 ",
@@ -3224,7 +3224,7 @@
         "location": "canada"
     },
     {
-        "": "403",
+        "id": "403",
         "title": "IU International University of Applied Sciences Online Scholarships for International Students in Germany",
         "degrees": "Master, Bachelor",
         "funds": "Up to 85% of tuition fee",
@@ -3232,7 +3232,7 @@
         "location": "canada"
     },
     {
-        "": "404",
+        "id": "404",
         "title": "One-year Entrance Scholarships at McGill University",
         "degrees": "Bachelor",
         "funds": "$12,000 ",
@@ -3240,7 +3240,7 @@
         "location": "canada"
     },
     {
-        "": "405",
+        "id": "405",
         "title": "European Molecular Biology Short-Term Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3248,7 +3248,7 @@
         "location": "europe"
     },
     {
-        "": "406",
+        "id": "406",
         "title": "John Dillon Fellowship - Australian Centre for International Agricultural Research (ACIAR)",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3256,7 +3256,7 @@
         "location": "europe"
     },
     {
-        "": "407",
+        "id": "407",
         "title": "Institute for Current World Affairs - FELLOWSHIPS",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3264,7 +3264,7 @@
         "location": "europe"
     },
     {
-        "": "408",
+        "id": "408",
         "title": "Adobe Research Women-in-Technology Scholarship",
         "degrees": "Bachelor",
         "funds": "Fully Funded",
@@ -3272,7 +3272,7 @@
         "location": "europe"
     },
     {
-        "": "409",
+        "id": "409",
         "title": "International Council of Ophthalmology (ICO) - Three-Month Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3280,7 +3280,7 @@
         "location": "europe"
     },
     {
-        "": "410",
+        "id": "410",
         "title": "The Boehringer Ingelheim Fonds awards PhD fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3288,7 +3288,7 @@
         "location": "europe"
     },
     {
-        "": "411",
+        "id": "411",
         "title": "The Boehringer Ingelheim Fonds - Travel grants for junior researchers",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3296,7 +3296,7 @@
         "location": "europe"
     },
     {
-        "": "412",
+        "id": "412",
         "title": "Paul Sumerall Memorial Scholarships, Merchants Bank of California",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -3304,7 +3304,7 @@
         "location": "europe"
     },
     {
-        "": "413",
+        "id": "413",
         "title": "Hayek Fund for Scholars - Institute for Humane Studies at George Mason University",
         "degrees": "Phd",
         "funds": "Partially Funded",
@@ -3312,7 +3312,7 @@
         "location": "europe"
     },
     {
-        "": "414",
+        "id": "414",
         "title": "Erasmus Exchange Programme",
         "degrees": "Fully Funded",
         "funds": "",
@@ -3320,7 +3320,7 @@
         "location": "europe"
     },
     {
-        "": "415",
+        "id": "415",
         "title": "YFU (Youth for Undestanding) - Youth Exchange",
         "degrees": "Not Funded",
         "funds": "",
@@ -3328,7 +3328,7 @@
         "location": "europe"
     },
     {
-        "": "416",
+        "id": "416",
         "title": "Be an exchange student for 1-2 semesters",
         "degrees": "Not Funded",
         "funds": "",
@@ -3336,7 +3336,7 @@
         "location": "europe"
     },
     {
-        "": "417",
+        "id": "417",
         "title": "Horizon 2020",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3344,7 +3344,7 @@
         "location": "europe"
     },
     {
-        "": "418",
+        "id": "418",
         "title": "Amelia Earhart Fellowship",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3352,7 +3352,7 @@
         "location": "europe"
     },
     {
-        "": "419",
+        "id": "419",
         "title": "The Leakey Foundationâ€™s Research Grants to doctoral students",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3360,7 +3360,7 @@
         "location": "europe"
     },
     {
-        "": "420",
+        "id": "420",
         "title": "The Boehringer Ingelheim Fonds - Travel grants for junior researchers",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3368,7 +3368,7 @@
         "location": "south-africa"
     },
     {
-        "": "421",
+        "id": "421",
         "title": "Paul Sumerall Memorial Scholarships, Merchants Bank of California",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -3376,7 +3376,7 @@
         "location": "south-africa"
     },
     {
-        "": "422",
+        "id": "422",
         "title": "SAIIA Bradlow Fellowship Programme",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3384,7 +3384,7 @@
         "location": "south-africa"
     },
     {
-        "": "423",
+        "id": "423",
         "title": "Hayek Fund for Scholars - Institute for Humane Studies at George Mason University",
         "degrees": "Phd",
         "funds": "Partially Funded",
@@ -3392,7 +3392,7 @@
         "location": "south-africa"
     },
     {
-        "": "424",
+        "id": "424",
         "title": "Erasmus Exchange Programme",
         "degrees": "Fully Funded",
         "funds": "",
@@ -3400,7 +3400,7 @@
         "location": "south-africa"
     },
     {
-        "": "425",
+        "id": "425",
         "title": "YFU (Youth for Undestanding) - Youth Exchange",
         "degrees": "Not Funded",
         "funds": "",
@@ -3408,7 +3408,7 @@
         "location": "south-africa"
     },
     {
-        "": "426",
+        "id": "426",
         "title": "Be an exchange student for 1-2 semesters",
         "degrees": "Not Funded",
         "funds": "",
@@ -3416,7 +3416,7 @@
         "location": "south-africa"
     },
     {
-        "": "427",
+        "id": "427",
         "title": "Horizon 2020",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3424,7 +3424,7 @@
         "location": "south-africa"
     },
     {
-        "": "428",
+        "id": "428",
         "title": "Amelia Earhart Fellowship",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3432,7 +3432,7 @@
         "location": "south-africa"
     },
     {
-        "": "429",
+        "id": "429",
         "title": "The Leakey Foundationâ€™s Research Grants to doctoral students",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3440,7 +3440,7 @@
         "location": "south-africa"
     },
     {
-        "": "430",
+        "id": "430",
         "title": "Axol Science Scholarship for Graduate or Undergraduate Degree Programs",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fully Funded",
@@ -3448,7 +3448,7 @@
         "location": "south-africa"
     },
     {
-        "": "431",
+        "id": "431",
         "title": "ArtUniverse Scholarships",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Partially Funded",
@@ -3456,7 +3456,7 @@
         "location": "south-africa"
     },
     {
-        "": "432",
+        "id": "432",
         "title": "DRD Scholarships for Sub-Saharan Africans",
         "degrees": "",
         "funds": "",
@@ -3464,7 +3464,7 @@
         "location": "south-africa"
     },
     {
-        "": "433",
+        "id": "433",
         "title": "The Boehringer Ingelheim Fonds - Travel grants for junior researchers",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3472,7 +3472,7 @@
         "location": "nigeria"
     },
     {
-        "": "434",
+        "id": "434",
         "title": "Paul Sumerall Memorial Scholarships, Merchants Bank of California",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -3480,7 +3480,7 @@
         "location": "nigeria"
     },
     {
-        "": "435",
+        "id": "435",
         "title": "Hayek Fund for Scholars - Institute for Humane Studies at George Mason University",
         "degrees": "Phd",
         "funds": "Partially Funded",
@@ -3488,7 +3488,7 @@
         "location": "nigeria"
     },
     {
-        "": "436",
+        "id": "436",
         "title": "Erasmus Exchange Programme",
         "degrees": "Fully Funded",
         "funds": "",
@@ -3496,7 +3496,7 @@
         "location": "nigeria"
     },
     {
-        "": "437",
+        "id": "437",
         "title": "YFU (Youth for Undestanding) - Youth Exchange",
         "degrees": "Not Funded",
         "funds": "",
@@ -3504,7 +3504,7 @@
         "location": "nigeria"
     },
     {
-        "": "438",
+        "id": "438",
         "title": "Be an exchange student for 1-2 semesters",
         "degrees": "Not Funded",
         "funds": "",
@@ -3512,7 +3512,7 @@
         "location": "nigeria"
     },
     {
-        "": "439",
+        "id": "439",
         "title": "Horizon 2020",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3520,7 +3520,7 @@
         "location": "nigeria"
     },
     {
-        "": "440",
+        "id": "440",
         "title": "Amelia Earhart Fellowship",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3528,7 +3528,7 @@
         "location": "nigeria"
     },
     {
-        "": "441",
+        "id": "441",
         "title": "The Leakey Foundationâ€™s Research Grants to doctoral students",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3536,7 +3536,7 @@
         "location": "nigeria"
     },
     {
-        "": "442",
+        "id": "442",
         "title": "Axol Science Scholarship for Graduate or Undergraduate Degree Programs",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fully Funded",
@@ -3544,7 +3544,7 @@
         "location": "nigeria"
     },
     {
-        "": "443",
+        "id": "443",
         "title": "ArtUniverse Scholarships",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Partially Funded",
@@ -3552,7 +3552,7 @@
         "location": "nigeria"
     },
     {
-        "": "444",
+        "id": "444",
         "title": "The Boehringer Ingelheim Fonds awards PhD fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3560,7 +3560,7 @@
         "location": "pakistan"
     },
     {
-        "": "445",
+        "id": "445",
         "title": "The Boehringer Ingelheim Fonds - Travel grants for junior researchers",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3568,7 +3568,7 @@
         "location": "pakistan"
     },
     {
-        "": "446",
+        "id": "446",
         "title": "Paul Sumerall Memorial Scholarships, Merchants Bank of California",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -3576,7 +3576,7 @@
         "location": "pakistan"
     },
     {
-        "": "447",
+        "id": "447",
         "title": "Hayek Fund for Scholars - Institute for Humane Studies at George Mason University",
         "degrees": "Phd",
         "funds": "Partially Funded",
@@ -3584,7 +3584,7 @@
         "location": "pakistan"
     },
     {
-        "": "448",
+        "id": "448",
         "title": "Erasmus Exchange Programme",
         "degrees": "Fully Funded",
         "funds": "",
@@ -3592,7 +3592,7 @@
         "location": "pakistan"
     },
     {
-        "": "449",
+        "id": "449",
         "title": "YFU (Youth for Undestanding) - Youth Exchange",
         "degrees": "Not Funded",
         "funds": "",
@@ -3600,7 +3600,7 @@
         "location": "pakistan"
     },
     {
-        "": "450",
+        "id": "450",
         "title": "Be an exchange student for 1-2 semesters",
         "degrees": "Not Funded",
         "funds": "",
@@ -3608,7 +3608,7 @@
         "location": "pakistan"
     },
     {
-        "": "451",
+        "id": "451",
         "title": "Horizon 2020",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3616,7 +3616,7 @@
         "location": "pakistan"
     },
     {
-        "": "452",
+        "id": "452",
         "title": "Amelia Earhart Fellowship",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3624,7 +3624,7 @@
         "location": "pakistan"
     },
     {
-        "": "453",
+        "id": "453",
         "title": "The Leakey Foundationâ€™s Research Grants to doctoral students",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3632,7 +3632,7 @@
         "location": "pakistan"
     },
     {
-        "": "454",
+        "id": "454",
         "title": "Axol Science Scholarship for Graduate or Undergraduate Degree Programs",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fully Funded",
@@ -3640,7 +3640,7 @@
         "location": "pakistan"
     },
     {
-        "": "455",
+        "id": "455",
         "title": "ArtUniverse Scholarships",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Partially Funded",
@@ -3648,7 +3648,7 @@
         "location": "pakistan"
     },
     {
-        "": "456",
+        "id": "456",
         "title": "The Boehringer Ingelheim Fonds awards PhD fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3656,7 +3656,7 @@
         "location": "india"
     },
     {
-        "": "457",
+        "id": "457",
         "title": "The Boehringer Ingelheim Fonds - Travel grants for junior researchers",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3664,7 +3664,7 @@
         "location": "india"
     },
     {
-        "": "458",
+        "id": "458",
         "title": "Paul Sumerall Memorial Scholarships, Merchants Bank of California",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -3672,7 +3672,7 @@
         "location": "india"
     },
     {
-        "": "459",
+        "id": "459",
         "title": "Hayek Fund for Scholars - Institute for Humane Studies at George Mason University",
         "degrees": "Phd",
         "funds": "Partially Funded",
@@ -3680,7 +3680,7 @@
         "location": "india"
     },
     {
-        "": "460",
+        "id": "460",
         "title": "Erasmus Exchange Programme",
         "degrees": "Fully Funded",
         "funds": "",
@@ -3688,7 +3688,7 @@
         "location": "india"
     },
     {
-        "": "461",
+        "id": "461",
         "title": "YFU (Youth for Undestanding) - Youth Exchange",
         "degrees": "Not Funded",
         "funds": "",
@@ -3696,7 +3696,7 @@
         "location": "india"
     },
     {
-        "": "462",
+        "id": "462",
         "title": "Be an exchange student for 1-2 semesters",
         "degrees": "Not Funded",
         "funds": "",
@@ -3704,7 +3704,7 @@
         "location": "india"
     },
     {
-        "": "463",
+        "id": "463",
         "title": "Horizon 2020",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3712,7 +3712,7 @@
         "location": "india"
     },
     {
-        "": "464",
+        "id": "464",
         "title": "Amelia Earhart Fellowship",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3720,7 +3720,7 @@
         "location": "india"
     },
     {
-        "": "465",
+        "id": "465",
         "title": "The Leakey Foundationâ€™s Research Grants to doctoral students",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3728,7 +3728,7 @@
         "location": "india"
     },
     {
-        "": "466",
+        "id": "466",
         "title": "Axol Science Scholarship for Graduate or Undergraduate Degree Programs",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fully Funded",
@@ -3736,7 +3736,7 @@
         "location": "india"
     },
     {
-        "": "467",
+        "id": "467",
         "title": "The Indian Technical and Economic Cooperation (ITEC) Programme",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -3744,7 +3744,7 @@
         "location": "india"
     },
     {
-        "": "468",
+        "id": "468",
         "title": "ArtUniverse Scholarships",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Partially Funded",
@@ -3752,7 +3752,7 @@
         "location": "india"
     },
     {
-        "": "469",
+        "id": "469",
         "title": "Wichita International Student Hardship Fund in the United States",
         "degrees": "Bachelor",
         "funds": "Up to $1,000",
@@ -3760,7 +3760,7 @@
         "location": "united-states"
     },
     {
-        "": "470",
+        "id": "470",
         "title": "merit awards for International Students at Columbia College",
         "degrees": "Bachelor",
         "funds": "Up to $12,000 p.a.",
@@ -3768,7 +3768,7 @@
         "location": "united-states"
     },
     {
-        "": "471",
+        "id": "471",
         "title": "Global Contest Scholarships for International Students 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2000 awards",
@@ -3776,7 +3776,7 @@
         "location": "united-states"
     },
     {
-        "": "472",
+        "id": "472",
         "title": "Meistersinger music awards for International Students at Wartburg College",
         "degrees": "Bachelor",
         "funds": "Up to $5,000 p.a.",
@@ -3784,7 +3784,7 @@
         "location": "united-states"
     },
     {
-        "": "473",
+        "id": "473",
         "title": "Musicians Institute Musicianship international awards in USA",
         "degrees": "Bachelor",
         "funds": "$1,000 ",
@@ -3792,7 +3792,7 @@
         "location": "united-states"
     },
     {
-        "": "474",
+        "id": "474",
         "title": "Merit-Based Scholarships for International Students at St. Francis College",
         "degrees": "Bachelor",
         "funds": "Up to $7,500",
@@ -3800,7 +3800,7 @@
         "location": "united-states"
     },
     {
-        "": "475",
+        "id": "475",
         "title": "College of Lake County International Student Scholarships in USA",
         "degrees": "Bachelor",
         "funds": "$1,000 ",
@@ -3808,7 +3808,7 @@
         "location": "united-states"
     },
     {
-        "": "476",
+        "id": "476",
         "title": "Catherine T. McNamee International Student Scholarships in USA",
         "degrees": "Bachelor",
         "funds": "Up to $30,000 p.a.",
@@ -3816,7 +3816,7 @@
         "location": "united-states"
     },
     {
-        "": "477",
+        "id": "477",
         "title": "KDS International Scholarship Competition 2021-22",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -3824,7 +3824,7 @@
         "location": "united-states"
     },
     {
-        "": "478",
+        "id": "478",
         "title": "Professional Development Grants for International Students at University of Twente",
         "degrees": "Course, Master",
         "funds": "Up to $6,500",
@@ -3832,7 +3832,7 @@
         "location": "united-states"
     },
     {
-        "": "479",
+        "id": "479",
         "title": "International Presidential Scholarships at Stratford University",
         "degrees": "Bachelor, Master",
         "funds": "25% tuition discount",
@@ -3840,7 +3840,7 @@
         "location": "united-states"
     },
     {
-        "": "480",
+        "id": "480",
         "title": "International Opportunity Scholarships at National Louis University",
         "degrees": "Bachelor",
         "funds": "10% of the full-time tuition rate",
@@ -3848,7 +3848,7 @@
         "location": "united-states"
     },
     {
-        "": "481",
+        "id": "481",
         "title": "International Students Contest Scholarships 2021-2022",
         "degrees": "Master, Bachelor",
         "funds": "Up to $1500",
@@ -3856,7 +3856,7 @@
         "location": "united-states"
     },
     {
-        "": "482",
+        "id": "482",
         "title": "John Barras DDS Autism Scholarships",
         "degrees": "Phd, Master, Bachelor, Course",
         "funds": "$1,000 ",
@@ -3864,7 +3864,7 @@
         "location": "united-states"
     },
     {
-        "": "483",
+        "id": "483",
         "title": "Merit-Based Scholarships for International Students at Kalamazoo College",
         "degrees": "Bachelor",
         "funds": "$21,000-35,000 p.a.",
@@ -3872,7 +3872,7 @@
         "location": "united-states"
     },
     {
-        "": "484",
+        "id": "484",
         "title": "Sports Science: Fully Funded PhD at Swansea: The effect of mineral rich Algae",
         "degrees": "Phd",
         "funds": "Full cost of UK tuition fees and an annual stipend",
@@ -3880,7 +3880,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "485",
+        "id": "485",
         "title": "Physics: Fully Funded PhD Scholarship at Swansea: Photovoltaic Applications",
         "degrees": "Phd",
         "funds": "Full cost of UK tuition fees and an annual stipend",
@@ -3888,7 +3888,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "486",
+        "id": "486",
         "title": "Eon Essay Contest on The Precipice",
         "degrees": "Master, Bachelor, Phd",
         "funds": "15,000 USD top prize; 42,000 USD total prizes",
@@ -3896,7 +3896,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "487",
+        "id": "487",
         "title": "Anonymous Hope Fund",
         "degrees": "Master, Bachelor, Phd, Course",
         "funds": "$3,000 ",
@@ -3904,7 +3904,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "488",
+        "id": "488",
         "title": "University of Sussex Hornsey Scholarship in UK",
         "degrees": "Master",
         "funds": "Â£10,000",
@@ -3912,7 +3912,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "489",
+        "id": "489",
         "title": "David Sainsbury Full MSc Scholarships for International Students in UK",
         "degrees": "Master",
         "funds": "Full tuition fees + Â£15,609 p.a. stipend",
@@ -3920,7 +3920,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "490",
+        "id": "490",
         "title": "Think Big About Education International Scholarships in UK",
         "degrees": "Master",
         "funds": "Â£5,000",
@@ -3928,7 +3928,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "491",
+        "id": "491",
         "title": "Lebanon Bursaries at University of Warwick",
         "degrees": "Master",
         "funds": "25% tuition fee discount",
@@ -3936,7 +3936,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "492",
+        "id": "492",
         "title": "Chancellors International Business School Scholarships at University of Sussex",
         "degrees": "Bachelor",
         "funds": "Â£5,000 p.a.",
@@ -3944,7 +3944,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "493",
+        "id": "493",
         "title": "Chancellors International Engineering and Informatics Scholarships",
         "degrees": "Bachelor, Master",
         "funds": "Â£5,000 p.a.",
@@ -3952,7 +3952,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "494",
+        "id": "494",
         "title": "University of St Andrews EU Scholarships in UK",
         "degrees": "Master",
         "funds": "Â£8,000",
@@ -3960,7 +3960,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "495",
+        "id": "495",
         "title": "Blockchain in Business and Society International Scholarships",
         "degrees": "Master",
         "funds": "Â£15,000",
@@ -3968,7 +3968,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "496",
+        "id": "496",
         "title": "GREAT Scholarships for International Students at Falmouth University",
         "degrees": "Master",
         "funds": "Â£10,000",
@@ -3976,7 +3976,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "497",
+        "id": "497",
         "title": "Intake Education Taiwan Scholarships in UK",
         "degrees": "Master",
         "funds": "Â£2,000",
@@ -3984,7 +3984,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "498",
+        "id": "498",
         "title": "INTO Progressors International Scholarships at Queenâ€™s University Belfast",
         "degrees": "Phd, Master, Bachelor",
         "funds": "10% of tuition fees",
@@ -3992,7 +3992,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "499",
+        "id": "499",
         "title": "Fully-Funded PhD Studentship in Nanochemistry at University of Exeter",
         "degrees": "Phd",
         "funds": "Â£15,009",
@@ -4000,7 +4000,7 @@
         "location": "canada"
     },
     {
-        "": "500",
+        "id": "500",
         "title": "Graduate Deanâ€™s Entrance Scholarship at University of British Columbia",
         "degrees": "Master",
         "funds": "$5,000 ",
@@ -4008,7 +4008,7 @@
         "location": "canada"
     },
     {
-        "": "501",
+        "id": "501",
         "title": "International Scholarship Program (Firdaws Academy)",
         "degrees": "Course",
         "funds": "100%",
@@ -4016,7 +4016,7 @@
         "location": "canada"
     },
     {
-        "": "502",
+        "id": "502",
         "title": "MPOWER Global Citizen Scholarship",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fixed interest rates for amounts between $2,001.00 and $50,000.00",
@@ -4024,7 +4024,7 @@
         "location": "canada"
     },
     {
-        "": "503",
+        "id": "503",
         "title": "Marine Stewardship Council scholarship research program ",
         "degrees": "Bachelor, Master, Phd, Course",
         "funds": "Up to Â£4000",
@@ -4032,7 +4032,7 @@
         "location": "canada"
     },
     {
-        "": "504",
+        "id": "504",
         "title": "WCC scholarships programme (World Council of Churches)",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fully Funded",
@@ -4040,7 +4040,7 @@
         "location": "canada"
     },
     {
-        "": "505",
+        "id": "505",
         "title": "IPRA Foundation Peace Research Grants Program",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -4048,7 +4048,7 @@
         "location": "canada"
     },
     {
-        "": "506",
+        "id": "506",
         "title": "Centre for Studies in Religion and Society (CSRS) Visiting Research Fellowships",
         "degrees": "Phd",
         "funds": "Partially Funded",
@@ -4056,7 +4056,7 @@
         "location": "canada"
     },
     {
-        "": "507",
+        "id": "507",
         "title": "Mawista Scholarship for Students Studying Abroad with a Child",
         "degrees": "Bachelor, Master",
         "funds": "Fully Funded",
@@ -4064,7 +4064,7 @@
         "location": "canada"
     },
     {
-        "": "508",
+        "id": "508",
         "title": "ROTARY GLOBAL GRANTS",
         "degrees": "Master, Phd",
         "funds": "Fully Funded",
@@ -4072,7 +4072,7 @@
         "location": "canada"
     },
     {
-        "": "509",
+        "id": "509",
         "title": "European Molecular Biology Short-Term Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -4080,7 +4080,7 @@
         "location": "canada"
     },
     {
-        "": "510",
+        "id": "510",
         "title": "John Dillon Fellowship - Australian Centre for International Agricultural Research (ACIAR)",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -4088,7 +4088,7 @@
         "location": "canada"
     },
     {
-        "": "511",
+        "id": "511",
         "title": "Konrad von Moltke Research Grants for the young researchers",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -4096,7 +4096,7 @@
         "location": "canada"
     },
     {
-        "": "512",
+        "id": "512",
         "title": "Institute for Current World Affairs - FELLOWSHIPS",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -4104,7 +4104,7 @@
         "location": "canada"
     },
     {
-        "": "513",
+        "id": "513",
         "title": "Adobe Research Women-in-Technology Scholarship",
         "degrees": "Bachelor",
         "funds": "Fully Funded",
@@ -4112,7 +4112,7 @@
         "location": "canada"
     },
     {
-        "": "514",
+        "id": "514",
         "title": "Axol Science Scholarship for Graduate or Undergraduate Degree Programs",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fully Funded",
@@ -4120,7 +4120,7 @@
         "location": "europe"
     },
     {
-        "": "515",
+        "id": "515",
         "title": "ArtUniverse Scholarships",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Partially Funded",
@@ -4128,7 +4128,7 @@
         "location": "europe"
     },
     {
-        "": "516",
+        "id": "516",
         "title": "KU Full-tuition International Excellence Awards in USA",
         "degrees": "Bachelor",
         "funds": "Up to a full tuition waiver ($25,000+/year)",
@@ -4136,7 +4136,7 @@
         "location": "united-states"
     },
     {
-        "": "517",
+        "id": "517",
         "title": "International Undergraduate Commitment Scholarships at Western Illinois University",
         "degrees": "Bachelor",
         "funds": "Up to $8,000",
@@ -4144,7 +4144,7 @@
         "location": "united-states"
     },
     {
-        "": "518",
+        "id": "518",
         "title": "international awards at Anderson University",
         "degrees": "Bachelor",
         "funds": "Variable",
@@ -4152,7 +4152,7 @@
         "location": "united-states"
     },
     {
-        "": "519",
+        "id": "519",
         "title": "International Student Emergency Relief Scholarships in USA",
         "degrees": "Bachelor",
         "funds": "Up to $1,000",
@@ -4160,7 +4160,7 @@
         "location": "united-states"
     },
     {
-        "": "520",
+        "id": "520",
         "title": "KDS Competition Scholarship 2021",
         "degrees": "Master, Bachelor",
         "funds": "Up to $1,500",
@@ -4168,7 +4168,7 @@
         "location": "united-states"
     },
     {
-        "": "521",
+        "id": "521",
         "title": "2021 Contest Scholarships for International Students",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -4176,7 +4176,7 @@
         "location": "united-states"
     },
     {
-        "": "522",
+        "id": "522",
         "title": "Graduate Studies international awards at University of Southern Maine",
         "degrees": "Master",
         "funds": "Up to $3,000",
@@ -4184,7 +4184,7 @@
         "location": "united-states"
     },
     {
-        "": "523",
+        "id": "523",
         "title": "Charger Award for International Students at University of New Haven",
         "degrees": "Bachelor",
         "funds": "Up to $14,000 p.a.",
@@ -4192,7 +4192,7 @@
         "location": "united-states"
     },
     {
-        "": "524",
+        "id": "524",
         "title": "Freshman Scholarships for International Students at Wilkes University in USA",
         "degrees": "Bachelor",
         "funds": "$14,000 â€“ $21,000",
@@ -4200,7 +4200,7 @@
         "location": "united-states"
     },
     {
-        "": "525",
+        "id": "525",
         "title": "Presidentâ€™s Entrance international awards at Ryerson University in Canada",
         "degrees": "Bachelor",
         "funds": "$40,000 ",
@@ -4208,7 +4208,7 @@
         "location": "united-states"
     },
     {
-        "": "526",
+        "id": "526",
         "title": "John Foy & Associates Strong Arm Leukemia funding for International Students in USA",
         "degrees": "Bachelor, Master",
         "funds": "$1,000 ",
@@ -4216,7 +4216,7 @@
         "location": "united-states"
     },
     {
-        "": "527",
+        "id": "527",
         "title": "James B. Duke Scholarships for International Students at Furman University",
         "degrees": "Bachelor, Master",
         "funds": "Full tuition + stipend",
@@ -4224,7 +4224,7 @@
         "location": "united-states"
     },
     {
-        "": "528",
+        "id": "528",
         "title": "University of Findlay International Scholar Awards in USA",
         "degrees": "Bachelor",
         "funds": "Variable",
@@ -4232,7 +4232,7 @@
         "location": "united-states"
     },
     {
-        "": "529",
+        "id": "529",
         "title": "Musicians Institute Melodic Soloing Guitar international awards in USA",
         "degrees": "Bachelor, Master",
         "funds": "$1,500 ",
@@ -4240,7 +4240,7 @@
         "location": "united-states"
     },
     {
-        "": "530",
+        "id": "530",
         "title": "FindDataLab Research Grant Programme in USA and EU",
         "degrees": "Bachelor, Master, Phd, Course",
         "funds": "Up to $1,000 towards web scraping serivces",
@@ -4248,7 +4248,7 @@
         "location": "united-states"
     },
     {
-        "": "531",
+        "id": "531",
         "title": "Mischon de Reya Scholarships for International Students at Queen Mary University of London",
         "degrees": "Master",
         "funds": "Full tuition fees",
@@ -4256,7 +4256,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "532",
+        "id": "532",
         "title": "CU Group Undergraduate International Scholarships in UK",
         "degrees": "Bachelor",
         "funds": "Â£5,000",
@@ -4264,7 +4264,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "533",
+        "id": "533",
         "title": "International Student Support Contest 2022-2023",
         "degrees": "Master, Bachelor, Course",
         "funds": "Multiple awards",
@@ -4272,7 +4272,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "534",
+        "id": "534",
         "title": "Department of Meteorology International PhD Scholarships in UK",
         "degrees": "Phd",
         "funds": "Up to Â£3,000",
@@ -4280,7 +4280,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "535",
+        "id": "535",
         "title": "Postgraduate International Studentships in Marketing",
         "degrees": "Master",
         "funds": "Â£5,900",
@@ -4288,7 +4288,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "536",
+        "id": "536",
         "title": "Online Islamic classes for kids",
         "degrees": "Course",
         "funds": "40% off over all of our Islamic courses",
@@ -4296,7 +4296,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "537",
+        "id": "537",
         "title": "The Annual IELTS from 6 to 9 Scholarship",
         "degrees": "Master, Bachelor, Phd",
         "funds": "$1,000 ",
@@ -4304,7 +4304,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "538",
+        "id": "538",
         "title": "Scholarship for families want to learn Quran online",
         "degrees": "Course",
         "funds": "50% off over all of our Quran courses",
@@ -4312,7 +4312,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "539",
+        "id": "539",
         "title": "African Scholarships at University of Essex",
         "degrees": "Master",
         "funds": "Â£4,500",
@@ -4320,7 +4320,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "540",
+        "id": "540",
         "title": "GREAT Scholarships for Mexican Students at Queenâ€™s University Belfast",
         "degrees": "Master",
         "funds": "Â£10,000",
@@ -4328,7 +4328,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "541",
+        "id": "541",
         "title": "GREAT China Scholarships for Justice and Law",
         "degrees": "Master",
         "funds": "Â£10,000",
@@ -4336,7 +4336,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "542",
+        "id": "542",
         "title": "Great Scholarship for Chinese Students at University of Sussex",
         "degrees": "Master",
         "funds": "Â£10,000",
@@ -4344,7 +4344,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "543",
+        "id": "543",
         "title": "Warwick WMG Bursaries for Iranian Students in UK",
         "degrees": "Master",
         "funds": "25% of tuition fees",
@@ -4352,7 +4352,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "544",
+        "id": "544",
         "title": "International School Undergraduate Outstanding Achievement Scholarships in UK",
         "degrees": "Bachelor",
         "funds": "Â£2,500",
@@ -4360,7 +4360,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "545",
+        "id": "545",
         "title": "University of Glasgow Angela Adams Scholarship 2022",
         "degrees": "Master",
         "funds": "Â£5,000",
@@ -4368,7 +4368,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "546",
+        "id": "546",
         "title": "Mount Saint Vincent University - Graduate Student Scholarships",
         "degrees": "Master, Phd",
         "funds": "Partially Funded",
@@ -4376,7 +4376,7 @@
         "location": "canada"
     },
     {
-        "": "547",
+        "id": "547",
         "title": "International Council of Ophthalmology (ICO) - Three-Month Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -4384,7 +4384,7 @@
         "location": "canada"
     },
     {
-        "": "548",
+        "id": "548",
         "title": "The Boehringer Ingelheim Fonds awards PhD fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -4392,7 +4392,7 @@
         "location": "canada"
     },
     {
-        "": "549",
+        "id": "549",
         "title": "The Boehringer Ingelheim Fonds - Travel grants for junior researchers",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -4400,7 +4400,7 @@
         "location": "canada"
     },
     {
-        "": "550",
+        "id": "550",
         "title": "Paul Sumerall Memorial Scholarships, Merchants Bank of California",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -4408,7 +4408,7 @@
         "location": "canada"
     },
     {
-        "": "551",
+        "id": "551",
         "title": "McGill University - Entrance Law Scholarships",
         "degrees": "Bachelor",
         "funds": "Partially Funded",
@@ -4416,7 +4416,7 @@
         "location": "canada"
     },
     {
-        "": "552",
+        "id": "552",
         "title": "McGill University - Graduate Law Scholarships, funds and bursaries",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -4424,7 +4424,7 @@
         "location": "canada"
     },
     {
-        "": "553",
+        "id": "553",
         "title": "University of Manitoba - Graduate Fellowship (UMGF)",
         "degrees": "Master",
         "funds": "Fully Funded",
@@ -4432,7 +4432,7 @@
         "location": "canada"
     },
     {
-        "": "554",
+        "id": "554",
         "title": "York University - International Entrance Scholarship",
         "degrees": "Bachelor",
         "funds": "Partially Funded",
@@ -4440,7 +4440,7 @@
         "location": "canada"
     },
     {
-        "": "555",
+        "id": "555",
         "title": "Hayek Fund for Scholars - Institute for Humane Studies at George Mason University",
         "degrees": "Phd",
         "funds": "Partially Funded",
@@ -4448,7 +4448,7 @@
         "location": "canada"
     },
     {
-        "": "556",
+        "id": "556",
         "title": "The Humane Studies Fellowship - Institute for Humane Studies at George Mason University",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -4456,7 +4456,7 @@
         "location": "canada"
     },
     {
-        "": "557",
+        "id": "557",
         "title": "IIASA Funded Postdoctoral Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -4464,7 +4464,7 @@
         "location": "canada"
     },
     {
-        "": "558",
+        "id": "558",
         "title": "Erasmus Exchange Programme",
         "degrees": "Fully Funded",
         "funds": "",
@@ -4472,7 +4472,7 @@
         "location": "canada"
     },
     {
-        "": "559",
+        "id": "559",
         "title": "YFU (Youth for Undestanding) - Youth Exchange",
         "degrees": "Not Funded",
         "funds": "",
@@ -4480,7 +4480,7 @@
         "location": "canada"
     },
     {
-        "": "560",
+        "id": "560",
         "title": "Be an exchange student for 1-2 semesters",
         "degrees": "Not Funded",
         "funds": "",
@@ -4488,7 +4488,7 @@
         "location": "canada"
     },
     {
-        "": "561",
+        "id": "561",
         "title": "International Merit Awards at Culinary Institute of America",
         "degrees": "Course",
         "funds": "Tuition fee reduction.",
@@ -4496,7 +4496,7 @@
         "location": "united-states"
     },
     {
-        "": "562",
+        "id": "562",
         "title": "Google Anita Borg Memorial Scholarships for International Students at Arizona State University",
         "degrees": "Bachelor",
         "funds": "$10,000 ",
@@ -4504,7 +4504,7 @@
         "location": "united-states"
     },
     {
-        "": "563",
+        "id": "563",
         "title": "Quran Learning Scholarship Program",
         "degrees": "Course",
         "funds": "Up to $300",
@@ -4512,7 +4512,7 @@
         "location": "united-states"
     },
     {
-        "": "564",
+        "id": "564",
         "title": "Need-Based Grants for International Students in the United States",
         "degrees": "Bachelor",
         "funds": "Up to $10,000 p.a.",
@@ -4520,7 +4520,7 @@
         "location": "united-states"
     },
     {
-        "": "565",
+        "id": "565",
         "title": "Global Leader Scholarships in the USA",
         "degrees": "Bachelor",
         "funds": "approx. $10,656 p.a.",
@@ -4528,7 +4528,7 @@
         "location": "united-states"
     },
     {
-        "": "566",
+        "id": "566",
         "title": "4WARD Graduation Scholarships for International Students",
         "degrees": "Bachelor",
         "funds": "50% of tuition over 4 years",
@@ -4536,7 +4536,7 @@
         "location": "united-states"
     },
     {
-        "": "567",
+        "id": "567",
         "title": "IU International University of Applied Sciences Online Scholarships for International Students in Germany",
         "degrees": "Master, Bachelor",
         "funds": "Up to 85% of tuition fee",
@@ -4544,7 +4544,7 @@
         "location": "united-states"
     },
     {
-        "": "568",
+        "id": "568",
         "title": "International Merit Scholarship at University of Memphis",
         "degrees": "Bachelor, Master",
         "funds": "Varying award amount",
@@ -4552,7 +4552,7 @@
         "location": "united-states"
     },
     {
-        "": "569",
+        "id": "569",
         "title": "$2,500 for Graduate School: GradCAS Breakthrough Scholarship",
         "degrees": "Master, Phd",
         "funds": "$2,500 ",
@@ -4560,7 +4560,7 @@
         "location": "united-states"
     },
     {
-        "": "570",
+        "id": "570",
         "title": "$2,500 for Engineering Students: EngineeringCAS Breakthrough Scholarship",
         "degrees": "Master, Phd",
         "funds": "$2,500 ",
@@ -4568,7 +4568,7 @@
         "location": "united-states"
     },
     {
-        "": "571",
+        "id": "571",
         "title": "$2,500 for Business School: BusinessCAS Breakthrough Scholarship",
         "degrees": "Master, Phd",
         "funds": "$2,500 ",
@@ -4576,7 +4576,7 @@
         "location": "united-states"
     },
     {
-        "": "572",
+        "id": "572",
         "title": "Invitation to Idaho funding for International Students at University of Idaho",
         "degrees": "Bachelor",
         "funds": "$15,084 ",
@@ -4584,7 +4584,7 @@
         "location": "united-states"
     },
     {
-        "": "573",
+        "id": "573",
         "title": "Fully-Funded PhD Studentship in Nanochemistry at University of Exeter",
         "degrees": "Phd",
         "funds": "Â£15,009",
@@ -4592,7 +4592,7 @@
         "location": "united-states"
     },
     {
-        "": "574",
+        "id": "574",
         "title": "Carr Academic Scholarship",
         "degrees": "Bachelor",
         "funds": "$15,000 ",
@@ -4600,7 +4600,7 @@
         "location": "united-states"
     },
     {
-        "": "575",
+        "id": "575",
         "title": "Global Scholars Program to Study at Babson College",
         "degrees": "Bachelor, Course",
         "funds": "full scholarship",
@@ -4608,7 +4608,7 @@
         "location": "united-states"
     },
     {
-        "": "576",
+        "id": "576",
         "title": "University of Birmingham Bellerbys Outstanding Achievement International Scholarship in UK",
         "degrees": "Bachelor",
         "funds": "Â£2,500",
@@ -4616,7 +4616,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "577",
+        "id": "577",
         "title": "GREAT Scholarships for Ghana Students at University of Warwick",
         "degrees": "Master",
         "funds": "Â£15,000",
@@ -4624,7 +4624,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "578",
+        "id": "578",
         "title": "Great Scholarships for India and Singapore Students at University of Plymouth",
         "degrees": "Master",
         "funds": "Â£10,000",
@@ -4632,7 +4632,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "579",
+        "id": "579",
         "title": "Latin American Taught Scholarships in UK",
         "degrees": "Master",
         "funds": "Â£5,000",
@@ -4640,7 +4640,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "580",
+        "id": "580",
         "title": "Advanced Chemical Engineering Professorâ€™s International Scholarship in UK",
         "degrees": "Master",
         "funds": "Up to Â£11,075",
@@ -4648,7 +4648,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "581",
+        "id": "581",
         "title": "ULMS Indian Subcontinent Excellence Scholarships in UK",
         "degrees": "Master",
         "funds": "50% of tuition fees",
@@ -4656,7 +4656,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "582",
+        "id": "582",
         "title": "Sir Ray Tindle international awards at University of Creative Arts",
         "degrees": "Bachelor",
         "funds": "Â£1,000 p.a.",
@@ -4664,7 +4664,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "583",
+        "id": "583",
         "title": "Great Scholarships for International Students at University of Derby",
         "degrees": "Master",
         "funds": "Â£11,000",
@@ -4672,7 +4672,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "584",
+        "id": "584",
         "title": "UCA Creative Europe Scholarships in UK",
         "degrees": "Bachelor, Phd, Master",
         "funds": "Tuition fee reduction to UK home fees",
@@ -4680,7 +4680,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "585",
+        "id": "585",
         "title": "UCA Nick Jack Scholarships for International Students in UK",
         "degrees": "Master",
         "funds": "Â£5,000",
@@ -4688,7 +4688,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "586",
+        "id": "586",
         "title": "ULMS European Union Excellence Scholarships in UK",
         "degrees": "Master",
         "funds": "50% of tuition fees",
@@ -4696,7 +4696,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "587",
+        "id": "587",
         "title": "Aberystwyth University IBERS international awards in UK",
         "degrees": "Master",
         "funds": "40% tuition fee discount",
@@ -4704,7 +4704,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "588",
+        "id": "588",
         "title": "Contest Scholarship Programme for International Students 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -4712,7 +4712,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "589",
+        "id": "589",
         "title": "EU Grant Award at the University of Gloucestershire",
         "degrees": "Phd, Master, Bachelor",
         "funds": "Â£3,000",
@@ -4720,7 +4720,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "590",
+        "id": "590",
         "title": "Robert Lethbridge international awards in Modern Language",
         "degrees": "Master",
         "funds": "Â£1,250",
@@ -4728,7 +4728,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "591",
+        "id": "591",
         "title": "Horizon 2020",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -4736,7 +4736,7 @@
         "location": "canada"
     },
     {
-        "": "592",
+        "id": "592",
         "title": "PhD Position in Fiber Devices for International Students",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -4744,7 +4744,7 @@
         "location": "canada"
     },
     {
-        "": "593",
+        "id": "593",
         "title": "Amelia Earhart Fellowship",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -4752,7 +4752,7 @@
         "location": "canada"
     },
     {
-        "": "594",
+        "id": "594",
         "title": "The Leakey Foundationâ€™s Research Grants to doctoral students",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -4760,7 +4760,7 @@
         "location": "canada"
     },
     {
-        "": "595",
+        "id": "595",
         "title": "Axol Science Scholarship for Graduate or Undergraduate Degree Programs",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fully Funded",
@@ -4768,7 +4768,7 @@
         "location": "canada"
     },
     {
-        "": "596",
+        "id": "596",
         "title": "ArtUniverse Scholarships",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Partially Funded",
@@ -4776,7 +4776,7 @@
         "location": "canada"
     },
     {
-        "": "597",
+        "id": "597",
         "title": "Carleton University Entrance Scholarships for International Students",
         "degrees": "Bachelor",
         "funds": "Partially Funded",
@@ -4784,7 +4784,7 @@
         "location": "canada"
     },
     {
-        "": "598",
+        "id": "598",
         "title": "International Student Scholarships - Western University (UWO)",
         "degrees": "Bachelor",
         "funds": "Partially Funded",
@@ -4792,7 +4792,7 @@
         "location": "canada"
     },
     {
-        "": "599",
+        "id": "599",
         "title": "National Buckeye Scholarship",
         "degrees": "Bachelor",
         "funds": "$54,000 ",
@@ -4800,7 +4800,7 @@
         "location": "united-states"
     },
     {
-        "": "600",
+        "id": "600",
         "title": "Spirit of Giving Scholarship",
         "degrees": "Bachelor, Course",
         "funds": "$3,000 ",
@@ -4808,7 +4808,7 @@
         "location": "united-states"
     },
     {
-        "": "601",
+        "id": "601",
         "title": "Global Spartan Leadership Program for International Students at Michigan State University",
         "degrees": "Bachelor",
         "funds": "$8,000 ",
@@ -4816,7 +4816,7 @@
         "location": "united-states"
     },
     {
-        "": "602",
+        "id": "602",
         "title": "International Scholarship Program (Firdaws Academy)",
         "degrees": "Course",
         "funds": "100%",
@@ -4824,7 +4824,7 @@
         "location": "united-states"
     },
     {
-        "": "603",
+        "id": "603",
         "title": "MIT THINK Scholarship Program",
         "degrees": "Course",
         "funds": "$7,000 worth of prizes",
@@ -4832,7 +4832,7 @@
         "location": "united-states"
     },
     {
-        "": "604",
+        "id": "604",
         "title": "University of Maine Intensive English Institute Discovery Scholarship in the USA",
         "degrees": "Bachelor",
         "funds": "US $2,000",
@@ -4840,7 +4840,7 @@
         "location": "united-states"
     },
     {
-        "": "605",
+        "id": "605",
         "title": "Presidentâ€™s Postdoctoral Fellowship Program at University of California in USA",
         "degrees": "Phd",
         "funds": "$50,760 ",
@@ -4848,7 +4848,7 @@
         "location": "united-states"
     },
     {
-        "": "606",
+        "id": "606",
         "title": "Family Empowerment program",
         "degrees": "Bachelor",
         "funds": "The scholarship amount is the lesser of the schoolâ€™s tuition and fees or the calculated scholarship amount ",
@@ -4856,7 +4856,7 @@
         "location": "united-states"
     },
     {
-        "": "607",
+        "id": "607",
         "title": "Rentkidz Annual Scholarship",
         "degrees": "Bachelor, Course",
         "funds": "$750 ",
@@ -4864,7 +4864,7 @@
         "location": "united-states"
     },
     {
-        "": "608",
+        "id": "608",
         "title": "MPOWER Global Citizen Scholarship",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fixed interest rates for amounts between $2,001.00 and $50,000.00",
@@ -4872,7 +4872,7 @@
         "location": "united-states"
     },
     {
-        "": "609",
+        "id": "609",
         "title": "Prodigy Finance â€“ International Student Loans",
         "degrees": "",
         "funds": "",
@@ -4880,7 +4880,7 @@
         "location": "united-states"
     },
     {
-        "": "610",
+        "id": "610",
         "title": "MPOWER Financing â€“ Education Loans for International Students",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fixed interest rates for amounts between $2,001.00 and $50,000.00",
@@ -4888,7 +4888,7 @@
         "location": "united-states"
     },
     {
-        "": "611",
+        "id": "611",
         "title": "Marine Stewardship Council scholarship research program ",
         "degrees": "Bachelor, Master, Phd, Course",
         "funds": "Up to Â£4000",
@@ -4896,7 +4896,7 @@
         "location": "united-states"
     },
     {
-        "": "612",
+        "id": "612",
         "title": "Ratingle Scholarship Program",
         "degrees": "Bachelor, Master, Phd, Course",
         "funds": "$1,000 ",
@@ -4904,7 +4904,7 @@
         "location": "united-states"
     },
     {
-        "": "613",
+        "id": "613",
         "title": "Embry-Riddle Aeronautical University Scholarships",
         "degrees": "Bachelor, Master",
         "funds": "Partially Funded",
@@ -4912,7 +4912,7 @@
         "location": "united-states"
     },
     {
-        "": "614",
+        "id": "614",
         "title": "UCB EU Transition Awards in UK",
         "degrees": "Master, Bachelor",
         "funds": "Tuition fee discount",
@@ -4920,7 +4920,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "615",
+        "id": "615",
         "title": "University of Strathclyde Access Bursary for ROI Students in UK",
         "degrees": "Bachelor",
         "funds": "Up to Â£3000",
@@ -4928,7 +4928,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "616",
+        "id": "616",
         "title": "Lady Eileen McDonald EU & International Student Funds in UK",
         "degrees": "Phd, Master, Bachelor",
         "funds": "Â£300-Â£500",
@@ -4936,7 +4936,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "617",
+        "id": "617",
         "title": "LPDP Indonesia Scholarships at Cranfield University",
         "degrees": "Master, Phd",
         "funds": "Variable funds",
@@ -4944,7 +4944,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "618",
+        "id": "618",
         "title": "Cranfield Water Scholarships for Malawian Students in UK",
         "degrees": "Master",
         "funds": "Â£6,000",
@@ -4952,7 +4952,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "619",
+        "id": "619",
         "title": "John Gilbert Vause Memorial International Scholarship in the UK",
         "degrees": "Bachelor",
         "funds": "Â£500",
@@ -4960,7 +4960,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "620",
+        "id": "620",
         "title": "International Scholarships at Durham University",
         "degrees": "Master, Bachelor",
         "funds": "Â£5,000 p.a.",
@@ -4968,7 +4968,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "621",
+        "id": "621",
         "title": "International College Dundee Entrant Scholarships in UK",
         "degrees": "Master",
         "funds": "Up to Â£4,500 p.a.",
@@ -4976,7 +4976,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "622",
+        "id": "622",
         "title": "International Scholarship Student Competition 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2,000",
@@ -4984,7 +4984,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "623",
+        "id": "623",
         "title": "Global Contest Scholarships for International Students 2022",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $2000 awards",
@@ -4992,7 +4992,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "624",
+        "id": "624",
         "title": "Swansea University EU Transitional Bursary in UK",
         "degrees": "Bachelor",
         "funds": "Tuition fee reduction",
@@ -5000,7 +5000,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "625",
+        "id": "625",
         "title": "50% scholarship for students based in India - University of Essex Online",
         "degrees": "Master, Bachelor, Course",
         "funds": "50% scholarship for all courses",
@@ -5008,7 +5008,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "626",
+        "id": "626",
         "title": "ITESM Doble Grado Tuition Fee Discount for International Students in UK",
         "degrees": "Master",
         "funds": "50% of tuition fees",
@@ -5016,7 +5016,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "627",
+        "id": "627",
         "title": "High Achiever Scholarships for UK and Ireland Students at University of Buckingham",
         "degrees": "Bachelor",
         "funds": " Â£2,000",
@@ -5024,7 +5024,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "628",
+        "id": "628",
         "title": "LLM Master of Law Scholarships for International Students at University of Roehampton",
         "degrees": "Master",
         "funds": "Â£5,000",
@@ -5032,7 +5032,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "629",
+        "id": "629",
         "title": "NYU Wagner Merit Scholarships",
         "degrees": "Bachelor, Master",
         "funds": "Partially Funded",
@@ -5040,7 +5040,7 @@
         "location": "united-states"
     },
     {
-        "": "630",
+        "id": "630",
         "title": "Scholarships and Financial Aid for International Students - University of Oregon",
         "degrees": "Bachelor, Master",
         "funds": "Partially Funded",
@@ -5048,7 +5048,7 @@
         "location": "united-states"
     },
     {
-        "": "631",
+        "id": "631",
         "title": "WCC scholarships programme (World Council of Churches)",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fully Funded",
@@ -5056,7 +5056,7 @@
         "location": "united-states"
     },
     {
-        "": "632",
+        "id": "632",
         "title": "IPRA Foundation Peace Research Grants Program",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -5064,7 +5064,7 @@
         "location": "united-states"
     },
     {
-        "": "633",
+        "id": "633",
         "title": "Jefferson Fellowship",
         "degrees": "Master, Phd",
         "funds": "Fully Funded",
@@ -5072,7 +5072,7 @@
         "location": "united-states"
     },
     {
-        "": "634",
+        "id": "634",
         "title": "East Tennessee University - General Undergraduate Scholarships",
         "degrees": "Bachelor",
         "funds": "Partially Funded",
@@ -5080,7 +5080,7 @@
         "location": "united-states"
     },
     {
-        "": "635",
+        "id": "635",
         "title": "The Nieman Foundation - Journalism Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -5088,7 +5088,7 @@
         "location": "united-states"
     },
     {
-        "": "636",
+        "id": "636",
         "title": "Scholarships at Church Divinity School â€¨of the Pacific",
         "degrees": "Bachelor, Master",
         "funds": "Partially Funded",
@@ -5096,7 +5096,7 @@
         "location": "united-states"
     },
     {
-        "": "637",
+        "id": "637",
         "title": "Rajawali Fellows Program - Harvard Kennedy School",
         "degrees": "Phd",
         "funds": "Partially Funded",
@@ -5104,7 +5104,7 @@
         "location": "united-states"
     },
     {
-        "": "638",
+        "id": "638",
         "title": "Mawista Scholarship for Students Studying Abroad with a Child",
         "degrees": "Bachelor, Master",
         "funds": "Fully Funded",
@@ -5112,7 +5112,7 @@
         "location": "united-states"
     },
     {
-        "": "639",
+        "id": "639",
         "title": "East Tennessee State University - International Students Academic Merit Scholarship",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Partially Funded",
@@ -5120,7 +5120,7 @@
         "location": "united-states"
     },
     {
-        "": "640",
+        "id": "640",
         "title": "Emory University scholarships for International Students",
         "degrees": "Bachelor, Master",
         "funds": "Partially Funded",
@@ -5128,7 +5128,7 @@
         "location": "united-states"
     },
     {
-        "": "641",
+        "id": "641",
         "title": "Illinois Wesleyan University - International Student Scholarships",
         "degrees": "Bachelor, Master",
         "funds": "Partially Funded",
@@ -5136,7 +5136,7 @@
         "location": "united-states"
     },
     {
-        "": "642",
+        "id": "642",
         "title": "Bereaâ€™s Tuition Promise Scholarship",
         "degrees": "Bachelor, Master",
         "funds": "Partially Funded",
@@ -5144,7 +5144,7 @@
         "location": "united-states"
     },
     {
-        "": "643",
+        "id": "643",
         "title": "ROTARY GLOBAL GRANTS",
         "degrees": "Master, Phd",
         "funds": "Fully Funded",
@@ -5152,7 +5152,7 @@
         "location": "united-states"
     },
     {
-        "": "644",
+        "id": "644",
         "title": "Lancaster EU Transition Scholarships in UK",
         "degrees": "Master, Bachelor",
         "funds": "Â£7,000",
@@ -5160,7 +5160,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "645",
+        "id": "645",
         "title": "Heads of School Scholarships for EU Students at Bangor University",
         "degrees": "Phd",
         "funds": "10% of tuition fee p.a.",
@@ -5168,7 +5168,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "646",
+        "id": "646",
         "title": "University of Leeds Faculty of Engineering and Physical Sciences International Undergraduate Excellence Scholarships in UK",
         "degrees": "Bachelor",
         "funds": "Up to Â£6,000",
@@ -5176,7 +5176,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "647",
+        "id": "647",
         "title": "UEA Turkish Awards in the UK",
         "degrees": "Master",
         "funds": "Up to Â£5,000",
@@ -5184,7 +5184,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "648",
+        "id": "648",
         "title": "PGR Transitional Bursary for International Students at Swansea University",
         "degrees": "Master, Phd",
         "funds": "Reduced tuition fee",
@@ -5192,7 +5192,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "649",
+        "id": "649",
         "title": "University of Roehampton EU Transition Scholarships in UK",
         "degrees": "Master, Bachelor",
         "funds": "Tuition fee discount",
@@ -5200,7 +5200,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "650",
+        "id": "650",
         "title": "University of Birmingham Poynting Excellence international awards in UK",
         "degrees": "Bachelor",
         "funds": "Up to Â£3,000",
@@ -5208,7 +5208,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "651",
+        "id": "651",
         "title": "EU/EEA Scholarships at Middlesex University London in UK",
         "degrees": "Bachelor",
         "funds": "Reduced tuition fees",
@@ -5216,7 +5216,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "652",
+        "id": "652",
         "title": "Africa postgraduate placements at University of Dundee in UK",
         "degrees": "Master",
         "funds": "Â£5,000",
@@ -5224,7 +5224,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "653",
+        "id": "653",
         "title": "Postgraduate Research international awards in Theory and Simulations of Frequency",
         "degrees": "Phd",
         "funds": "Fees, stipend + benefits",
@@ -5232,7 +5232,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "654",
+        "id": "654",
         "title": "KDS International Scholarship Competition 2021-22",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -5240,7 +5240,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "655",
+        "id": "655",
         "title": "Professional Development Grants for International Students at University of Twente",
         "degrees": "Course, Master",
         "funds": "Up to $6,500",
@@ -5248,7 +5248,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "656",
+        "id": "656",
         "title": "International PhD Studentships in Metamaterial Nano-Machines",
         "degrees": "Phd",
         "funds": "Tuition fees + limited funding",
@@ -5256,7 +5256,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "657",
+        "id": "657",
         "title": "International Excellent Student Scholarships at University of Derby",
         "degrees": "Master, Bachelor",
         "funds": "Â£5,000",
@@ -5264,7 +5264,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "658",
+        "id": "658",
         "title": "international awards at Brockenhurst College",
         "degrees": "Bachelor",
         "funds": "Up to 50% tuition fees",
@@ -5272,7 +5272,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "659",
+        "id": "659",
         "title": "European Molecular Biology Short-Term Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -5280,7 +5280,7 @@
         "location": "united-states"
     },
     {
-        "": "660",
+        "id": "660",
         "title": "John Dillon Fellowship - Australian Centre for International Agricultural Research (ACIAR)",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -5288,7 +5288,7 @@
         "location": "united-states"
     },
     {
-        "": "661",
+        "id": "661",
         "title": "Kingston University - International Scholarships",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Partially Funded",
@@ -5296,7 +5296,7 @@
         "location": "united-states"
     },
     {
-        "": "662",
+        "id": "662",
         "title": "Thomas College - Graduate International Scholarship Program",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -5304,7 +5304,7 @@
         "location": "united-states"
     },
     {
-        "": "663",
+        "id": "663",
         "title": "Hamilton College Scholarships for International Students",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -5312,7 +5312,7 @@
         "location": "united-states"
     },
     {
-        "": "664",
+        "id": "664",
         "title": "Konrad von Moltke Research Grants for the young researchers",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -5320,7 +5320,7 @@
         "location": "united-states"
     },
     {
-        "": "665",
+        "id": "665",
         "title": "Institute for Current World Affairs - FELLOWSHIPS",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -5328,7 +5328,7 @@
         "location": "united-states"
     },
     {
-        "": "666",
+        "id": "666",
         "title": "Fulbright Foreign Student Program",
         "degrees": "Master, Phd",
         "funds": "Fully Funded",
@@ -5336,7 +5336,7 @@
         "location": "united-states"
     },
     {
-        "": "667",
+        "id": "667",
         "title": "The American Indian Graduate Center - Scholarships",
         "degrees": "Bachelor, Master",
         "funds": "Partially Funded",
@@ -5344,7 +5344,7 @@
         "location": "united-states"
     },
     {
-        "": "668",
+        "id": "668",
         "title": "Adobe Research Women-in-Technology Scholarship",
         "degrees": "Bachelor",
         "funds": "Fully Funded",
@@ -5352,7 +5352,7 @@
         "location": "united-states"
     },
     {
-        "": "669",
+        "id": "669",
         "title": "Fellowships and Scholarships at Pardee RAND Graduate School",
         "degrees": "Phd",
         "funds": "Partially Funded",
@@ -5360,7 +5360,7 @@
         "location": "united-states"
     },
     {
-        "": "670",
+        "id": "670",
         "title": "Loyola University Undergraduate Scholarships",
         "degrees": "Bachelor",
         "funds": "Partially Funded",
@@ -5368,7 +5368,7 @@
         "location": "united-states"
     },
     {
-        "": "671",
+        "id": "671",
         "title": "John Lennon Scholarships",
         "degrees": "Bachelor, Master",
         "funds": "Partially Funded",
@@ -5376,7 +5376,7 @@
         "location": "united-states"
     },
     {
-        "": "672",
+        "id": "672",
         "title": "New York Film Academy (NYFA) Scholarships",
         "degrees": "Bachelor, Master",
         "funds": "Partially Funded",
@@ -5384,7 +5384,7 @@
         "location": "united-states"
     },
     {
-        "": "673",
+        "id": "673",
         "title": "University of Dayton Scholarships for Undergraduate International Students",
         "degrees": "Bachelor",
         "funds": "Partially Funded",
@@ -5392,7 +5392,7 @@
         "location": "united-states"
     },
     {
-        "": "674",
+        "id": "674",
         "title": "University of Leeds MBA EEA Excellence Scholarships in UK",
         "degrees": "Master",
         "funds": "Half-fee",
@@ -5400,7 +5400,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "675",
+        "id": "675",
         "title": "South Asia Scholarships at University of Dundee",
         "degrees": "Bachelor",
         "funds": "$5,000 p.a., up to Â£25,000",
@@ -5408,7 +5408,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "676",
+        "id": "676",
         "title": "EU Bursary at University of Reading",
         "degrees": "Bachelor",
         "funds": "Up to Â£6,000",
@@ -5416,7 +5416,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "677",
+        "id": "677",
         "title": "Engagement Bursary for UK and EU Students at University of East London",
         "degrees": "Bachelor",
         "funds": "Up to Â£2,000",
@@ -5424,7 +5424,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "678",
+        "id": "678",
         "title": "East African Scholarships at University of Edinburgh",
         "degrees": "Master",
         "funds": "100% tuition fees",
@@ -5432,7 +5432,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "679",
+        "id": "679",
         "title": "University of Leeds MBA Americas Excellence Scholarships in UK",
         "degrees": "Master",
         "funds": "Half-fee",
@@ -5440,7 +5440,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "680",
+        "id": "680",
         "title": "International Students Contest Scholarships 2021-2022",
         "degrees": "Master, Bachelor",
         "funds": "Up to $1500",
@@ -5448,7 +5448,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "681",
+        "id": "681",
         "title": "EU Transition Bursary at University of Derby",
         "degrees": "Bachelor, Master",
         "funds": "Â£4,500 p.a.",
@@ -5456,7 +5456,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "682",
+        "id": "682",
         "title": "Dr George Moore Data Science International Student Scholarships in UK",
         "degrees": "Master",
         "funds": "Â£3,000",
@@ -5464,7 +5464,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "683",
+        "id": "683",
         "title": "EU postgraduate placements at University of Stirling",
         "degrees": "Master",
         "funds": "40% fee discount",
@@ -5472,7 +5472,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "684",
+        "id": "684",
         "title": "University of Manchester International Mathematics Scholarships in UK",
         "degrees": "Bachelor",
         "funds": "Â£1,000 p.a.",
@@ -5480,7 +5480,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "685",
+        "id": "685",
         "title": "University of Liverpool International College (UoLIC) Excellence Scholarships in UK",
         "degrees": "Bachelor",
         "funds": "Â£5,000 tuition fee reduction",
@@ -5488,7 +5488,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "686",
+        "id": "686",
         "title": "University of Liverpool Management School European Union Excellence Scholarships",
         "degrees": "Master",
         "funds": "50% tuition fee waiver",
@@ -5496,7 +5496,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "687",
+        "id": "687",
         "title": "University of Manchester Global Futures Scholarships in UK",
         "degrees": "Master, Bachelor",
         "funds": "Variable",
@@ -5504,7 +5504,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "688",
+        "id": "688",
         "title": "Stirling Postgraduate Bangladesh Scholarships in UK",
         "degrees": "Master",
         "funds": "Â£4,000",
@@ -5512,7 +5512,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "689",
+        "id": "689",
         "title": "International Council of Ophthalmology (ICO) - Three-Month Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -5520,7 +5520,7 @@
         "location": "united-states"
     },
     {
-        "": "690",
+        "id": "690",
         "title": "Jefferson Undergraduate Scholarship - University of Virginia",
         "degrees": "Bachelor",
         "funds": "Fully Funded",
@@ -5528,7 +5528,7 @@
         "location": "united-states"
     },
     {
-        "": "691",
+        "id": "691",
         "title": "Georgia College Scholarships for International Students",
         "degrees": "Bachelor, Master",
         "funds": "Partially Funded",
@@ -5536,7 +5536,7 @@
         "location": "united-states"
     },
     {
-        "": "692",
+        "id": "692",
         "title": "Brandeis University - Merit- and Need-Based Scholarships",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -5544,7 +5544,7 @@
         "location": "united-states"
     },
     {
-        "": "693",
+        "id": "693",
         "title": "The Boehringer Ingelheim Fonds awards PhD fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -5552,7 +5552,7 @@
         "location": "united-states"
     },
     {
-        "": "694",
+        "id": "694",
         "title": "The Boehringer Ingelheim Fonds - Travel grants for junior researchers",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -5560,7 +5560,7 @@
         "location": "united-states"
     },
     {
-        "": "695",
+        "id": "695",
         "title": "Global Achievement Scholarship, Full Sail University",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -5568,7 +5568,7 @@
         "location": "united-states"
     },
     {
-        "": "696",
+        "id": "696",
         "title": "Paul Sumerall Memorial Scholarships, Merchants Bank of California",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -5576,7 +5576,7 @@
         "location": "united-states"
     },
     {
-        "": "697",
+        "id": "697",
         "title": "Harvard University-Graduate School of Arts and Sciences - Dissertation Completion Fellowships (DCF)",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -5584,7 +5584,7 @@
         "location": "united-states"
     },
     {
-        "": "698",
+        "id": "698",
         "title": "Reagan-Fascell Democracy Fellows - National Endowment for Democracy",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -5592,7 +5592,7 @@
         "location": "united-states"
     },
     {
-        "": "699",
+        "id": "699",
         "title": "TransAtlantic Masters - Scholarships",
         "degrees": "Master",
         "funds": "Not Funded",
@@ -5600,7 +5600,7 @@
         "location": "united-states"
     },
     {
-        "": "700",
+        "id": "700",
         "title": "Euromasters Scholarships",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -5608,7 +5608,7 @@
         "location": "united-states"
     },
     {
-        "": "701",
+        "id": "701",
         "title": "Hayek Fund for Scholars - Institute for Humane Studies at George Mason University",
         "degrees": "Phd",
         "funds": "Partially Funded",
@@ -5616,7 +5616,7 @@
         "location": "united-states"
     },
     {
-        "": "702",
+        "id": "702",
         "title": "The Humane Studies Fellowship - Institute for Humane Studies at George Mason University",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -5624,7 +5624,7 @@
         "location": "united-states"
     },
     {
-        "": "703",
+        "id": "703",
         "title": "Kutztown University of Pennsylvania - International Student Scholarships",
         "degrees": "Bachelor",
         "funds": "Partially Funded",
@@ -5632,7 +5632,7 @@
         "location": "united-states"
     },
     {
-        "": "704",
+        "id": "704",
         "title": "Aberdeen Global Scholarships for EU Students in UK",
         "degrees": "Master",
         "funds": "Up to Â£5,000",
@@ -5640,7 +5640,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "705",
+        "id": "705",
         "title": "International Excellence Scholarships at University of East Anglia",
         "degrees": "Phd",
         "funds": "Â£4,000",
@@ -5648,7 +5648,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "706",
+        "id": "706",
         "title": "University of Plymouth Mayflower funding for USA students",
         "degrees": "Bachelor",
         "funds": "Â£1,620 tuition fee discount",
@@ -5656,7 +5656,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "707",
+        "id": "707",
         "title": "EU Scholarships at University of Southampton",
         "degrees": "Bachelor, Master",
         "funds": "Â£5,000",
@@ -5664,7 +5664,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "708",
+        "id": "708",
         "title": "Katrina Honeyman Scholarships for International Students in UK",
         "degrees": "Bachelor",
         "funds": "Â£2,000 p.a.",
@@ -5672,7 +5672,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "709",
+        "id": "709",
         "title": "Materials Science Entry Scholarships for International Students at University of Birmingham",
         "degrees": "Bachelor",
         "funds": "Up to Â£3,500",
@@ -5680,7 +5680,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "710",
+        "id": "710",
         "title": "Queenâ€™s Excellence International Awards in UK",
         "degrees": "Bachelor",
         "funds": "Â£2,000",
@@ -5688,7 +5688,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "711",
+        "id": "711",
         "title": "International Excellence Scholarships at University of Birmingham",
         "degrees": "Bachelor",
         "funds": "Â£1,500",
@@ -5696,7 +5696,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "712",
+        "id": "712",
         "title": "Postgraduate Taught International Student Scholarships at University of Plymouth",
         "degrees": "Master",
         "funds": "Â£2,000",
@@ -5704,7 +5704,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "713",
+        "id": "713",
         "title": "International Academic Excellence Scholarships at University of Plymouth",
         "degrees": "Bachelor, Master",
         "funds": "50% off tuition fees",
@@ -5712,7 +5712,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "714",
+        "id": "714",
         "title": "University of York Maths Academic Excellence international awards",
         "degrees": "Bachelor",
         "funds": "Â£1,000",
@@ -5720,7 +5720,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "715",
+        "id": "715",
         "title": "International music awards at Swansea University",
         "degrees": "Bachelor",
         "funds": "Value of Â£1000 p.a.",
@@ -5728,7 +5728,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "716",
+        "id": "716",
         "title": "Fulbright Commission Awards for USA Students at University of Warwick in UK",
         "degrees": "Master",
         "funds": "Up to Â£26,500",
@@ -5736,7 +5736,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "717",
+        "id": "717",
         "title": "45 Durham University Business School Masters international awards in UK",
         "degrees": "Master",
         "funds": "Up to Â£6,000 off tuition fees",
@@ -5744,7 +5744,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "718",
+        "id": "718",
         "title": "Rolls Royce PhD Positionsat University of Nottingham for UK and EU Students",
         "degrees": "Phd",
         "funds": "Tuition fees + Â£18,000 p.a. stipend",
@@ -5752,7 +5752,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "719",
+        "id": "719",
         "title": "Erasmus Exchange Programme",
         "degrees": "Fully Funded",
         "funds": "",
@@ -5760,7 +5760,7 @@
         "location": "united-states"
     },
     {
-        "": "720",
+        "id": "720",
         "title": "YFU (Youth for Undestanding) - Youth Exchange",
         "degrees": "Not Funded",
         "funds": "",
@@ -5768,7 +5768,7 @@
         "location": "united-states"
     },
     {
-        "": "721",
+        "id": "721",
         "title": "Study in the USA as an exchange student (1-2 semesters)",
         "degrees": "Not Funded",
         "funds": "",
@@ -5776,7 +5776,7 @@
         "location": "united-states"
     },
     {
-        "": "722",
+        "id": "722",
         "title": "Be an exchange student for 1-2 semesters",
         "degrees": "Not Funded",
         "funds": "",
@@ -5784,7 +5784,7 @@
         "location": "united-states"
     },
     {
-        "": "723",
+        "id": "723",
         "title": "Horizon 2020",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -5792,7 +5792,7 @@
         "location": "united-states"
     },
     {
-        "": "724",
+        "id": "724",
         "title": "Amelia Earhart Fellowship",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -5800,7 +5800,7 @@
         "location": "united-states"
     },
     {
-        "": "725",
+        "id": "725",
         "title": "The Leakey Foundationâ€™s Research Grants to doctoral students",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -5808,7 +5808,7 @@
         "location": "united-states"
     },
     {
-        "": "726",
+        "id": "726",
         "title": "Axol Science Scholarship for Graduate or Undergraduate Degree Programs",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fully Funded",
@@ -5816,7 +5816,7 @@
         "location": "united-states"
     },
     {
-        "": "727",
+        "id": "727",
         "title": "ArtUniverse Scholarships",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Partially Funded",
@@ -5824,7 +5824,7 @@
         "location": "united-states"
     },
     {
-        "": "728",
+        "id": "728",
         "title": "Kellogg Institute for International Studies - Visiting Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -5832,7 +5832,7 @@
         "location": "united-states"
     },
     {
-        "": "729",
+        "id": "729",
         "title": "ChameleonJohn Annual $3,000 Scholarship for US Studies",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Not Funded",
@@ -5840,7 +5840,7 @@
         "location": "united-states"
     },
     {
-        "": "730",
+        "id": "730",
         "title": "New York University Stern merit-based scholarships",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -5848,7 +5848,7 @@
         "location": "united-states"
     },
     {
-        "": "731",
+        "id": "731",
         "title": "International Student Scholarships - University of Evansville",
         "degrees": "Bachelor, Master",
         "funds": "Partially Funded",
@@ -5856,7 +5856,7 @@
         "location": "united-states"
     },
     {
-        "": "732",
+        "id": "732",
         "title": "International Tuition Award - University of Arizona",
         "degrees": "Bachelor",
         "funds": "Partially Funded",
@@ -5864,7 +5864,7 @@
         "location": "united-states"
     },
     {
-        "": "733",
+        "id": "733",
         "title": "UN-Nippon Fellowship Programme in Ocean Affairs for Coastal Developing Countries",
         "degrees": "",
         "funds": "",
@@ -5872,7 +5872,7 @@
         "location": "united-states"
     },
     {
-        "": "734",
+        "id": "734",
         "title": "Academic Achievement International Foundation Progression Scholarships in UK",
         "degrees": "Bachelor",
         "funds": "Â£3,000",
@@ -5880,7 +5880,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "735",
+        "id": "735",
         "title": "University of Derby International merit awards in UK",
         "degrees": "Master, Bachelor",
         "funds": "Â£1,500",
@@ -5888,7 +5888,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "736",
+        "id": "736",
         "title": "Lancaster University Global Scholarships for African Students in UK",
         "degrees": "Master",
         "funds": "Â£3,000",
@@ -5896,7 +5896,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "737",
+        "id": "737",
         "title": "KDS Competition Scholarship 2021",
         "degrees": "Master, Bachelor",
         "funds": "Up to $1,500",
@@ -5904,7 +5904,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "738",
+        "id": "738",
         "title": "2021 Contest Scholarships for International Students",
         "degrees": "Master, Bachelor, Course",
         "funds": "Up to $1,500",
@@ -5912,7 +5912,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "739",
+        "id": "739",
         "title": "PhD in Advanced Manufacture for UK and EU Students in UK",
         "degrees": "Phd",
         "funds": "Â£15,285 p.a.",
@@ -5920,7 +5920,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "740",
+        "id": "740",
         "title": "PhDs (Cotutelle) Scholarships for EU Students at University of Kent",
         "degrees": "Phd",
         "funds": "50% Tuition fee",
@@ -5928,7 +5928,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "741",
+        "id": "741",
         "title": "Queenâ€™s University Belfast Vice-Chancellorâ€™s International Attainment postgraduate placements",
         "degrees": "Master",
         "funds": "50% discount on tuition fees",
@@ -5936,7 +5936,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "742",
+        "id": "742",
         "title": "Vice-Chancellorâ€™s Postgraduate International Excellence Scholarships at University of Brighton",
         "degrees": "Master",
         "funds": "Â£3,000",
@@ -5944,7 +5944,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "743",
+        "id": "743",
         "title": "FindDataLab Research Grant Programme in USA and EU",
         "degrees": "Bachelor, Master, Phd, Course",
         "funds": "Up to $1,000 towards web scraping serivces",
@@ -5952,7 +5952,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "744",
+        "id": "744",
         "title": "Warwick School of Engineering PhD International Studentships in Pharmacometric Modelling",
         "degrees": "Phd",
         "funds": "Â£15,250 p.a. + tuition fees",
@@ -5960,7 +5960,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "745",
+        "id": "745",
         "title": "Google Anita Borg Memorial Scholarships for International Students at Arizona State University",
         "degrees": "Bachelor",
         "funds": "$10,000 ",
@@ -5968,7 +5968,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "746",
+        "id": "746",
         "title": "LLM Academic Excellence Scholarships for International Students at University of East Anglia",
         "degrees": "Master",
         "funds": "Up to Â£3,000",
@@ -5976,7 +5976,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "747",
+        "id": "747",
         "title": "Richard and Susan Hayden Academy Fellowship for Worldwide Students in UK",
         "degrees": "Phd",
         "funds": "Â£2,365 monthly stipend",
@@ -5984,7 +5984,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "748",
+        "id": "748",
         "title": "Anniversary Scholarships at London School of Economics and Political Science",
         "degrees": "Master",
         "funds": "Â£5,000-Â£25,000",
@@ -5992,7 +5992,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "749",
+        "id": "749",
         "title": "Rotary Peace Fellowships",
         "degrees": "",
         "funds": "",
@@ -6000,7 +6000,7 @@
         "location": "united-states"
     },
     {
-        "": "750",
+        "id": "750",
         "title": "Full Tuition PhD Positionsfor UK and EU Students at University of Warwick",
         "degrees": "Phd",
         "funds": "Full university fees + allowance/award",
@@ -6008,7 +6008,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "751",
+        "id": "751",
         "title": "IU International University of Applied Sciences Online Scholarships for International Students in Germany",
         "degrees": "Master, Bachelor",
         "funds": "Up to 85% of tuition fee",
@@ -6016,7 +6016,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "752",
+        "id": "752",
         "title": "Cranfield University international awards in the UK",
         "degrees": "Master",
         "funds": "",
@@ -6024,7 +6024,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "753",
+        "id": "753",
         "title": "Built Environment Undergraduate Silver Award for International Students at University of Salford",
         "degrees": "Bachelor",
         "funds": "Â£2000",
@@ -6032,7 +6032,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "754",
+        "id": "754",
         "title": "University of Portsmouth Faculty of Business and Law Postgraduate funding for UK and EU Students in UK",
         "degrees": "Bachelor, Master",
         "funds": "",
@@ -6040,7 +6040,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "755",
+        "id": "755",
         "title": "Coventry University EU Academic Excellence Award in the UK",
         "degrees": "Bachelor, Master",
         "funds": "Â£1,500",
@@ -6048,7 +6048,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "756",
+        "id": "756",
         "title": "St Maryâ€™s University Vice-Chancellorâ€™s Excellence funding for UK and EU Students in UK",
         "degrees": "Bachelor",
         "funds": "Â£3,000",
@@ -6056,7 +6056,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "757",
+        "id": "757",
         "title": "University of Liverpool Management School Future Leaders Masterâ€™s funding for UK and EU Students in UK",
         "degrees": "Master",
         "funds": "Full fee waiver",
@@ -6064,7 +6064,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "758",
+        "id": "758",
         "title": "Leicester Castle Business School International Postgraduate Taught Merit Scholarship in UK",
         "degrees": "Master",
         "funds": "Â£2,500",
@@ -6072,7 +6072,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "759",
+        "id": "759",
         "title": "University of Bradford International MSc Scholarship in UK",
         "degrees": "Master",
         "funds": "Scholarship ",
@@ -6080,7 +6080,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "760",
+        "id": "760",
         "title": "Global MBA International Scholarship at De Montfort University",
         "degrees": "Bachelor, Master",
         "funds": " Â£2,500,",
@@ -6088,7 +6088,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "761",
+        "id": "761",
         "title": "UCL DPU Health in Urban Development International Scholarship in UK",
         "degrees": "Master",
         "funds": "Â£10,000",
@@ -6096,7 +6096,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "762",
+        "id": "762",
         "title": "International Excellence/Achievement Scholarship at University of Birmingham",
         "degrees": "Bachelor",
         "funds": " Â£7,500",
@@ -6104,7 +6104,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "763",
+        "id": "763",
         "title": "Scholarship for Online Learner at IU International University of Applied Sciences â€“ Online",
         "degrees": "Master, Bachelor",
         "funds": "Up to â‚¬ 13.000",
@@ -6112,7 +6112,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "764",
+        "id": "764",
         "title": "Scholarship for Academics at IU International University of Applied Sciences â€“ Online",
         "degrees": "Master, Bachelor",
         "funds": "up to â‚¬13.000",
@@ -6120,7 +6120,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "765",
+        "id": "765",
         "title": "Scholarship for Future Entrepreneur at IU International University of Applied Sciences - Online",
         "degrees": "Master, Bachelor",
         "funds": "not specified",
@@ -6128,7 +6128,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "766",
+        "id": "766",
         "title": "Scholarship for STEM/MINT Professionals at IU International University of Applied Sciences - Online",
         "degrees": "Master, Bachelor",
         "funds": "Up to â‚¬13.000",
@@ -6136,7 +6136,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "767",
+        "id": "767",
         "title": "Scholarship for Women in Leadership and Management at IU International University of Applied Sciences - Online",
         "degrees": "Master, Bachelor",
         "funds": "Up to â‚¬13.000",
@@ -6144,7 +6144,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "768",
+        "id": "768",
         "title": "International Sporting Excellence Award at University of Nottingham",
         "degrees": "Bachelor, Master",
         "funds": "Â£5,000",
@@ -6152,7 +6152,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "769",
+        "id": "769",
         "title": "International Foundation Year Scholarship at the University of Leeds in the UK",
         "degrees": "Bachelor",
         "funds": "Â£3,000",
@@ -6160,7 +6160,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "770",
+        "id": "770",
         "title": "Fully-Funded PhD Studentship in Nanochemistry at University of Exeter",
         "degrees": "Phd",
         "funds": "Â£15,009",
@@ -6168,7 +6168,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "771",
+        "id": "771",
         "title": "Merit funding for International Students at University of Central Lancashire",
         "degrees": "Bachelor, Master",
         "funds": "Â£2,000 per year",
@@ -6176,7 +6176,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "772",
+        "id": "772",
         "title": "International Scholarship Program (Firdaws Academy)",
         "degrees": "Course",
         "funds": "100%",
@@ -6184,7 +6184,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "773",
+        "id": "773",
         "title": "international awards at the University of South Wales in the UK",
         "degrees": "Master, Bachelor",
         "funds": "Â£2,250",
@@ -6192,7 +6192,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "774",
+        "id": "774",
         "title": "PGT Excellence International Scholarship at the University of Glasgow in the UK",
         "degrees": "Master",
         "funds": " Â£5000",
@@ -6200,7 +6200,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "775",
+        "id": "775",
         "title": "Oxford Leo Tong Chen Scholarships for International Students in the UK",
         "degrees": "Master",
         "funds": "Â£15,000 ",
@@ -6208,7 +6208,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "776",
+        "id": "776",
         "title": "Prodigy Finance â€“ International Student Loans",
         "degrees": "",
         "funds": "",
@@ -6216,7 +6216,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "777",
+        "id": "777",
         "title": "Marine Stewardship Council scholarship research program ",
         "degrees": "Bachelor, Master, Phd, Course",
         "funds": "Up to Â£4000",
@@ -6224,7 +6224,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "778",
+        "id": "778",
         "title": "Goldsmiths, University of London International Response Scholarships",
         "degrees": "Bachelor, Master",
         "funds": "",
@@ -6232,7 +6232,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "779",
+        "id": "779",
         "title": "International Merit Postgraduate Scholarships at University of Sheffield in UK, 2017",
         "degrees": "Master, Phd",
         "funds": "25% of tuition fees",
@@ -6240,7 +6240,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "780",
+        "id": "780",
         "title": "University of Manchester PhD Scholarships for International Students in UK, 2017-2018",
         "degrees": "Phd",
         "funds": "",
@@ -6248,7 +6248,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "781",
+        "id": "781",
         "title": "UCL Undergraduate Scholarships/Bursaries (University College London)",
         "degrees": "Bachelor",
         "funds": "Partially Funded",
@@ -6256,7 +6256,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "782",
+        "id": "782",
         "title": "Erasmus Mundus European Master in Global Studies",
         "degrees": "Master",
         "funds": "Fully Funded",
@@ -6264,7 +6264,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "783",
+        "id": "783",
         "title": "EMBL International PhD Programme: Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6272,7 +6272,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "784",
+        "id": "784",
         "title": "International Science Scholarships, Nottingham Trent University",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -6280,7 +6280,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "785",
+        "id": "785",
         "title": "WCC scholarships programme (World Council of Churches)",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fully Funded",
@@ -6288,7 +6288,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "786",
+        "id": "786",
         "title": "IPRA Foundation Peace Research Grants Program",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6296,7 +6296,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "787",
+        "id": "787",
         "title": "ECF (European Cultural Foundation) STEP Beyond Travel grant",
         "degrees": "Phd",
         "funds": "Partially Funded",
@@ -6304,7 +6304,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "788",
+        "id": "788",
         "title": "UWE Bristol International Scholarships: Postgraduate",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -6312,7 +6312,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "789",
+        "id": "789",
         "title": "Mawista Scholarship for Students Studying Abroad with a Child",
         "degrees": "Bachelor, Master",
         "funds": "Fully Funded",
@@ -6320,7 +6320,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "790",
+        "id": "790",
         "title": "Brunel International Scholarships",
         "degrees": "Bachelor, Master",
         "funds": "Partially Funded",
@@ -6328,7 +6328,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "791",
+        "id": "791",
         "title": "Wessex Institute of Technology - Research Studies",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6336,7 +6336,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "792",
+        "id": "792",
         "title": "ROTARY GLOBAL GRANTS",
         "degrees": "Master, Phd",
         "funds": "Fully Funded",
@@ -6344,7 +6344,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "793",
+        "id": "793",
         "title": "Ernst Ludwig Ehrlich Studienwerk - Scholarships",
         "degrees": "Master, Phd",
         "funds": "Fully Funded",
@@ -6352,7 +6352,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "794",
+        "id": "794",
         "title": "European Molecular Biology Short-Term Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6360,7 +6360,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "795",
+        "id": "795",
         "title": "BPP University, UK-Vice Chancellorâ€™s Scholarship",
         "degrees": "Bachelor, Master",
         "funds": "Partially Funded",
@@ -6368,7 +6368,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "796",
+        "id": "796",
         "title": "John Dillon Fellowship - Australian Centre for International Agricultural Research (ACIAR)",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6376,7 +6376,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "797",
+        "id": "797",
         "title": "Konrad von Moltke Research Grants for the young researchers",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6384,7 +6384,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "798",
+        "id": "798",
         "title": "Institute for Current World Affairs - FELLOWSHIPS",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6392,7 +6392,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "799",
+        "id": "799",
         "title": "Airbus Group PhD opportunities",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6400,7 +6400,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "800",
+        "id": "800",
         "title": "Adobe Research Women-in-Technology Scholarship",
         "degrees": "Bachelor",
         "funds": "Fully Funded",
@@ -6408,7 +6408,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "801",
+        "id": "801",
         "title": "Pirbright Institute",
         "degrees": "Phd",
         "funds": "Not Funded",
@@ -6416,7 +6416,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "802",
+        "id": "802",
         "title": "BATH University - Sport Scholarship Scheme",
         "degrees": "Bachelor, Master",
         "funds": "Partially Funded",
@@ -6424,7 +6424,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "803",
+        "id": "803",
         "title": "The Engineering Doctorate (EngD) - Bath and Bournemouth Universities, Centre for Doctoral Training",
         "degrees": "Phd",
         "funds": "Partially Funded",
@@ -6432,7 +6432,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "804",
+        "id": "804",
         "title": "Exchange Student Programme at SOAS",
         "degrees": "Not Funded",
         "funds": "",
@@ -6440,7 +6440,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "805",
+        "id": "805",
         "title": "Study Abroad at SOAS",
         "degrees": "Not Funded",
         "funds": "",
@@ -6448,7 +6448,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "806",
+        "id": "806",
         "title": "Alliance Manchester Business School Scholarships",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -6456,7 +6456,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "807",
+        "id": "807",
         "title": "International Council of Ophthalmology (ICO) - Three-Month Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6464,7 +6464,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "808",
+        "id": "808",
         "title": "Boustany Foundation - Cambridge University MBA Scholarship",
         "degrees": "Master",
         "funds": "Â£30,000",
@@ -6472,7 +6472,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "809",
+        "id": "809",
         "title": "The Boehringer Ingelheim Fonds awards PhD fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6480,7 +6480,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "810",
+        "id": "810",
         "title": "The Boehringer Ingelheim Fonds - Travel grants for junior researchers",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6488,7 +6488,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "811",
+        "id": "811",
         "title": "Paul Sumerall Memorial Scholarships, Merchants Bank of California",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -6496,7 +6496,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "812",
+        "id": "812",
         "title": "University of Hertfordshire - Scholarships for international students",
         "degrees": "Master, Phd",
         "funds": "Partially Funded",
@@ -6504,7 +6504,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "813",
+        "id": "813",
         "title": "TransAtlantic Masters - Scholarships",
         "degrees": "Master",
         "funds": "Not Funded",
@@ -6512,7 +6512,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "814",
+        "id": "814",
         "title": "Euromasters Scholarships",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -6520,7 +6520,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "815",
+        "id": "815",
         "title": "London Met University - Funding your studies",
         "degrees": "Master, Bachelor, Phd",
         "funds": "Partially Funded",
@@ -6528,7 +6528,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "816",
+        "id": "816",
         "title": "London Met University - Funding your studies",
         "degrees": "Master, Bachelor, Phd",
         "funds": "Partially Funded",
@@ -6536,7 +6536,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "817",
+        "id": "817",
         "title": "Hayek Fund for Scholars - Institute for Humane Studies at George Mason University",
         "degrees": "Phd",
         "funds": "Partially Funded",
@@ -6544,7 +6544,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "818",
+        "id": "818",
         "title": "The Humane Studies Fellowship - Institute for Humane Studies at George Mason University",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6552,7 +6552,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "819",
+        "id": "819",
         "title": "Wessex Institute of Technology - Research Studies",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6560,7 +6560,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "820",
+        "id": "820",
         "title": "Erasmus Exchange Programme",
         "degrees": "Fully Funded",
         "funds": "",
@@ -6568,7 +6568,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "821",
+        "id": "821",
         "title": "YFU (Youth for Undestanding) - Youth Exchange",
         "degrees": "Not Funded",
         "funds": "",
@@ -6576,7 +6576,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "822",
+        "id": "822",
         "title": "Be an exchange student for 1-2 semesters",
         "degrees": "Not Funded",
         "funds": "",
@@ -6584,7 +6584,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "823",
+        "id": "823",
         "title": "Birmingham Masters Scholarships",
         "degrees": "Master",
         "funds": "Partially Funded",
@@ -6592,7 +6592,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "824",
+        "id": "824",
         "title": "Horizon 2020",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6600,7 +6600,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "825",
+        "id": "825",
         "title": "Amelia Earhart Fellowship",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6608,7 +6608,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "826",
+        "id": "826",
         "title": "The Leakey Foundationâ€™s Research Grants to doctoral students",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6616,7 +6616,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "827",
+        "id": "827",
         "title": "Axol Science Scholarship for Graduate or Undergraduate Degree Programs",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Fully Funded",
@@ -6624,7 +6624,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "828",
+        "id": "828",
         "title": "ArtUniverse Scholarships",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Partially Funded",
@@ -6632,7 +6632,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "829",
+        "id": "829",
         "title": "High Achievers Scholarship - Edge Hill University",
         "degrees": "Bachelor",
         "funds": "Partially Funded",
@@ -6640,7 +6640,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "830",
+        "id": "830",
         "title": "Wolfson Postgraduate Scholarships in the Humanities - The Wolfson Foundation",
         "degrees": "Phd",
         "funds": "Partially Funded",
@@ -6648,7 +6648,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "831",
+        "id": "831",
         "title": "Durham Doctoral Studentships",
         "degrees": "Phd",
         "funds": "Partially Funded",
@@ -6656,7 +6656,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "832",
+        "id": "832",
         "title": "Sir Henry Wellcome Postdoctoral Fellowships",
         "degrees": "Phd",
         "funds": "Fully Funded",
@@ -6664,7 +6664,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "833",
+        "id": "833",
         "title": "Heriot-Watt Scholarships and bursaries for UK campuses",
         "degrees": "Bachelor, Master, Phd",
         "funds": "Partially Funded",
@@ -6672,7 +6672,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "834",
+        "id": "834",
         "title": "The Keith Murray Senior Scholarship",
         "degrees": "Master",
         "funds": "Course fees",
@@ -6680,7 +6680,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "835",
+        "id": "835",
         "title": "Cambridge International Scholarships",
         "degrees": "",
         "funds": "",
@@ -6688,7 +6688,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "836",
+        "id": "836",
         "title": "Warwick Chancellorâ€™s International Scholarships",
         "degrees": "",
         "funds": "",
@@ -6696,7 +6696,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "837",
+        "id": "837",
         "title": "UN-Nippon Fellowship Programme in Ocean Affairs for Coastal Developing Countries",
         "degrees": "",
         "funds": "",
@@ -6704,7 +6704,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "838",
+        "id": "838",
         "title": "Westminster Full Fee Scholarships for International Students",
         "degrees": "",
         "funds": "",
@@ -6712,7 +6712,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "839",
+        "id": "839",
         "title": "UWE Millennium Development Scholarship for International Students",
         "degrees": "",
         "funds": "",
@@ -6720,7 +6720,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "840",
+        "id": "840",
         "title": "Transform Together Scholarships for International and European Union (non-UK) Students",
         "degrees": "",
         "funds": "",
@@ -6728,7 +6728,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "841",
+        "id": "841",
         "title": "Rotary Peace Fellowships",
         "degrees": "",
         "funds": "",
@@ -6736,7 +6736,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "842",
+        "id": "842",
         "title": "UWE Global Student Scholarships for International Students",
         "degrees": "",
         "funds": "",
@@ -6744,7 +6744,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "843",
+        "id": "843",
         "title": "Bristol University International Scholarships",
         "degrees": "",
         "funds": "",
@@ -6752,7 +6752,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "844",
+        "id": "844",
         "title": "Rhodes Scholarships at Oxford University for International Students",
         "degrees": "",
         "funds": "",
@@ -6760,7 +6760,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "845",
+        "id": "845",
         "title": "Reach Oxford Scholarships for Developing Country Students",
         "degrees": "",
         "funds": "",
@@ -6768,7 +6768,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "846",
+        "id": "846",
         "title": "Schlumberger Cambridge Scholarships for Students from Developing Countries",
         "degrees": "",
         "funds": "",
@@ -6776,7 +6776,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "847",
+        "id": "847",
         "title": "University of Birmingham Scholarships for International Students",
         "degrees": "",
         "funds": "",
@@ -6784,7 +6784,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "848",
+        "id": "848",
         "title": "Florence Congleton Scholarships for African Women at University of Birmingham",
         "degrees": "",
         "funds": "",
@@ -6792,7 +6792,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "849",
+        "id": "849",
         "title": "University of Westminster Full International Scholarships",
         "degrees": "",
         "funds": "",
@@ -6800,7 +6800,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "850",
+        "id": "850",
         "title": "British Chevening Scholarships for International Students",
         "degrees": "",
         "funds": "",
@@ -6808,7 +6808,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "851",
+        "id": "851",
         "title": "Skoll MBA Scholarships at Said Business School",
         "degrees": "",
         "funds": "",
@@ -6816,7 +6816,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "852",
+        "id": "852",
         "title": "Career Development PhD Scholarships at University of Edinburgh",
         "degrees": "",
         "funds": "",
@@ -6824,7 +6824,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "853",
+        "id": "853",
         "title": "Mo Ibrahim Foundation MBA Scholarships for Sub-Saharan Africans at London Business School",
         "degrees": "",
         "funds": "",
@@ -6832,7 +6832,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "854",
+        "id": "854",
         "title": "Nottingham Developing Solutions Scholarships",
         "degrees": "",
         "funds": "",
@@ -6840,7 +6840,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "855",
+        "id": "855",
         "title": "Scholarships for International Students at University of Exeter",
         "degrees": "",
         "funds": "",
@@ -6848,7 +6848,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "856",
+        "id": "856",
         "title": "Desmond Tutuâ€™s Masters Scholarships for Africans",
         "degrees": "",
         "funds": "",
@@ -6856,7 +6856,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "857",
+        "id": "857",
         "title": "Southern African Scholarships at University of Edinburgh",
         "degrees": "",
         "funds": "",
@@ -6864,7 +6864,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "858",
+        "id": "858",
         "title": "Edinburgh Global Masters Scholarships",
         "degrees": "",
         "funds": "",
@@ -6872,7 +6872,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "859",
+        "id": "859",
         "title": "Erasmus Mundus Scholarships in Agricultural Development and NRM",
         "degrees": "",
         "funds": "",
@@ -6880,7 +6880,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "860",
+        "id": "860",
         "title": "Erasmus Mundus Scholarships in Sustainable Forest and Nature Management",
         "degrees": "",
         "funds": "",
@@ -6888,7 +6888,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "861",
+        "id": "861",
         "title": "Westminster International Scholarships",
         "degrees": "",
         "funds": "",
@@ -6896,7 +6896,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "862",
+        "id": "862",
         "title": "Bristol MBA International Scholarship",
         "degrees": "",
         "funds": "",
@@ -6904,7 +6904,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "863",
+        "id": "863",
         "title": "LJMU Roscoe International Scholarship",
         "degrees": "",
         "funds": "",
@@ -6912,7 +6912,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "864",
+        "id": "864",
         "title": "Masters in Engineering Geology Scholarships at University of Leeds",
         "degrees": "",
         "funds": "",
@@ -6920,7 +6920,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "865",
+        "id": "865",
         "title": "Sustainability Masters Scholarships at University of Leeds",
         "degrees": "",
         "funds": "",
@@ -6928,7 +6928,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "866",
+        "id": "866",
         "title": "MRes in Climate and Atmospheric Science Scholarships at University of Leeds",
         "degrees": "",
         "funds": "",
@@ -6936,7 +6936,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "867",
+        "id": "867",
         "title": "Eira Francis Davies Scholarship at Swansea University",
         "degrees": "",
         "funds": "",
@@ -6944,7 +6944,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "868",
+        "id": "868",
         "title": "Swansea University International Excellence and Merit Scholarships",
         "degrees": "",
         "funds": "",
@@ -6952,7 +6952,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "869",
+        "id": "869",
         "title": "Westminster Disaster Regeneration Scholarship",
         "degrees": "",
         "funds": "",
@@ -6960,7 +6960,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "870",
+        "id": "870",
         "title": "Ruth First Scholarships for Southern Africans at Durham University",
         "degrees": "",
         "funds": "",
@@ -6968,7 +6968,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "871",
+        "id": "871",
         "title": "Eldred-Waverley Scholarship at Linacre College, Oxford",
         "degrees": "",
         "funds": "",
@@ -6976,7 +6976,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "872",
+        "id": "872",
         "title": "Oppenheimer Fund Scholarships at University of Oxford",
         "degrees": "",
         "funds": "",
@@ -6984,7 +6984,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "873",
+        "id": "873",
         "title": "Oxford Pershing Square Graduate Scholarships",
         "degrees": "",
         "funds": "",
@@ -6992,7 +6992,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "874",
+        "id": "874",
         "title": "Rhodes Scholarships in Oxford University for Southern Africans",
         "degrees": "",
         "funds": "",
@@ -7000,7 +7000,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "875",
+        "id": "875",
         "title": "Nottingham Trent University Science Scholarships for Non-EU Students",
         "degrees": "",
         "funds": "",
@@ -7008,7 +7008,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "876",
+        "id": "876",
         "title": "Sussex Chancellorâ€™s International Research Scholarships",
         "degrees": "",
         "funds": "",
@@ -7016,7 +7016,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "877",
+        "id": "877",
         "title": "UWE Chancellorâ€™s Scholarships for International Students",
         "degrees": "",
         "funds": "",
@@ -7024,7 +7024,7 @@
         "location": "united-kingdom"
     },
     {
-        "": "878",
+        "id": "878",
         "title": "Swansea University International Excellence Scholarships",
         "degrees": "",
         "funds": "",
@@ -7032,3 +7032,5 @@
         "location": "united-kingdom"
     }
 ]
+
+export default data;
