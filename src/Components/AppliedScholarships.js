@@ -4,10 +4,7 @@ export default function AppliedScholarships() {
 
     const appliedScholarships = JSON.parse(localStorage.getItem('appliedScholarships'));
 
-
-
-
-  return (
+    return (
     <>
     <div className="appliedContainer">
             <h2>Your applied scholarships</h2>
