@@ -156,6 +156,11 @@
     height:100%;
 }
 
+.btnDiv{
+    position: relative;
+    bottom:10px;
+}
+
 .country-btn{
     margin:15px 10px;
     width:150px;

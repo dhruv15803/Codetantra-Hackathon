@@ -29,13 +29,15 @@
 
 .country-scholarships-button{
     margin:25px auto;
-    width:200px;
-    height:30px;
+    font-size:1.5rem;
+    width:400px;
+    height:70px;
     border-radius: 10px;
     border:none;
     background-color: #42bfbf;
     color:white;
     transition: 0.3s;
+    padding: 15px 0px;
 }
 
 .country-scholarships-button:hover{
@@ -46,9 +48,13 @@
     display: flex;
 }
 
+#scholarshipId{
+    position:relative;
+}
+
 .scholarship-div i{
     position: relative;
-    top:10px;
+    top:15px;
     right:8px;
     margin-right:10px;
 }

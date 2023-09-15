@@ -20,21 +20,27 @@ export default function Body(props) {
                     <img src="https://cdn.discordapp.com/attachments/1151781933748064337/1152124137469394964/uk.webp" alt="" />
                     </div>
                     <p>United kingdom</p>
+                    <div className="btnDiv">
                     <button className="country-btn" onClick={()=>window.location='/uk'}>See scholarships</button>
+                    </div>
                 </div>
                 <div className="countryItem">
                     <div className="img-div">
                     <img src="https://cdn.discordapp.com/attachments/1151781933748064337/1152123837635383317/usa.jpg" alt="" />
                     </div>
                     <p>United states</p>
+                    <div className="btnDiv">
                     <button className="country-btn" onClick={()=>window.location='/us'}>See scholarships</button>
+                    </div>
                 </div>
                 <div className="countryItem">
                     <div className="img-div">
                     <img src="https://cdn.discordapp.com/attachments/1151781933748064337/1152123501688393768/canada.jpg" alt="" />
                     </div>
                     <p>Canada</p>
+                    <div className="btnDiv">
                     <button className="country-btn" onClick={()=>window.location='/Canada'}>See scholarships</button>
+                    </div>
                 </div>
             </div>
         </div>

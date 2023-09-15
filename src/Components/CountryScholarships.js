@@ -23,7 +23,7 @@ export default function CountryScholarships(props) {
         {scholarships.map((item,index)=>{
             return <div className="country-scholarships-Container">
             <div className="scholarship-div">
-                <i class="fa-solid fa-building-columns"></i>
+                <i class="fa-solid fa-building-columns" id='scholarshipId'></i>
                 <h2>{item.title}</h2>
             </div>
             <div className="scholarship-div">
