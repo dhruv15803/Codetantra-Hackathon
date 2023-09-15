@@ -47,10 +47,17 @@
 
  .parentContainer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    height:300px;
+    height:100vh;
+ }
+
+ .parentContainer img{
+    width:45%;
+    height:70%;
+    position: relative;
+    bottom:50px;
  }
 
  .container{
@@ -93,6 +100,7 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Questrial', sans-serif;
+    margin-bottom:25px;
  }
 
  .popularCountries h2{
@@ -110,12 +118,13 @@
  }
 
  .countryItem{
+
     display: flex;
     flex-direction: column;
     width:30%;
     align-items: center;
     height:500px;
-    border:2px solid black;
+    border:1px solid black;
     border-bottom-left-radius:15px ;
     border-bottom-right-radius:15px ;
 }
