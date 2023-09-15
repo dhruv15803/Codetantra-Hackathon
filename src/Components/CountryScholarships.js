@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './ComponentsCss.css/CountryScholarshipsCss.css'
+import './ComponentsCss/CountryScholarshipsCss.css'
 import data from '../data/scholarships.js'
 
 export default function CountryScholarships(props) {
@@ -21,6 +21,11 @@ export default function CountryScholarships(props) {
     const applyForScholarship = (index)=>{
         let confirmation = prompt("Type 'APPLY' to confirm")
         if(confirmation==='APPLY'){
+            for(let i=0;i<applied.length;i++){
+                if(applied[i].title===scholarships[index].title){
+                    return;
+                }
+            }
             setApplied(prevApplied=>[...prevApplied,scholarships[index]]);
         }
         else{
@@ -35,6 +40,7 @@ export default function CountryScholarships(props) {
   return (
     <>
     <div className="country-scholarships-parentContainer">
+        <button className="country-scholarship-btn" onClick={()=>window.location='/Applied'}>{`Applied scholarships (${applied.length})`}</button>
         {scholarships.map((item,index)=>{
             return <div className="country-scholarships-Container">
             <div className="scholarship-div">

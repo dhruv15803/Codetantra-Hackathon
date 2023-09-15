@@ -26,6 +26,23 @@
     font-size:1.2rem;
 }
 
+
+.country-scholarship-btn{
+    position: relative;
+    left:10px;
+    margin:25px auto;
+    width:200px;
+    height:30px;
+    border-radius: 10px;
+    border:none;
+    background-color: #42bfbf;
+    color:white;
+    transition: 0.3s;
+}
+.country-scholarship-btn:hover{
+    background-color:#328888 ;
+}
+
 .country-scholarships-button{
     margin:25px auto;
     font-size:1.5rem;

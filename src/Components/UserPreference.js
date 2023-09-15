@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './ComponentsCss.css/UserPreferenceCss.css'
+import './ComponentsCss/UserPreferenceCss.css'
 import CountryScholarships from './CountryScholarships';
 
 
@@ -57,7 +57,11 @@ export default function UserPreference() {
         </select> */}
         <button className="user-preference-btn">Find</button>
     </form>}
-    {submitted && <button className='user-preference-btn' onClick={()=>window.location.reload()}>Change</button>}
+    <div>
+      {submitted && <button className='user-preference-btn' onClick={()=>window.location.reload()}>Change</button>}
+      {/* {submitted && <button className="user-preference-btn" onClick={clearApplied}>Clear applied</button>}
+       */}
+    </div>
     {submitted && <CountryScholarships country={formData.location}/>}
     </div>
     </>
