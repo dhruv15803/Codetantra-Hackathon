@@ -1,18 +1,27 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './ComponentsCss/AppliedCss.css'
 export default function AppliedScholarships() {
 
     const appliedScholarships = JSON.parse(localStorage.getItem('appliedScholarships'));
+    const [applied,setApplied] = useState(appliedScholarships);
 
+    const clearCart = ()=>{
+        setApplied([]);
+    }
+
+    useEffect(()=>{
+        localStorage.setItem('newApplied',applied);
+    },[applied]);
+    
     return (
     <>
     <div className="appliedContainer">
             <h2>Your applied scholarships</h2>
             <div>
                 <button className="user-preference-btn" onClick={()=>window.location='/userPreferences'}>Apply for more</button>
-                <button className="user-preference-btn">Clear applied</button>
+                <button className="user-preference-btn" onClick={clearCart}>Clear applied</button>
             </div>
-            {appliedScholarships.length!==0 && appliedScholarships.map((item)=>{
+            {applied.length!==0 && applied.map((item)=>{
                  return <div className="country-scholarships-Container">
                  <div className="scholarship-div">
                      <i className="fa-solid fa-building-columns" id='scholarshipId'></i>

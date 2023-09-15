@@ -4,6 +4,7 @@ import data from '../data/scholarships.js'
 
 export default function CountryScholarships(props) {
 
+    
     const appliedScholarships = JSON.parse(localStorage.getItem('appliedScholarships'));
     const [applied,setApplied] = useState(appliedScholarships);
 
@@ -22,7 +23,7 @@ export default function CountryScholarships(props) {
         let confirmation = prompt("Type 'APPLY' to confirm")
         if(confirmation==='APPLY'){
             for(let i=0;i<applied.length;i++){
-                if(applied[i].title===scholarships[index].title){
+                if((applied[i].title===scholarships[index].title) && (applied[i].location === scholarships[index].location) ){
                     return;
                 }
             }
