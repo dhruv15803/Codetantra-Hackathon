@@ -4,7 +4,7 @@ export default function AppliedScholarships() {
 
     const appliedScholarships = JSON.parse(localStorage.getItem('appliedScholarships'));
 
-    
+
 
 
   return (
@@ -13,7 +13,7 @@ export default function AppliedScholarships() {
             <h2>Your applied scholarships</h2>
             <div>
                 <button className="user-preference-btn" onClick={()=>window.location='/userPreferences'}>Apply for more</button>
-                <button className="user-preference-btn" onClick={clearApplied}>Clear applied</button>
+                <button className="user-preference-btn">Clear applied</button>
             </div>
             {appliedScholarships.length!==0 && appliedScholarships.map((item)=>{
                  return <div className="country-scholarships-Container">
