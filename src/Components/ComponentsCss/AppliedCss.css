@@ -5,6 +5,16 @@
     align-items: center;
 }
 
-.appliedContainer h2{
+.not-applied{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.not-applied{
+    margin-top:15px;
+}
+
+.appliedContainer h1{
     font-family: 'Titillium Web', sans-serif;
 }

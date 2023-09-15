@@ -3,9 +3,7 @@ import './ComponentsCss/AppliedCss.css'
 export default function AppliedScholarships() {
 
     const appliedScholarships = JSON.parse(localStorage.getItem('appliedScholarships'));
-    const temp = [...appliedScholarships];
-    temp.splice(0,1);
-    const [applied,setApplied] = useState(temp);
+    const [applied,setApplied] = useState(appliedScholarships);
 
     console.log(applied);
 
@@ -16,11 +14,15 @@ export default function AppliedScholarships() {
     return (
     <>
     <div className="appliedContainer">
-            <h2>Your applied scholarships</h2>
-            <div>
+            <h1>Your applied scholarships</h1>
+            {applied.length===0 && <div className='not-applied'>
+                <p>You have not applied to any scholarships</p>
+                <button className="user-preference-btn" onClick={()=>window.location='/userPreferences'}>Apply</button>                
+                </div>}
+            {applied.length!==0 && <div>
                 <button className="user-preference-btn" onClick={()=>window.location='/userPreferences'}>Apply for more</button>
                 <button className="user-preference-btn" onClick={clearCart}>Clear applied</button>
-            </div>
+            </div>}
             {applied.length!==0 && applied.map((item)=>{
                  return <div className="country-scholarships-Container">
                  <div className="scholarship-div">
