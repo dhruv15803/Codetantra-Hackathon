@@ -8,7 +8,7 @@ export default function UserPreference() {
   const [submitted,setSubmitted] = useState(false);
 
   const [formData,setFormData] = useState({
-    "location":"united-kingdom",
+    "location":"UK",
   });
 
   const handleChange = (event)=>{
@@ -40,14 +40,13 @@ export default function UserPreference() {
     {/* onSubmit={findScholarships} */}
     {submitted===false && <form id='user-preference-form'>
         <select value={formData.name} onChange={handleChange} name="location" id="location-drop-down" className='drop-down'>
-            <option value="united-kingdom ">United kindom</option>
-            <option value="united-states">United states</option>
-            <option value="canada">Canada</option>
-            <option value="europe">Europe</option>
-            <option value="south-africa">South africa</option>
-            <option value="nigeria">Nigeria</option>
-            <option value="india">India</option>
-            <option value="pakistan">Pakistan</option>
+            <option value="UK">United kindom</option>
+            <option value="USA">United states</option>
+            <option value="Canada">Canada</option>
+            <option value="Germany">Germany</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="Singapore">Singapore</option>
+            <option value="Australia">Australia</option>
         </select>
         {/* <select value={formData.name} onChange={handleChange} name="degrees" id="degrees-drop-down" className='drop-down'>
             <option value="Bachelor">Bachelor</option>

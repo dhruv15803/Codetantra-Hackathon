@@ -4,21 +4,27 @@ import data from '../data/scholarships.js'
 
 export default function CountryScholarships(props) {
 
+    const updatedData = data.map(item => ({
+        ...item,
+        funds: parseFloat(item.funds.replace('$', '').replace(',', ''))
+    }));
     
-    const appliedScholarships = JSON.parse(localStorage.getItem('appliedScholarships'));
+    console.log(updatedData);
+    
+
+    let appliedScholarships = JSON.parse(localStorage.getItem('appliedScholarships'));
+    if(appliedScholarships===null){
+        appliedScholarships = [];
+    }
     const [applied,setApplied] = useState(appliedScholarships);
-
-    console.log(applied);
-
     const [scholarships,setScholarships] = useState([]);
     useEffect(()=>{
-        for(let i=0;i<data.length;i++){
-            if(data[i].location===props.country){
-                setScholarships(prevScholarships=>[...prevScholarships,data[i]]);
+        for(let i=0;i<updatedData.length;i++){
+            if(updatedData[i].location===props.country){
+                setScholarships(prevScholarships=>[...prevScholarships,updatedData[i]]);
             }
         }
-    },[props.country]);
-
+    },[updatedData,props.country]);
     const applyForScholarship = (index)=>{
         let confirmation = prompt("Type 'APPLY' to confirm")
         if(confirmation==='APPLY'){
@@ -34,6 +40,8 @@ export default function CountryScholarships(props) {
         }
     }
 
+    console.log(applied);
+
     useEffect(()=>{
         localStorage.setItem('appliedScholarships',JSON.stringify(applied));
     },[applied]);
@@ -41,7 +49,7 @@ export default function CountryScholarships(props) {
   return (
     <>
     <div className="country-scholarships-parentContainer">
-        <button className="country-scholarship-btn" onClick={()=>window.location='/Applied'}>{`Applied scholarships (${applied.length})`}</button>
+        {applied.length!==0 && <button className="country-scholarship-btn" onClick={()=>window.location='/Applied'}>{`Applied scholarships (${applied.length-1})`}</button>}
         {scholarships.map((item,index)=>{
             return <div className="country-scholarships-Container">
             <div className="scholarship-div">

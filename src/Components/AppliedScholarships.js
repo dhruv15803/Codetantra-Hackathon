@@ -1,18 +1,18 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './ComponentsCss/AppliedCss.css'
 export default function AppliedScholarships() {
 
     const appliedScholarships = JSON.parse(localStorage.getItem('appliedScholarships'));
-    const [applied,setApplied] = useState(appliedScholarships);
+    const temp = [...appliedScholarships];
+    temp.splice(0,1);
+    const [applied,setApplied] = useState(temp);
+
+    console.log(applied);
 
     const clearCart = ()=>{
         setApplied([]);
     }
 
-    useEffect(()=>{
-        localStorage.setItem('newApplied',applied);
-    },[applied]);
-    
     return (
     <>
     <div className="appliedContainer">

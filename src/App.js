@@ -16,9 +16,9 @@ function App() {
     <Navbar companyName={companyName}/>
     <Routes>
       <Route exact path='/' element={<Body companyName={companyName}/>}/>
-      <Route exact path='/uk' element={<CountryScholarships country='united-kingdom'/>}/>
-      <Route exact path='/us' element={<CountryScholarships country='united-states'/>}/>
-      <Route exact path='/Canada' element={<CountryScholarships country='canada'/>}/>
+      <Route exact path='/uk' element={<CountryScholarships country='UK'/>}/>
+      <Route exact path='/us' element={<CountryScholarships country='USA'/>}/>
+      <Route exact path='/Canada' element={<CountryScholarships country='Canada'/>}/>
       <Route exact path='/userPreferences' element={<UserPreference/>}/>
       <Route exact path='/Applied' element={<AppliedScholarships/>}/>
     </Routes>

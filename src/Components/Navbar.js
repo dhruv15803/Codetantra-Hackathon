@@ -15,9 +15,6 @@ export default function Navbar(props) {
         <a href="/" className="nav-links">Home</a>
       </li>
       <li>
-        <a href="/" className="nav-links">About</a>
-      </li>
-      <li>
         <a href="/" className="nav-links">Testimonials</a>
       </li>
       <li>

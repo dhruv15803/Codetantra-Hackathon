@@ -44,6 +44,35 @@ export default function Body(props) {
                 </div>
             </div>
         </div>
+        {/* <div>
+        <h1 class="faq-heading">FAQ'S</h1>
+        <section class="faq-container"/>
+            <div class="faq-one">
+
+                <h1 class="faq-page">Do I have to pay to access scholarship information on this website?</h1>
+                <div class="faq-body">
+                    <p>No, our scholarship search platform is completely free for students. You can access all scholarship information without any charges.</p>
+                </div>
+            </div>
+            <hr class="hr-line"/>
+            <div class="faq-two">
+
+                <h1 class="faq-page">How often is scholarship information updated on this website?</h1>
+                <div class="faq-body">
+                    <p>LWe strive to keep our database up-to-date. Scholarship information is reviewed and updated regularly, but it's essential to check the deadlines and requirements on the official scholarship provider's website.</p>
+                </div>
+            </div>
+            <hr class="hr-line"/>
+            <div class="faq-three">
+            <h1 class="faq-page">Does it improves the user experience of a website?</h1>
+                <div class="faq-body">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
+                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
+                        aperiam.
+                        Perspiciatis, porro!</p>
+                </div>
+            </div>
+        </div> */}
     </>
   )
 }
