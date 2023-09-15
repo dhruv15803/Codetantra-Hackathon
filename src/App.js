@@ -3,10 +3,13 @@ import Body from './Components/Body';
 import Navbar from './Components/Navbar';
 
 function App() {
+
+  let companyName = 'ScholarshipDekho';
+
   return (
     <>
-    <Navbar/>
-    <Body/>
+    <Navbar companyName={companyName}/>
+    <Body companyName={companyName}/>
     </>
   );
 }
