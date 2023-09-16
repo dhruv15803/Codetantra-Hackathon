@@ -7,8 +7,8 @@ export default function Testimonials() {
     <h2>Testimonials</h2>
     <div className="review">
     <div className="review-card">
-        <div className="img-div">
-            <img src="Images/user.png" alt="userphoto"/>
+        <div className="testimonial-div">
+            <img src="https://cdn.discordapp.com/attachments/1151781933748064337/1152319766623686817/user.png" alt="userphoto"/>
         </div>
         <div className="review-content">
             <p>
@@ -20,8 +20,8 @@ export default function Testimonials() {
         </div>
     </div>
     <div className="review-card">
-        <div className="img-div">
-            <img src="Images/user.png" alt="userphoto"/>
+        <div className="testimonial-div">
+            <img src="https://cdn.discordapp.com/attachments/1151781933748064337/1152319766623686817/user.png" alt="userphoto"/>
         </div>
         <div className="review-content">
             <p>
@@ -33,8 +33,8 @@ export default function Testimonials() {
         </div>
     </div>
     <div className="review-card">
-        <div className="img-div">
-            <img src="Images/user.png" alt="userphoto"/>
+        <div className="testimonial-div">
+            <img src="https://cdn.discordapp.com/attachments/1151781933748064337/1152319766623686817/user.png" alt="userphoto"/>
         </div>
         <div className="review-content">
             <p>

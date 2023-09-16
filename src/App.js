@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar';
 import { BrowserRouter,Routes,Route} from 'react-router-dom';
 import UserPreference from './Components/UserPreference';
 import AppliedScholarships from './Components/AppliedScholarships';
-// import Testimonials from './Components/Testimonials';
+import Testimonials from './Components/Testimonials';
 
 function App() {
 
@@ -22,7 +22,7 @@ function App() {
       <Route exact path='/Canada' element={<CountryScholarships country='Canada'/>}/>
       <Route exact path='/userPreferences' element={<UserPreference/>}/>
       <Route exact path='/Applied' element={<AppliedScholarships/>}/>
-      {/* <Route exact path='/testimonials' element={<Testimonials/>}/> */}
+      <Route exact path='/testimonials' element={<Testimonials/>}/>
     </Routes>
     </BrowserRouter>
     </>
