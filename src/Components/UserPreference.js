@@ -40,9 +40,9 @@ export default function UserPreference() {
     {/* onSubmit={findScholarships} */}
     {submitted===false && <form id='user-preference-form'>
         <select value={formData.name} onChange={handleChange} name="location" id="location-drop-down" className='drop-down'>
-            <option value="UK">United kindom</option>
-            <option value="USA">United states</option>
-            <option value="Canada">Canada</option>
+            <option value="united-kingdom">United kindom</option>
+            <option value="united-states">United states</option>
+            <option value="canada">Canada</option>
             <option value="india">India</option>
             <option value="pakistan">Pakistan</option>
             <option value="nigeria">Nigeria</option>

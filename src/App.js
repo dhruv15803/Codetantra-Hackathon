@@ -9,8 +9,8 @@ import Testimonials from './Components/Testimonials';
 
 function App() {
 
-  let companyName = 'ScholarshipDekho';
-
+  let companyName = 'scholarshipDekho';
+  
   return (
     <>
     <BrowserRouter>

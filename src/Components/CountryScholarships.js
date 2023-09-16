@@ -5,6 +5,10 @@ import data from '../data/scholarships.js'
 export default function CountryScholarships(props) {
 
     let appliedScholarships = JSON.parse(localStorage.getItem('appliedScholarships'));
+    let cleared = JSON.parse(localStorage.getItem('cleared'));
+    if(cleared.length===0){
+        appliedScholarships = [];
+    }
     if(appliedScholarships===null){
         appliedScholarships = [];
     }
@@ -37,6 +41,7 @@ export default function CountryScholarships(props) {
 
     useEffect(()=>{
         localStorage.setItem('appliedScholarships',JSON.stringify(applied));
+        localStorage.setItem('cleared',JSON.stringify(applied));
     },[applied]);
 
 
