@@ -5,26 +5,15 @@ export default function Navbar(props) {
   return (
     <>
     <nav className="navbar">
-    <label className="navbar-toggle" id="js-navbar-toggle" htmlFor="chkToggle">
-            <i className="fa fa-bars"></i>
-        </label>
     <a href="/" className="logo">{props.companyName}</a>
-    <input type="checkbox" id="chkToggle"></input>
-    <ul className="main-nav" id="js-menu">
-      <li>
-        <a href="/" className="nav-links">Home</a>
-      </li>
-      <li>
-        <a href="/testimonials" className="nav-links">Testimonials</a>
-      </li>
-      <li>
-        <a href="/" className="nav-links">Contact Us</a>
-      </li>
-      <li>
-        <a href="/" className="nav-links">Profile</a>
-      </li>
+    <ul>
+      <div><li><a href="/applied">Applied Scholarships</a></li></div>
+      <div><li><a href="/userPreferences">Choose scholarship</a></li></div>
     </ul>
-  </nav>
+    <div id="navRight">
+      <button className="navBtn" id="loginBtn">Login</button>
+    </div>
+    </nav>
     </>
   )
 }

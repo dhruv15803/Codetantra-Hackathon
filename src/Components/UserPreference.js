@@ -8,7 +8,7 @@ export default function UserPreference() {
   const [submitted,setSubmitted] = useState(false);
 
   const [formData,setFormData] = useState({
-    "location":"UK",
+    "location":"united-kingdom",
   });
 
   const handleChange = (event)=>{
@@ -43,10 +43,11 @@ export default function UserPreference() {
             <option value="UK">United kindom</option>
             <option value="USA">United states</option>
             <option value="Canada">Canada</option>
-            <option value="Germany">Germany</option>
-            <option value="Switzerland">Switzerland</option>
-            <option value="Singapore">Singapore</option>
-            <option value="Australia">Australia</option>
+            <option value="india">India</option>
+            <option value="pakistan">Pakistan</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="south-africa">South africa</option>
+            <option value="europe">Europe</option>
         </select>
         {/* <select value={formData.name} onChange={handleChange} name="degrees" id="degrees-drop-down" className='drop-down'>
             <option value="Bachelor">Bachelor</option>
