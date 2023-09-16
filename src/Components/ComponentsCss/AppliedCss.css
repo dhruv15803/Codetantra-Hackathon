@@ -23,3 +23,8 @@
 .appliedContainer h1{
     font-family: 'Titillium Web', sans-serif;
 }
+
+.deleteItem{
+    display: flex;
+    justify-content: center;
+}
